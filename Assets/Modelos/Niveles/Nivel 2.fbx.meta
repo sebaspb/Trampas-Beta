@@ -90,6 +90,22 @@ ModelImporter:
     4300026: Puerta Final
     4300028: Piso
     4300030: plano alto 2
+    6400000: Pared derecha.001
+    6400002: Pared fronta
+    6400004: Pared izquierda
+    6400006: Pared trasera
+    6400008: Piso
+    6400010: plano alto 1
+    6400012: plano alto 2
+    6400014: plano bajo 1
+    6400016: plano bajo 2
+    6400018: plano medio 1
+    6400020: plano medio 2
+    6400022: Plataforma piso 1
+    6400024: Plataforma piso 2
+    6400026: Puerta de entrada
+    6400028: Puerta Final
+    6400030: Techo
     7400000: Cerrar puerta inicio
     7400002: Plataforma piso 2
     7400004: Plataforma media 1
@@ -135,7 +151,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1

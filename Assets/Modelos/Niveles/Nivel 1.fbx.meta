@@ -43,6 +43,13 @@ ModelImporter:
     4300008: Pared izquierda
     4300010: Piso
     4300012: Pared trasera
+    6400000: Pared derecha
+    6400002: Pared frontal
+    6400004: Pared izquierda
+    6400006: Pared trasera
+    6400008: Piso
+    6400010: Puerta Salida
+    6400012: Techo
     7400000: Puerta Salida
     9500000: //RootNode
   externalObjects: {}
@@ -78,7 +85,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1

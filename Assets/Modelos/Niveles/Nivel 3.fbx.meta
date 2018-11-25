@@ -120,6 +120,15 @@ ModelImporter:
     4300016: Trampa
     4300018: Subpuertas.001
     4300020: Zona retorno.031
+    6400000: Paredes
+    6400002: Paredes invisibles
+    6400004: Piso
+    6400006: Puerta inicio
+    6400008: Puerta Objetivo
+    6400010: Puerta salir retorno
+    6400012: Puerta trampa
+    6400014: Puerta zona trampa
+    6400016: Trampa
     7400000: Cerrar puerta inicio
     7400002: Subpuertas
     7400004: Alternar seccion retorno
@@ -165,7 +174,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1

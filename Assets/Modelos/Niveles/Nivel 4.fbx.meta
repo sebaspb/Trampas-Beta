@@ -51,6 +51,14 @@ ModelImporter:
     4300010: Puerta Dummy
     4300012: Paredes
     4300014: Piso
+    6400000: Martillos
+    6400002: Paredes
+    6400004: Paredes invisibles
+    6400006: Piso
+    6400008: piso secreto
+    6400010: Puerta Dummy
+    6400012: Techo
+    6400014: trampilla piso
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -84,7 +92,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1
