@@ -1,0 +1,190 @@
+fileFormatVersion: 2
+guid: ed3ce93fd9d32eb4f83759c929eee57d
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Pared derecha.001
+    100004: Pared fronta
+    100006: Pared izquierda
+    100008: Pared trasera
+    100010: Piso
+    100012: plano alto 1
+    100014: plano alto 2
+    100016: plano bajo 1
+    100018: plano bajo 2
+    100020: plano medio 1
+    100022: plano medio 2
+    100024: Plataforma piso 1
+    100026: Plataforma piso 2
+    100028: Puerta de entrada
+    100030: Puerta Final
+    100032: Techo
+    400000: //RootNode
+    400002: Pared derecha.001
+    400004: Pared fronta
+    400006: Pared izquierda
+    400008: Pared trasera
+    400010: Piso
+    400012: plano alto 1
+    400014: plano alto 2
+    400016: plano bajo 1
+    400018: plano bajo 2
+    400020: plano medio 1
+    400022: plano medio 2
+    400024: Plataforma piso 1
+    400026: Plataforma piso 2
+    400028: Puerta de entrada
+    400030: Puerta Final
+    400032: Techo
+    2100000: Material.007
+    2100002: Material.005
+    2100004: Material.006
+    2100006: Material
+    2100008: Material.001
+    2300000: Pared derecha.001
+    2300002: Pared fronta
+    2300004: Pared izquierda
+    2300006: Pared trasera
+    2300008: Piso
+    2300010: plano alto 1
+    2300012: plano alto 2
+    2300014: plano bajo 1
+    2300016: plano bajo 2
+    2300018: plano medio 1
+    2300020: plano medio 2
+    2300022: Plataforma piso 1
+    2300024: Plataforma piso 2
+    2300026: Puerta de entrada
+    2300028: Puerta Final
+    2300030: Techo
+    3300000: Pared derecha.001
+    3300002: Pared fronta
+    3300004: Pared izquierda
+    3300006: Pared trasera
+    3300008: Piso
+    3300010: plano alto 1
+    3300012: plano alto 2
+    3300014: plano bajo 1
+    3300016: plano bajo 2
+    3300018: plano medio 1
+    3300020: plano medio 2
+    3300022: Plataforma piso 1
+    3300024: Plataforma piso 2
+    3300026: Puerta de entrada
+    3300028: Puerta Final
+    3300030: Techo
+    4300000: Puerta de entrada
+    4300002: Techo
+    4300004: Plataforma piso 1
+    4300006: plano medio 1
+    4300008: plano alto 1
+    4300010: plano bajo 1
+    4300012: Plataforma piso 2
+    4300014: plano medio 2
+    4300016: plano bajo 2
+    4300018: Pared fronta
+    4300020: Pared trasera
+    4300022: Pared derecha.001
+    4300024: Pared izquierda
+    4300026: Puerta Final
+    4300028: Piso
+    4300030: plano alto 2
+    7400000: Cerrar puerta inicio
+    7400002: Plataforma piso 2
+    7400004: Plataforma media 1
+    7400006: Plataforma alta 1
+    7400008: Plataforma baja 1
+    7400010: Plataforma piso 1
+    7400012: Plataforma media 2
+    7400014: Plataforma baja 2
+    7400016: Pared
+    7400018: Pared Final
+    7400020: Plataforma alta 2
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
