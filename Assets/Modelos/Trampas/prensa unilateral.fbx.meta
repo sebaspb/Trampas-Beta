@@ -32,8 +32,14 @@ ModelImporter:
     4300004: Cylinder.001
     4300006: Cylinder
     4300008: 4x4 plano
+    6400000: 4x4 plano
+    6400002: 4x4 plano.001
+    6400004: Cylinder
+    6400006: Cylinder.001
+    6400008: Cylinder.002
     7400000: Scene
     9500000: //RootNode
+    11100000: //RootNode
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -67,7 +73,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1
@@ -111,10 +117,10 @@ ModelImporter:
     feetSpacing: 0
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 1
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
