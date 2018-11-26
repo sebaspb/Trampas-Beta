@@ -1,8 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEditor;
-using UnityEditor.Animations;
+//using UnityEditor;
+//using UnityEditor.Animations;
 
 
 public class BotonDePared : MonoBehaviour
