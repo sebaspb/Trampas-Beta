@@ -12,6 +12,7 @@ ModelImporter:
     100012: Puerta Dummy
     100014: Techo
     100016: trampilla piso
+    100018: Paredes.001
     400000: Martillos
     400002: //RootNode
     400004: Paredes
@@ -21,6 +22,7 @@ ModelImporter:
     400012: Puerta Dummy
     400014: Techo
     400016: trampilla piso
+    400018: Paredes.001
     2100000: No Name
     2100002: Trampa
     2100004: Puerta Secreta
@@ -35,6 +37,7 @@ ModelImporter:
     2300010: Puerta Dummy
     2300012: Techo
     2300014: trampilla piso
+    2300016: Paredes.001
     3300000: Martillos
     3300002: Paredes
     3300004: Paredes invisibles
@@ -43,6 +46,7 @@ ModelImporter:
     3300010: Puerta Dummy
     3300012: Techo
     3300014: trampilla piso
+    3300016: Paredes.001
     4300000: Martillos
     4300002: Techo
     4300004: piso secreto
@@ -51,6 +55,7 @@ ModelImporter:
     4300010: Puerta Dummy
     4300012: Paredes
     4300014: Piso
+    4300016: Paredes.001
     6400000: Martillos
     6400002: Paredes
     6400004: Paredes invisibles
@@ -59,6 +64,9 @@ ModelImporter:
     6400010: Puerta Dummy
     6400012: Techo
     6400014: trampilla piso
+    6400016: Paredes.001
+    7400000: Cerrar puerta inicio
+    9500000: //RootNode
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -79,7 +87,7 @@ ModelImporter:
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -112,7 +120,7 @@ ModelImporter:
     secondaryUVPackMargin: 4
     useFileScale: 1
     previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -139,7 +147,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 

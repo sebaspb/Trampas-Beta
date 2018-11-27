@@ -53,7 +53,7 @@ public class ManagerNivel3 : MonoBehaviour
         }
 
         
-        if (ControlPalancasNivel3 >= 8)
+        if (ControlPalancasNivel3 >= 8 && TriggerPuertaObjetivo !=null)
         {
 
             TriggerPuertaObjetivo.SetActive(true);
@@ -61,7 +61,7 @@ public class ManagerNivel3 : MonoBehaviour
 
         }
 
-        if (ControlMuertes!=0)
+        if (ControlMuertes!=0 && TriggerSubirTecho != null)
         {
 
             TriggerSubirTecho.SetActive(true);

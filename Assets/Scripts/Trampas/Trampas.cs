@@ -88,8 +88,8 @@ public class Trampas : MonoBehaviour
         if(Trigger.GetComponent<RevisionTrigger>().EstaEnTrigger)
         {
 
-            vida -= Daño;
-            Debug.Log("vida" + vida);
+            VariablesJugador.SaludJugador -= Daño;
+            Debug.Log(VariablesJugador.SaludJugador);
 
         }
 

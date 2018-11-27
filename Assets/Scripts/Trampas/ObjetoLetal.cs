@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class ObjetoLetal : MonoBehaviour
 {
+
+    public float daño;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -22,7 +25,7 @@ public class ObjetoLetal : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
             {
 
-            VariablesJugador.SaludJugador -= VariablesJugador.SaludJugador;
+            VariablesJugador.SaludJugador -= daño;
 
         
         }
