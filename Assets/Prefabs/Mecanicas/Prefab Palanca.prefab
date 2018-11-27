@@ -51,6 +51,7 @@ MonoBehaviour:
   AnimacionAsignada: {fileID: 0}
   SePuedeRepetir: 0
   ArrayAnimaciones: []
+  activada: 0
 --- !u!1001 &8613938969355527
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -194,7 +195,7 @@ PrefabInstance:
     - target: {fileID: 4053986573451622206, guid: ceece5876a0d61e4f94ce8092e0d26e9,
         type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4053986573451622205, guid: ceece5876a0d61e4f94ce8092e0d26e9,
         type: 3}

@@ -37,7 +37,7 @@ namespace ARFC
         /// <summary>
         /// has the controller been initlized ?
         /// </summary>
-        protected bool initilized = false;
+        public bool initilized = false;
 
         public FPController.ModuleManager Modules { get; protected set; }
         [Serializable]
@@ -2138,10 +2138,11 @@ namespace ARFC
                 Init();
         }
 
+
         /// <summary>
         /// the Init method Initilizes the controller's data (get current input module, get components like rigidbody & collider, ...)
         /// </summary>
-        public virtual void Init()
+        public void Init()
         {
             initilized = true;
 

@@ -6,6 +6,7 @@ public class EnableTriggerConBoton : MonoBehaviour
 {
     public GameObject TriggerAActivar;
     public GameObject Trigger;
+    public float Delay;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,8 +18,17 @@ public class EnableTriggerConBoton : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E) && Trigger.GetComponent<RevisionTrigger>().EstaEnTrigger)
         {
-            TriggerAActivar.SetActive(true);
+
+            StartCoroutine(Activar(Delay));
+            
 
         }
+    }
+
+    IEnumerator Activar(float time)
+    {
+
+        yield return new WaitForSeconds(time);
+        TriggerAActivar.SetActive(true);
     }
 }

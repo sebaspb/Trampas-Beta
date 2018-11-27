@@ -117,6 +117,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TriggerAActivar: {fileID: 4020946085955672389}
   Trigger: {fileID: 4062994632287367742}
+  Delay: 0
 --- !u!1001 &225732489565037837
 PrefabInstance:
   m_ObjectHideFlags: 0

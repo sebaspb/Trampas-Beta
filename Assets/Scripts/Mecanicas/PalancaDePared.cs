@@ -18,7 +18,7 @@ public class PalancaDePared : MonoBehaviour
     int layer;
     Animation AnimacionBoton;
     public AnimationClip[] ArrayAnimaciones;
-    bool activada = false;
+    public bool activada = false;
 
     // Start is called before the first frame update
     void Start()
