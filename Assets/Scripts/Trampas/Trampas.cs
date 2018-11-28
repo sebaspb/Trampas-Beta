@@ -7,11 +7,7 @@ public class Trampas : MonoBehaviour
 
     bool EstaAbierta = false;
 
-    float vida = 500f;
-
-    float vidaTotal;
-
-    public GameObject FBX;
+     public GameObject FBX;
 
     public GameObject Trigger;
 
@@ -55,12 +51,7 @@ public class Trampas : MonoBehaviour
 
             }
 
-            if(vida <= 0)
-            {
-
-                Destroy(GameObject.FindWithTag("Player"));
-
-            }
+           
 
         }
         

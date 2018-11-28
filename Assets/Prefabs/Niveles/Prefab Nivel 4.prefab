@@ -117,15 +117,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Jugador: {fileID: 0}
-  CamaraJugador: {fileID: 0}
   Spawn: {fileID: 8160484712107780166}
   TriggerPuertaObjetivo: {fileID: 0}
-  TriggerSubirTecho: {fileID: 0}
-  Nivel: {fileID: 4412442360592692722}
-  PalancasTrampa: []
-  cerrarTrampa: 0
-  TriggerCerrarTrampa: {fileID: 0}
-  trampa: {fileID: 0}
   PisoTrampa: {fileID: 4412442360592692730}
 --- !u!1 &7651624271571679859
 GameObject:
@@ -429,12 +422,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5800017809415448117, guid: 153a6dc56563a0f44b9a7052f71eb391,
+    - target: {fileID: 5800017809415448107, guid: 153a6dc56563a0f44b9a7052f71eb391,
         type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 5800017809415448107, guid: 153a6dc56563a0f44b9a7052f71eb391,
+    - target: {fileID: 5800017809415448117, guid: 153a6dc56563a0f44b9a7052f71eb391,
         type: 3}
       propertyPath: m_Mesh
       value: 
@@ -846,12 +839,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5800017809415448117, guid: 153a6dc56563a0f44b9a7052f71eb391,
+    - target: {fileID: 5800017809415448107, guid: 153a6dc56563a0f44b9a7052f71eb391,
         type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 5800017809415448107, guid: 153a6dc56563a0f44b9a7052f71eb391,
+    - target: {fileID: 5800017809415448117, guid: 153a6dc56563a0f44b9a7052f71eb391,
         type: 3}
       propertyPath: m_Mesh
       value: 
@@ -931,12 +924,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5800017809415448117, guid: 153a6dc56563a0f44b9a7052f71eb391,
+    - target: {fileID: 5800017809415448107, guid: 153a6dc56563a0f44b9a7052f71eb391,
         type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 5800017809415448107, guid: 153a6dc56563a0f44b9a7052f71eb391,
+    - target: {fileID: 5800017809415448117, guid: 153a6dc56563a0f44b9a7052f71eb391,
         type: 3}
       propertyPath: m_Mesh
       value: 
@@ -1123,14 +1116,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6400004, guid: d6f8e336cd7fcf247934c4a47ab010a4, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 9500000, guid: d6f8e336cd7fcf247934c4a47ab010a4, type: 3}
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 92afafa49c213a841b9f9cc5d75a9e8a, type: 2}
+    - target: {fileID: 6400004, guid: d6f8e336cd7fcf247934c4a47ab010a4, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6f8e336cd7fcf247934c4a47ab010a4, type: 3}
 --- !u!1 &4412442360592692722 stripped
@@ -1218,12 +1211,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5800017809415448117, guid: 153a6dc56563a0f44b9a7052f71eb391,
+    - target: {fileID: 5800017809415448107, guid: 153a6dc56563a0f44b9a7052f71eb391,
         type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 5800017809415448107, guid: 153a6dc56563a0f44b9a7052f71eb391,
+    - target: {fileID: 5800017809415448117, guid: 153a6dc56563a0f44b9a7052f71eb391,
         type: 3}
       propertyPath: m_Mesh
       value: 
@@ -1303,12 +1296,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5800017809415448117, guid: 153a6dc56563a0f44b9a7052f71eb391,
+    - target: {fileID: 5800017809415448107, guid: 153a6dc56563a0f44b9a7052f71eb391,
         type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 5800017809415448107, guid: 153a6dc56563a0f44b9a7052f71eb391,
+    - target: {fileID: 5800017809415448117, guid: 153a6dc56563a0f44b9a7052f71eb391,
         type: 3}
       propertyPath: m_Mesh
       value: 
@@ -1388,12 +1381,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5800017809415448117, guid: 153a6dc56563a0f44b9a7052f71eb391,
+    - target: {fileID: 5800017809415448107, guid: 153a6dc56563a0f44b9a7052f71eb391,
         type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 5800017809415448107, guid: 153a6dc56563a0f44b9a7052f71eb391,
+    - target: {fileID: 5800017809415448117, guid: 153a6dc56563a0f44b9a7052f71eb391,
         type: 3}
       propertyPath: m_Mesh
       value: 

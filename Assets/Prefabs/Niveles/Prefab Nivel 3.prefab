@@ -698,11 +698,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Jugador: {fileID: 0}
-  CamaraJugador: {fileID: 0}
   Spawn: {fileID: 8376297393549824482}
   TriggerPuertaObjetivo: {fileID: 4810071941563101365}
   TriggerSubirTecho: {fileID: 2620403765724575959}
-  Nivel: {fileID: 7356452800593115290}
   PalancasTrampa:
   - {fileID: 6630504250413985629}
   - {fileID: 1152180209738923732}
@@ -710,7 +708,6 @@ MonoBehaviour:
   - {fileID: 8930133302372006493}
   cerrarTrampa: 0
   TriggerCerrarTrampa: {fileID: 2620403765150127554}
-  trampa: {fileID: 0}
 --- !u!95 &2118233770
 Animator:
   serializedVersion: 3
@@ -7368,11 +7365,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 1.7330556
       objectReference: {fileID: 0}
-    - target: {fileID: 2620403764630606085, guid: 71da284abd316a345bfe3633680dc193,
-        type: 3}
-      propertyPath: m_ReceiveShadows
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2620403764630606083, guid: 71da284abd316a345bfe3633680dc193,
         type: 3}
       propertyPath: _quads.Array.data[0]._uv.localPivot.x
@@ -7757,6 +7749,11 @@ PrefabInstance:
         type: 3}
       propertyPath: _uv.Array.data[23].y
       value: 2.7191315
+      objectReference: {fileID: 0}
+    - target: {fileID: 2620403764630606085, guid: 71da284abd316a345bfe3633680dc193,
+        type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
         type: 3}
