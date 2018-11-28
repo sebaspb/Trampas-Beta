@@ -14,6 +14,7 @@ public class UIManager : MonoBehaviour
     public GameObject MenuInstrucciones;
     public GameObject MenuCreditos;
     public GameObject ImagenFondo;
+    public GameObject MenuGameOver;
     public bool OcultarFondo;
     public bool EsMenuPrincipal;
     GameObject Jugador;
@@ -40,6 +41,14 @@ public class UIManager : MonoBehaviour
             {
                 Pausa();
             }
+
+        }
+
+        if(VariablesJugador.SaludJugador <= 0)
+        {
+
+            GameOver();
+            StartCoroutine(Resurreccion(3f));
 
         }
     }
@@ -116,6 +125,15 @@ public class UIManager : MonoBehaviour
 
 
     }
+    public void GameOver()
+    {
+      
+        Debug.Log("Perdiste wey");
+        MenuGameOver.SetActive(true);
+
+    }
+
+
 
     public void OcultarCanvas()
     {
@@ -127,7 +145,7 @@ public class UIManager : MonoBehaviour
                 child.gameObject.SetActive(false);
         }
 
-        if (!OcultarFondo)
+        if (!OcultarFondo && ImagenFondo!=null)
         {
             ImagenFondo.SetActive(true);
         }
@@ -148,4 +166,17 @@ public class UIManager : MonoBehaviour
                
 
     }
+    
+    IEnumerator Resurreccion(float time)
+    {
+
+        yield return new WaitForSeconds(time);
+        Debug.Log("Te revivi");
+        OcultarCanvas();
+
+    }
+
+
 }
+
+
