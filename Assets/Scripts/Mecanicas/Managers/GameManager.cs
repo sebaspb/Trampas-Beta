@@ -8,13 +8,15 @@ public class GameManager : MonoBehaviour
 
 
 {
-
- 
+     
 
     GameObject Jugador;
     GameObject Spawn;
+
     public GameObject[] Niveles;
+
     public static int NivelCargado = 0;
+
     int NivelAnterior = 0;
 
     
@@ -62,9 +64,6 @@ public class GameManager : MonoBehaviour
 
 
     }
-
-
-
 
 
     }

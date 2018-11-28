@@ -1,14 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-//using UnityEditor;
-//using UnityEditor.Animations;
 
 
-public class PalancaDePared : MonoBehaviour
+
+public class BotonDePared : MonoBehaviour
 {
 
-    bool inTrigger;
+    
     public GameObject FBXoriginal;
     public GameObject Trigger;
     public GameObject PrefabNivel;
@@ -18,7 +17,6 @@ public class PalancaDePared : MonoBehaviour
     int layer;
     Animation AnimacionBoton;
     public AnimationClip[] ArrayAnimaciones;
-    public bool activada = false;
 
     // Start is called before the first frame update
     void Start()
@@ -40,16 +38,15 @@ public class PalancaDePared : MonoBehaviour
     void Update()
     {
 
-        if (Input.GetKeyDown(KeyCode.E) && Trigger.GetComponent<RevisionTrigger>().EstaEnTrigger && activada == false)
+        if (Input.GetKeyDown(KeyCode.E)&&Trigger.GetComponent<RevisionTrigger>().EstaEnTrigger)
         {
 
             if (!AnimacionBoton.IsPlaying("Accionar Boton"))
             {
                 int control = 0;
                 AnimacionBoton.Play("Accionar Boton");
-                activada = true;
 
-                if (AnimacionAsignada != null)
+                if (AnimacionAsignada !=null)
                 {
 
                     if (!SePuedeRepetir && control == 0)
@@ -73,6 +70,6 @@ public class PalancaDePared : MonoBehaviour
             }
 
         }
-
+        
     }
 }

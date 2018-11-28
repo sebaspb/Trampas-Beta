@@ -7,11 +7,9 @@ public class EnableTriggerConBoton : MonoBehaviour
     public GameObject TriggerAActivar;
     public GameObject Trigger;
     public float Delay;
+
     // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+  
 
     // Update is called once per frame
     void Update()

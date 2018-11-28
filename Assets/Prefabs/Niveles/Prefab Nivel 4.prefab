@@ -117,15 +117,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Jugador: {fileID: 0}
-  CamaraJugador: {fileID: 0}
   Spawn: {fileID: 8160484712107780166}
   TriggerPuertaObjetivo: {fileID: 0}
-  TriggerSubirTecho: {fileID: 0}
-  Nivel: {fileID: 4412442360592692722}
-  PalancasTrampa: []
-  cerrarTrampa: 0
-  TriggerCerrarTrampa: {fileID: 0}
-  trampa: {fileID: 0}
   PisoTrampa: {fileID: 4412442360592692730}
 --- !u!1 &7651624271571679859
 GameObject:

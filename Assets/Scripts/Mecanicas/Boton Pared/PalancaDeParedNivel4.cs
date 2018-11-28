@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PalancaDeParedNivel3 : MonoBehaviour
+public class PalancaDeParedNivel4 : MonoBehaviour
 {
 
     public GameObject Trigger;
@@ -21,9 +21,9 @@ public class PalancaDeParedNivel3 : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E) && Trigger.GetComponent<RevisionTrigger>().EstaEnTrigger && activada == false)
         {
 
-                ManagerNivel3.ControlPalancasNivel3 += 1;
+                ManagerNivel4.ControlPalancas += 1;
                 activada = true;
-                Debug.Log(ManagerNivel3.ControlPalancasNivel3);
+                Debug.Log(ManagerNivel4.ControlPalancas);
 
              
         

@@ -698,11 +698,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Jugador: {fileID: 0}
-  CamaraJugador: {fileID: 0}
   Spawn: {fileID: 8376297393549824482}
   TriggerPuertaObjetivo: {fileID: 4810071941563101365}
   TriggerSubirTecho: {fileID: 2620403765724575959}
-  Nivel: {fileID: 7356452800593115290}
   PalancasTrampa:
   - {fileID: 6630504250413985629}
   - {fileID: 1152180209738923732}
@@ -710,7 +708,6 @@ MonoBehaviour:
   - {fileID: 8930133302372006493}
   cerrarTrampa: 0
   TriggerCerrarTrampa: {fileID: 2620403765150127554}
-  trampa: {fileID: 0}
 --- !u!95 &2118233770
 Animator:
   serializedVersion: 3

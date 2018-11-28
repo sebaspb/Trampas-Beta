@@ -6,17 +6,10 @@ using ARFC;
 public class ManagerNivel4 : MonoBehaviour
 {
     public GameObject Jugador;
-    public GameObject CamaraJugador;
     public GameObject Spawn;
-    public static int ControlPalancasNivel3 = 0;
+    public static int ControlPalancas = 0;
     public GameObject TriggerPuertaObjetivo;
     public static int ControlMuertes = 0;
-    public GameObject TriggerSubirTecho;
-    public GameObject Nivel;
-    public GameObject[] PalancasTrampa;
-    public bool cerrarTrampa;
-    public GameObject TriggerCerrarTrampa;
-    public GameObject trampa;
     public GameObject PisoTrampa;
     
     // Start is called before the first frame update
@@ -38,13 +31,13 @@ public class ManagerNivel4 : MonoBehaviour
 
         }
 
-                 if (ControlPalancasNivel3 == 6)
+                 if (ControlPalancas == 6)
         {
             PisoTrampa.GetComponent<MeshCollider>().enabled = false;
         }       
 
         
-        if (ControlPalancasNivel3 >= 8 && TriggerPuertaObjetivo !=null)
+        if (ControlPalancas >= 8 && TriggerPuertaObjetivo !=null)
         {
 
             TriggerPuertaObjetivo.SetActive(true);

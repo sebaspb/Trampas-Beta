@@ -5,12 +5,12 @@ using UnityEngine;
 //using UnityEditor.Animations;
 
 
-public class BotonDePared : MonoBehaviour
+public class PalancaDePared : MonoBehaviour
 {
 
-    bool inTrigger;
+   
     public GameObject FBXoriginal;
-        public GameObject Trigger;
+    public GameObject Trigger;
     public GameObject PrefabNivel;
     public AnimationClip AnimacionAsignada;
     public bool SePuedeRepetir = false;
@@ -18,6 +18,7 @@ public class BotonDePared : MonoBehaviour
     int layer;
     Animation AnimacionBoton;
     public AnimationClip[] ArrayAnimaciones;
+    public bool activada = false;
 
     // Start is called before the first frame update
     void Start()
@@ -39,15 +40,16 @@ public class BotonDePared : MonoBehaviour
     void Update()
     {
 
-        if (Input.GetKeyDown(KeyCode.E)&&Trigger.GetComponent<RevisionTrigger>().EstaEnTrigger)
+        if (Input.GetKeyDown(KeyCode.E) && Trigger.GetComponent<RevisionTrigger>().EstaEnTrigger && activada == false)
         {
 
             if (!AnimacionBoton.IsPlaying("Accionar Boton"))
             {
                 int control = 0;
                 AnimacionBoton.Play("Accionar Boton");
+                activada = true;
 
-                if (AnimacionAsignada !=null)
+                if (AnimacionAsignada != null)
                 {
 
                     if (!SePuedeRepetir && control == 0)
@@ -71,6 +73,6 @@ public class BotonDePared : MonoBehaviour
             }
 
         }
-        
+
     }
 }

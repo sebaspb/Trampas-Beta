@@ -2,17 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PalancaDeParedNivel4 : MonoBehaviour
+public class PalancaDeParedNivel3 : MonoBehaviour
 {
 
     public GameObject Trigger;
     bool activada = false;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+
 
     // Update is called once per frame
     void Update()
@@ -21,11 +17,10 @@ public class PalancaDeParedNivel4 : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E) && Trigger.GetComponent<RevisionTrigger>().EstaEnTrigger && activada == false)
         {
 
-                ManagerNivel4.ControlPalancasNivel3 += 1;
+                ManagerNivel3.ControlPalancas += 1;
                 activada = true;
-                Debug.Log(ManagerNivel4.ControlPalancasNivel3);
+                Debug.Log(ManagerNivel3.ControlPalancas);
 
-             
         
 
         }

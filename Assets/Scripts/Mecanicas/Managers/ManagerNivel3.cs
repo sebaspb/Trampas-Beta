@@ -6,24 +6,17 @@ using ARFC;
 public class ManagerNivel3 : MonoBehaviour
 {
     public GameObject Jugador;
-    public GameObject CamaraJugador;
     public GameObject Spawn;
-    public static int ControlPalancasNivel3 = 0;
+    public static int ControlPalancas = 0;
     public GameObject TriggerPuertaObjetivo;
     public static int ControlMuertes = 0;
     public GameObject TriggerSubirTecho;
-    public GameObject Nivel;
     public GameObject[] PalancasTrampa;
     public bool cerrarTrampa;
     public GameObject TriggerCerrarTrampa;
-    public GameObject trampa;
     
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-        
-    }
+    
+
 
     // Update is called once per frame
     void Update()
@@ -53,7 +46,7 @@ public class ManagerNivel3 : MonoBehaviour
         }
 
         
-        if (ControlPalancasNivel3 >= 8 && TriggerPuertaObjetivo !=null)
+        if (ControlPalancas >= 8 && TriggerPuertaObjetivo !=null)
         {
 
             TriggerPuertaObjetivo.SetActive(true);
