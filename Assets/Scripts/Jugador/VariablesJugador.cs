@@ -19,10 +19,17 @@ public class VariablesJugador : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(Input.GetKeyDown(KeyCode.A))
+        {
+
+            SaludJugador = 0;
+
+        }
         
         if (SaludJugador <= 0)
         {
             JugadorMuerto = true;
+         
         }
 
     }
