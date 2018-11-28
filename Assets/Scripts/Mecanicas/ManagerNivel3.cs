@@ -79,7 +79,8 @@ public class ManagerNivel3 : MonoBehaviour
         Jugador.GetComponent<FPController>().enabled = true;
         Jugador.GetComponent<FPController>().Init();
         VariablesJugador.SaludJugador = 500;
-       
+        VariablesJugador.JugadorMuerto = false;
+
 
     }
 

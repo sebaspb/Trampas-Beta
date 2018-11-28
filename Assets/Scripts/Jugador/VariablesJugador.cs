@@ -6,11 +6,14 @@ public class VariablesJugador : MonoBehaviour
 {
     [SerializeField]
     public static float SaludJugador = 500f;
+    public static bool JugadorMuerto = false;
 
     // Start is called before the first frame update
     void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+
     }
 
     // Update is called once per frame
@@ -19,7 +22,7 @@ public class VariablesJugador : MonoBehaviour
         
         if (SaludJugador <= 0)
         {
-            Debug.Log("Has muerto");
+            JugadorMuerto = true;
         }
 
     }
