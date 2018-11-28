@@ -11,6 +11,7 @@ ModelImporter:
     100010: piso inferior
     100012: Puerta secreta
     100014: Techo
+    100016: Paredes inferiores.001
     400000: //RootNode
     400002: Paredes inferiores
     400004: Paredes superiores
@@ -19,10 +20,12 @@ ModelImporter:
     400010: piso inferior
     400012: Puerta secreta
     400014: Techo
+    400016: Paredes inferiores.001
     2100000: invisible
     2100002: Material
     2100004: Zona segura
     2100006: Material.001
+    2100008: Trampilla
     2300000: Paredes inferiores
     2300002: Paredes superiores
     2300004: Piso A
@@ -30,6 +33,8 @@ ModelImporter:
     2300008: piso inferior
     2300010: Puerta secreta
     2300012: Techo
+    2300014: //RootNode
+    2300016: Paredes inferiores.001
     3300000: Paredes inferiores
     3300002: Paredes superiores
     3300004: Piso A
@@ -37,6 +42,8 @@ ModelImporter:
     3300008: piso inferior
     3300010: Puerta secreta
     3300012: Techo
+    3300014: //RootNode
+    3300016: Paredes inferiores.001
     4300000: Piso A
     4300002: Techo
     4300004: Paredes superiores
@@ -44,6 +51,7 @@ ModelImporter:
     4300008: Puerta secreta
     4300010: piso inferior
     4300012: Paredes inferiores
+    4300014: Paredes inferiores.001
     6400000: Paredes inferiores
     6400002: Paredes superiores
     6400004: Piso A
@@ -51,6 +59,8 @@ ModelImporter:
     6400008: piso inferior
     6400010: Puerta secreta
     6400012: Techo
+    6400014: //RootNode
+    6400016: Paredes inferiores.001
   externalObjects: {}
   materials:
     importMaterials: 1
