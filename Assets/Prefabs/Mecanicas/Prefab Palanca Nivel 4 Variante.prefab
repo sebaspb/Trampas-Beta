@@ -85,12 +85,12 @@ PrefabInstance:
       propertyPath: ArrayAnimaciones.Array.size
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5535022796953832748, guid: f21de238897414149ba77cca9725d4b3,
+    - target: {fileID: 5535022796953832754, guid: f21de238897414149ba77cca9725d4b3,
         type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 5535022796953832754, guid: f21de238897414149ba77cca9725d4b3,
+    - target: {fileID: 5535022796953832748, guid: f21de238897414149ba77cca9725d4b3,
         type: 3}
       propertyPath: m_Mesh
       value: 
