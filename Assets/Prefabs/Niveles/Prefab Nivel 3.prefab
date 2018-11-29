@@ -12777,10 +12777,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Nivel 3
       objectReference: {fileID: 0}
-    - target: {fileID: 100064, guid: d634c8ea08f4f7e4d91844c0075321ea, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 400052, guid: d634c8ea08f4f7e4d91844c0075321ea, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5
@@ -12825,14 +12821,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6400002, guid: d634c8ea08f4f7e4d91844c0075321ea, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 9500000, guid: d634c8ea08f4f7e4d91844c0075321ea, type: 3}
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 29f4a757036511d4ba51d173be8832fd, type: 2}
+    - target: {fileID: 100064, guid: d634c8ea08f4f7e4d91844c0075321ea, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6400002, guid: d634c8ea08f4f7e4d91844c0075321ea, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d634c8ea08f4f7e4d91844c0075321ea, type: 3}
 --- !u!1 &7356452800593115280 stripped

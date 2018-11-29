@@ -19,6 +19,11 @@ public class Trampas : MonoBehaviour
 
     public bool tieneSonido = false;
 
+    public bool tieneDelaySonido = false;
+
+    public float DelaySonido;
+
+
     Animation Animacion;
     void Start()
     {
@@ -41,10 +46,17 @@ public class Trampas : MonoBehaviour
                 StartCoroutine(DañoTrampa(tiempoDaño));
                 EstaAbierta = true;
 
-                if(tieneSonido)
+                if (tieneSonido)
                 {
-
+                    
+                    if (!tieneDelaySonido) { 
                     this.GetComponent<AudioSource>().Play();
+                    }
+
+                    if (tieneDelaySonido)
+                    {
+                        StartCoroutine(SonidoConDelay(DelaySonido));
+                    }
 
                 }
                 StartCoroutine(CerrarTrampa(tiempo));
@@ -83,6 +95,16 @@ public class Trampas : MonoBehaviour
             Debug.Log(VariablesJugador.SaludJugador);
 
         }
+
+    }
+
+    IEnumerator SonidoConDelay(float time)
+    {
+
+        yield return new WaitForSeconds(time);
+        this.GetComponent<AudioSource>().Play();
+
+        
 
     }
 
