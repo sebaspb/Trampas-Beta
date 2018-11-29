@@ -18,6 +18,7 @@ public class UIManager : MonoBehaviour
     public bool OcultarFondo;
     public bool EsMenuPrincipal;
     GameObject Jugador;
+    bool EstaMuerto;
 
     Scene escena;
     
@@ -44,9 +45,9 @@ public class UIManager : MonoBehaviour
 
         }
 
-        if(VariablesJugador.SaludJugador <= 0)
+        if(VariablesJugador.SaludJugador <= 0 && !EstaMuerto)
         {
-
+            EstaMuerto = true;
             GameOver();
             StartCoroutine(Resurreccion(3f));
 
@@ -127,9 +128,12 @@ public class UIManager : MonoBehaviour
     }
     public void GameOver()
     {
-      
+        Jugador.GetComponent<FPController>().initilized = false;
+        Jugador.GetComponent<FPController>().enabled = false;
         Debug.Log("Perdiste wey");
         MenuGameOver.SetActive(true);
+        Jugador.transform.position = GameManager.SpawnActual.transform.position;
+        Jugador.transform.rotation = GameManager.SpawnActual.transform.rotation;
 
     }
 
@@ -169,10 +173,14 @@ public class UIManager : MonoBehaviour
     
     IEnumerator Resurreccion(float time)
     {
-
+        
         yield return new WaitForSeconds(time);
+        Jugador.GetComponent<FPController>().enabled = true;
+        Jugador.GetComponent<FPController>().Init();
+        VariablesJugador.SaludJugador = 500;
         Debug.Log("Te revivi");
         OcultarCanvas();
+        EstaMuerto = false;
 
     }
 

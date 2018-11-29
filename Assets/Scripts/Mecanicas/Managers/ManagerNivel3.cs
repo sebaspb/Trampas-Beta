@@ -65,14 +65,11 @@ public class ManagerNivel3 : MonoBehaviour
 
     void ReiniciarJugador()
     {
-        Jugador.GetComponent<FPController>().initilized = false;
-        Jugador.GetComponent<FPController>().enabled = false;
-        Jugador.transform.position = Spawn.transform.position;
-        Jugador.transform.rotation = Spawn.transform.rotation;
-        Jugador.GetComponent<FPController>().enabled = true;
-        Jugador.GetComponent<FPController>().Init();
-        VariablesJugador.SaludJugador = 500;
-        VariablesJugador.JugadorMuerto = false;
+        
+        //Jugador.transform.position = Spawn.transform.position;
+        //Jugador.transform.rotation = Spawn.transform.rotation;
+       
+     
 
 
     }
