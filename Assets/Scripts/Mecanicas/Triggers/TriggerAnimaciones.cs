@@ -17,6 +17,9 @@ public class TriggerAnimaciones : MonoBehaviour
     public AudioClip Sonido;
     public bool EsConstante;
 
+    public bool DesactivaObjeto;
+    public GameObject ObjetoADesactivar;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -56,6 +59,11 @@ public class TriggerAnimaciones : MonoBehaviour
                         if (EsConstante)
                         {
                             ObjetoConElSonido.GetComponent<AudioSource>().Play();
+                        }
+
+                        if (DesactivaObjeto)
+                        {
+                            ObjetoADesactivar.SetActive(false);
                         }
                     }
 

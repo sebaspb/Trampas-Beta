@@ -985,6 +985,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 2.95
       objectReference: {fileID: 0}
+    - target: {fileID: 4053986573451622206, guid: ceece5876a0d61e4f94ce8092e0d26e9,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4053986573451622205, guid: ceece5876a0d61e4f94ce8092e0d26e9,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 4053986573451622204, guid: ceece5876a0d61e4f94ce8092e0d26e9,
         type: 3}
       propertyPath: _quads.Array.data[0]._uv.localPivot.x
@@ -1105,16 +1115,6 @@ PrefabInstance:
       propertyPath: _uv.Array.data[22].x
       value: 1.9714861
       objectReference: {fileID: 0}
-    - target: {fileID: 4053986573451622205, guid: ceece5876a0d61e4f94ce8092e0d26e9,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4053986573451622206, guid: ceece5876a0d61e4f94ce8092e0d26e9,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4053986573451622179, guid: ceece5876a0d61e4f94ce8092e0d26e9,
         type: 3}
       propertyPath: m_Mesh
@@ -1189,6 +1189,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6400008, guid: 0063ea46617d9534c9e8218bce5da6d4, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 11100000, guid: 0063ea46617d9534c9e8218bce5da6d4, type: 3}
       propertyPath: m_PlayAutomatically
       value: 0
@@ -1200,10 +1204,6 @@ PrefabInstance:
     - target: {fileID: 11100000, guid: 0063ea46617d9534c9e8218bce5da6d4, type: 3}
       propertyPath: m_CullingType
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6400008, guid: 0063ea46617d9534c9e8218bce5da6d4, type: 3}
-      propertyPath: m_Enabled
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0063ea46617d9534c9e8218bce5da6d4, type: 3}
