@@ -18,6 +18,18 @@ public class BotonDePared : MonoBehaviour
     Animation AnimacionBoton;
     public AnimationClip[] ArrayAnimaciones;
 
+    public bool TieneSonido;
+
+    public GameObject ObjetoConElSonido;
+    public AudioClip Sonido;
+
+
+    public bool DesencadenaSonido;
+    bool ControlDesencadenaSonido = false;
+
+    public GameObject ObjetoConElSonidoAjeno;
+    public AudioClip SonidoAjeno;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -42,9 +54,23 @@ public class BotonDePared : MonoBehaviour
         {
 
             if (!AnimacionBoton.IsPlaying("Accionar Boton"))
+
+
+
             {
                 int control = 0;
                 AnimacionBoton.Play("Accionar Boton");
+
+                if (TieneSonido)
+                {
+                    ObjetoConElSonido.GetComponent<AudioSource>().PlayOneShot(Sonido);
+                }
+
+                if (DesencadenaSonido && !ControlDesencadenaSonido)
+                {
+                    ObjetoConElSonidoAjeno.GetComponent<AudioSource>().PlayOneShot(SonidoAjeno);
+                    ControlDesencadenaSonido = true;
+                }
 
                 if (AnimacionAsignada !=null)
                 {

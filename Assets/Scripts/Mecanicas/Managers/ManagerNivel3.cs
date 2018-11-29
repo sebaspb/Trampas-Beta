@@ -14,8 +14,9 @@ public class ManagerNivel3 : MonoBehaviour
     public GameObject[] PalancasTrampa;
     public bool cerrarTrampa;
     public GameObject TriggerCerrarTrampa;
-    
-    
+
+    public AudioClip SonidoCorrecto;
+    bool sonidocorrecto = false;
 
 
     // Update is called once per frame
@@ -29,6 +30,8 @@ public class ManagerNivel3 : MonoBehaviour
             ReiniciarJugador();
 
         }
+
+
 
 
 
@@ -50,14 +53,17 @@ public class ManagerNivel3 : MonoBehaviour
         {
 
             TriggerPuertaObjetivo.SetActive(true);
-
+            if (!sonidocorrecto) { 
+            GetComponent<AudioSource>().PlayOneShot(SonidoCorrecto);
+                sonidocorrecto = true;
+            }
 
         }
 
         if (ControlMuertes!=0 && TriggerSubirTecho != null)
         {
 
-            TriggerSubirTecho.SetActive(true);
+            StartCoroutine(SubirTecho(6));
 
         }
         
@@ -74,7 +80,11 @@ public class ManagerNivel3 : MonoBehaviour
 
     }
 
- 
 
+    IEnumerator SubirTecho(float time)
+    {
 
+        yield return new WaitForSeconds(time);
+      TriggerSubirTecho.SetActive(true);
+    }
 }

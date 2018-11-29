@@ -562,6 +562,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boton Creditos
       objectReference: {fileID: 0}
+    - target: {fileID: 3843540408336541526, guid: d54fab4b80efea54bbce52d096ec0577,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3843540408336541521, guid: d54fab4b80efea54bbce52d096ec0577,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -620,22 +625,22 @@ PrefabInstance:
     - target: {fileID: 3843540408336541521, guid: d54fab4b80efea54bbce52d096ec0577,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 343
       objectReference: {fileID: 0}
     - target: {fileID: 3843540408336541521, guid: d54fab4b80efea54bbce52d096ec0577,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -274.5
       objectReference: {fileID: 0}
     - target: {fileID: 3843540408336541521, guid: d54fab4b80efea54bbce52d096ec0577,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 285
       objectReference: {fileID: 0}
     - target: {fileID: 3843540408336541521, guid: d54fab4b80efea54bbce52d096ec0577,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 126
       objectReference: {fileID: 0}
     - target: {fileID: 3843540408336541521, guid: d54fab4b80efea54bbce52d096ec0577,
         type: 3}
@@ -645,7 +650,7 @@ PrefabInstance:
     - target: {fileID: 3843540408336541521, guid: d54fab4b80efea54bbce52d096ec0577,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3843540408336541521, guid: d54fab4b80efea54bbce52d096ec0577,
         type: 3}
@@ -655,7 +660,7 @@ PrefabInstance:
     - target: {fileID: 3843540408336541521, guid: d54fab4b80efea54bbce52d096ec0577,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3843540408336541521, guid: d54fab4b80efea54bbce52d096ec0577,
         type: 3}

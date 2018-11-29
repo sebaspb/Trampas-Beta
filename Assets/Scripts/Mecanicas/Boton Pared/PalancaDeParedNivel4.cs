@@ -8,6 +8,9 @@ public class PalancaDeParedNivel4 : MonoBehaviour
     public GameObject Trigger;
     bool activada = false;
 
+
+
+
     // Start is called before the first frame update
     void Start()
     {

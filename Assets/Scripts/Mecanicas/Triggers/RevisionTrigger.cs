@@ -6,6 +6,7 @@ public class RevisionTrigger : MonoBehaviour
 {
 
     public bool EstaEnTrigger = false;
+  
 
     private void OnTriggerEnter(Collider Jugador)
     {

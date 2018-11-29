@@ -11,7 +11,11 @@ public class TriggerAnimaciones : MonoBehaviour
     string nombre;
     int layer;
     public bool SePuedeRepetir = false;
+    public bool TieneSonido;
 
+    public GameObject ObjetoConElSonido;
+    public AudioClip Sonido;
+    public bool EsConstante;
 
     // Start is called before the first frame update
     void Start()
@@ -30,7 +34,7 @@ public class TriggerAnimaciones : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-
+        
         if (other.CompareTag("Player"))
         {
             int control = 0;
@@ -42,7 +46,20 @@ public class TriggerAnimaciones : MonoBehaviour
 
                     control = 1;
                     FBXAAnimar.GetComponent<Animator>().Play(nombre, layer);
-                    Destroy(gameObject);
+
+                    if (TieneSonido)
+                    {
+                        if (!EsConstante) { 
+                        ObjetoConElSonido.GetComponent<AudioSource>().PlayOneShot(Sonido);
+                        }
+
+                        if (EsConstante)
+                        {
+                            ObjetoConElSonido.GetComponent<AudioSource>().Play();
+                        }
+                    }
+
+                   // Destroy(gameObject);
                 }
             }
         }
