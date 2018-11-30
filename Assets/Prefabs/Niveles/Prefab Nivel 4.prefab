@@ -101,8 +101,8 @@ Transform:
   - {fileID: 367294394400733751}
   - {fileID: 9186324484775288904}
   - {fileID: 1654698714520260674}
-  - {fileID: 6483066292239872106}
   - {fileID: 3969404851721937381}
+  - {fileID: 8359922731793351752}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -122,7 +122,8 @@ MonoBehaviour:
   Spawn: {fileID: 8160484712107780166}
   TriggerPuertaObjetivo: {fileID: 0}
   PisoTrampa: {fileID: 4412442360592692730}
-  Objetivo: {fileID: 0}
+  ObjetivoNivel4: {fileID: 8300000, guid: a3791e48f61594943a250ee2172b1643, type: 3}
+  SonidoCorrecto: {fileID: 8300000, guid: efe8a5a93f5997347b768fb5c866f67a, type: 3}
 --- !u!114 &7098592476376645997
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -150,7 +151,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6a6ba20285b0444a80279c673cfe2c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TriggerAActivar: {fileID: 4576003952804225592}
+  TriggerAActivar: {fileID: 3442034673464627292}
   Trigger: {fileID: 7710742796256804197}
   Delay: 1
 --- !u!1 &7651624271571679859
@@ -272,7 +273,7 @@ PrefabInstance:
     - target: {fileID: 4496647411489836365, guid: f6b20ff42c14c5b47ba73553dc074a01,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4496647411489836365, guid: f6b20ff42c14c5b47ba73553dc074a01,
         type: 3}
@@ -306,113 +307,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f6b20ff42c14c5b47ba73553dc074a01, type: 3}
---- !u!1 &7842686202598094321 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7325023280004749657, guid: f6b20ff42c14c5b47ba73553dc074a01,
-    type: 3}
-  m_PrefabInstance: {fileID: 680435320290880680}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &3969404851721937381 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4496647411489836365, guid: f6b20ff42c14c5b47ba73553dc074a01,
     type: 3}
   m_PrefabInstance: {fileID: 680435320290880680}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1546264307643913233
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 5582686425378278709}
-    m_Modifications:
-    - target: {fileID: 9109753451475681971, guid: cd6ec6490d30d5b4e914349421a7a1a6,
-        type: 3}
-      propertyPath: m_Name
-      value: Prefab Trampilla 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5516088499020702843, guid: cd6ec6490d30d5b4e914349421a7a1a6,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 114.019
-      objectReference: {fileID: 0}
-    - target: {fileID: 5516088499020702843, guid: cd6ec6490d30d5b4e914349421a7a1a6,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 6.89
-      objectReference: {fileID: 0}
-    - target: {fileID: 5516088499020702843, guid: cd6ec6490d30d5b4e914349421a7a1a6,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -7.99
-      objectReference: {fileID: 0}
-    - target: {fileID: 5516088499020702843, guid: cd6ec6490d30d5b4e914349421a7a1a6,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5516088499020702843, guid: cd6ec6490d30d5b4e914349421a7a1a6,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5516088499020702843, guid: cd6ec6490d30d5b4e914349421a7a1a6,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5516088499020702843, guid: cd6ec6490d30d5b4e914349421a7a1a6,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5516088499020702843, guid: cd6ec6490d30d5b4e914349421a7a1a6,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 5516088499020702843, guid: cd6ec6490d30d5b4e914349421a7a1a6,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5516088499020702843, guid: cd6ec6490d30d5b4e914349421a7a1a6,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5516088499020702843, guid: cd6ec6490d30d5b4e914349421a7a1a6,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3095191665407096361, guid: cd6ec6490d30d5b4e914349421a7a1a6,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3095191665407096374, guid: cd6ec6490d30d5b4e914349421a7a1a6,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3095191665407096360, guid: cd6ec6490d30d5b4e914349421a7a1a6,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: cd6ec6490d30d5b4e914349421a7a1a6, type: 3}
---- !u!4 &6483066292239872106 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 5516088499020702843, guid: cd6ec6490d30d5b4e914349421a7a1a6,
-    type: 3}
-  m_PrefabInstance: {fileID: 1546264307643913233}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &4576003952804225592 stripped
+--- !u!1 &7842686202598094321 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 3095191665407096361, guid: cd6ec6490d30d5b4e914349421a7a1a6,
+  m_CorrespondingSourceObject: {fileID: 7325023280004749657, guid: f6b20ff42c14c5b47ba73553dc074a01,
     type: 3}
-  m_PrefabInstance: {fileID: 1546264307643913233}
+  m_PrefabInstance: {fileID: 680435320290880680}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1706537044096492702
 PrefabInstance:
@@ -421,6 +326,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8827722133809778356}
     m_Modifications:
+    - target: {fileID: 7557636664927981921, guid: 9e0a14f12ab3a474b9eea6713618a9c5,
+        type: 3}
+      propertyPath: m_Name
+      value: Prefab Martillo (6)
+      objectReference: {fileID: 0}
     - target: {fileID: 1362711784397186202, guid: 9e0a14f12ab3a474b9eea6713618a9c5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -476,11 +386,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7557636664927981921, guid: 9e0a14f12ab3a474b9eea6713618a9c5,
-        type: 3}
-      propertyPath: m_Name
-      value: Prefab Martillo (6)
-      objectReference: {fileID: 0}
     - target: {fileID: 42612561, guid: 9e0a14f12ab3a474b9eea6713618a9c5, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -504,6 +409,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8827722133809778356}
     m_Modifications:
+    - target: {fileID: 7557636664927981921, guid: 9e0a14f12ab3a474b9eea6713618a9c5,
+        type: 3}
+      propertyPath: m_Name
+      value: Prefab Martillo (2)
+      objectReference: {fileID: 0}
     - target: {fileID: 1362711784397186202, guid: 9e0a14f12ab3a474b9eea6713618a9c5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -559,11 +469,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7557636664927981921, guid: 9e0a14f12ab3a474b9eea6713618a9c5,
-        type: 3}
-      propertyPath: m_Name
-      value: Prefab Martillo (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 42612561, guid: 9e0a14f12ab3a474b9eea6713618a9c5, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -587,6 +492,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 367294394400733751}
     m_Modifications:
+    - target: {fileID: 8939737846215666014, guid: 153a6dc56563a0f44b9a7052f71eb391,
+        type: 3}
+      propertyPath: m_Name
+      value: Prefab Palanca Nivel 4 Variante (3)
+      objectReference: {fileID: 0}
     - target: {fileID: 4330969063739086381, guid: 153a6dc56563a0f44b9a7052f71eb391,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -642,11 +552,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8939737846215666014, guid: 153a6dc56563a0f44b9a7052f71eb391,
-        type: 3}
-      propertyPath: m_Name
-      value: Prefab Palanca Nivel 4 Variante (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 5800017809415448107, guid: 153a6dc56563a0f44b9a7052f71eb391,
         type: 3}
       propertyPath: m_Mesh
@@ -672,6 +577,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8827722133809778356}
     m_Modifications:
+    - target: {fileID: 7557636664927981921, guid: 9e0a14f12ab3a474b9eea6713618a9c5,
+        type: 3}
+      propertyPath: m_Name
+      value: Prefab Martillo (7)
+      objectReference: {fileID: 0}
     - target: {fileID: 1362711784397186202, guid: 9e0a14f12ab3a474b9eea6713618a9c5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -727,11 +637,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 89.99999
       objectReference: {fileID: 0}
-    - target: {fileID: 7557636664927981921, guid: 9e0a14f12ab3a474b9eea6713618a9c5,
-        type: 3}
-      propertyPath: m_Name
-      value: Prefab Martillo (7)
-      objectReference: {fileID: 0}
     - target: {fileID: 42612561, guid: 9e0a14f12ab3a474b9eea6713618a9c5, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -755,6 +660,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8827722133809778356}
     m_Modifications:
+    - target: {fileID: 7557636664927981921, guid: 9e0a14f12ab3a474b9eea6713618a9c5,
+        type: 3}
+      propertyPath: m_Name
+      value: Prefab Martillo (5)
+      objectReference: {fileID: 0}
     - target: {fileID: 1362711784397186202, guid: 9e0a14f12ab3a474b9eea6713618a9c5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -810,11 +720,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7557636664927981921, guid: 9e0a14f12ab3a474b9eea6713618a9c5,
-        type: 3}
-      propertyPath: m_Name
-      value: Prefab Martillo (5)
-      objectReference: {fileID: 0}
     - target: {fileID: 42612561, guid: 9e0a14f12ab3a474b9eea6713618a9c5, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -838,6 +743,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8827722133809778356}
     m_Modifications:
+    - target: {fileID: 7557636664927981921, guid: 9e0a14f12ab3a474b9eea6713618a9c5,
+        type: 3}
+      propertyPath: m_Name
+      value: Prefab Martillo
+      objectReference: {fileID: 0}
     - target: {fileID: 1362711784397186202, guid: 9e0a14f12ab3a474b9eea6713618a9c5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -893,11 +803,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7557636664927981921, guid: 9e0a14f12ab3a474b9eea6713618a9c5,
-        type: 3}
-      propertyPath: m_Name
-      value: Prefab Martillo
-      objectReference: {fileID: 0}
     - target: {fileID: 42612561, guid: 9e0a14f12ab3a474b9eea6713618a9c5, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -921,6 +826,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8827722133809778356}
     m_Modifications:
+    - target: {fileID: 7557636664927981921, guid: 9e0a14f12ab3a474b9eea6713618a9c5,
+        type: 3}
+      propertyPath: m_Name
+      value: Prefab Martillo (3)
+      objectReference: {fileID: 0}
     - target: {fileID: 1362711784397186202, guid: 9e0a14f12ab3a474b9eea6713618a9c5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -976,11 +886,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7557636664927981921, guid: 9e0a14f12ab3a474b9eea6713618a9c5,
-        type: 3}
-      propertyPath: m_Name
-      value: Prefab Martillo (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 42612561, guid: 9e0a14f12ab3a474b9eea6713618a9c5, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -1004,6 +909,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 367294394400733751}
     m_Modifications:
+    - target: {fileID: 8939737846215666014, guid: 153a6dc56563a0f44b9a7052f71eb391,
+        type: 3}
+      propertyPath: m_Name
+      value: Prefab Palanca Nivel 4 Variante (2)
+      objectReference: {fileID: 0}
     - target: {fileID: 4330969063739086381, guid: 153a6dc56563a0f44b9a7052f71eb391,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1059,11 +969,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8939737846215666014, guid: 153a6dc56563a0f44b9a7052f71eb391,
-        type: 3}
-      propertyPath: m_Name
-      value: Prefab Palanca Nivel 4 Variante (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 5800017809415448107, guid: 153a6dc56563a0f44b9a7052f71eb391,
         type: 3}
       propertyPath: m_Mesh
@@ -1089,6 +994,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 367294394400733751}
     m_Modifications:
+    - target: {fileID: 8939737846215666014, guid: 153a6dc56563a0f44b9a7052f71eb391,
+        type: 3}
+      propertyPath: m_Name
+      value: Prefab Palanca Nivel 4 Variante (4)
+      objectReference: {fileID: 0}
     - target: {fileID: 4330969063739086381, guid: 153a6dc56563a0f44b9a7052f71eb391,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1144,11 +1054,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8939737846215666014, guid: 153a6dc56563a0f44b9a7052f71eb391,
-        type: 3}
-      propertyPath: m_Name
-      value: Prefab Palanca Nivel 4 Variante (4)
-      objectReference: {fileID: 0}
     - target: {fileID: 5800017809415448107, guid: 153a6dc56563a0f44b9a7052f71eb391,
         type: 3}
       propertyPath: m_Mesh
@@ -1186,6 +1091,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 9186324484775288904}
     m_Modifications:
+    - target: {fileID: 5051180518292078933, guid: c66fe9aae34acc94e821443b0ea82b4e,
+        type: 3}
+      propertyPath: m_Name
+      value: TriggerAnimaciones
+      objectReference: {fileID: 0}
     - target: {fileID: 5051180518292078930, guid: c66fe9aae34acc94e821443b0ea82b4e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1246,26 +1156,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2.1891
       objectReference: {fileID: 0}
-    - target: {fileID: 5051180518292078933, guid: c66fe9aae34acc94e821443b0ea82b4e,
-        type: 3}
-      propertyPath: m_Name
-      value: TriggerAnimaciones
-      objectReference: {fileID: 0}
-    - target: {fileID: 5051180518292078929, guid: c66fe9aae34acc94e821443b0ea82b4e,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5051180518292078928, guid: c66fe9aae34acc94e821443b0ea82b4e,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 5051180518292078934, guid: c66fe9aae34acc94e821443b0ea82b4e,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 5051180518292078940, guid: c66fe9aae34acc94e821443b0ea82b4e,
         type: 3}
       propertyPath: ArrayAnimaciones.Array.size
@@ -1296,6 +1186,21 @@ PrefabInstance:
       propertyPath: Dialogo
       value: 
       objectReference: {fileID: 8300000, guid: 05180a4bdc6e00f4ab5b5d7f060f465d, type: 3}
+    - target: {fileID: 5051180518292078934, guid: c66fe9aae34acc94e821443b0ea82b4e,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5051180518292078928, guid: c66fe9aae34acc94e821443b0ea82b4e,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5051180518292078929, guid: c66fe9aae34acc94e821443b0ea82b4e,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c66fe9aae34acc94e821443b0ea82b4e, type: 3}
 --- !u!4 &8814459307698300357 stripped
@@ -1363,29 +1268,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6400004, guid: d6f8e336cd7fcf247934c4a47ab010a4, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 9500000, guid: d6f8e336cd7fcf247934c4a47ab010a4, type: 3}
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 92afafa49c213a841b9f9cc5d75a9e8a, type: 2}
+    - target: {fileID: 6400004, guid: d6f8e336cd7fcf247934c4a47ab010a4, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 100016, guid: d6f8e336cd7fcf247934c4a47ab010a4, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6f8e336cd7fcf247934c4a47ab010a4, type: 3}
---- !u!4 &4412442360592787922 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400002, guid: d6f8e336cd7fcf247934c4a47ab010a4,
-    type: 3}
-  m_PrefabInstance: {fileID: 4412442360592659280}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &4412442360592692730 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100010, guid: d6f8e336cd7fcf247934c4a47ab010a4,
+    type: 3}
+  m_PrefabInstance: {fileID: 4412442360592659280}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &4412442360592787922 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400002, guid: d6f8e336cd7fcf247934c4a47ab010a4,
     type: 3}
   m_PrefabInstance: {fileID: 4412442360592659280}
   m_PrefabAsset: {fileID: 0}
@@ -1402,6 +1307,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 367294394400733751}
     m_Modifications:
+    - target: {fileID: 8939737846215666014, guid: 153a6dc56563a0f44b9a7052f71eb391,
+        type: 3}
+      propertyPath: m_Name
+      value: Prefab Palanca Nivel 4 Variante
+      objectReference: {fileID: 0}
     - target: {fileID: 4330969063739086381, guid: 153a6dc56563a0f44b9a7052f71eb391,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1457,11 +1367,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8939737846215666014, guid: 153a6dc56563a0f44b9a7052f71eb391,
-        type: 3}
-      propertyPath: m_Name
-      value: Prefab Palanca Nivel 4 Variante
-      objectReference: {fileID: 0}
     - target: {fileID: 5800017809415448107, guid: 153a6dc56563a0f44b9a7052f71eb391,
         type: 3}
       propertyPath: m_Mesh
@@ -1487,6 +1392,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 367294394400733751}
     m_Modifications:
+    - target: {fileID: 8939737846215666014, guid: 153a6dc56563a0f44b9a7052f71eb391,
+        type: 3}
+      propertyPath: m_Name
+      value: Prefab Palanca Nivel 4 Variante (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 4330969063739086381, guid: 153a6dc56563a0f44b9a7052f71eb391,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1542,11 +1452,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8939737846215666014, guid: 153a6dc56563a0f44b9a7052f71eb391,
-        type: 3}
-      propertyPath: m_Name
-      value: Prefab Palanca Nivel 4 Variante (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 5800017809415448107, guid: 153a6dc56563a0f44b9a7052f71eb391,
         type: 3}
       propertyPath: m_Mesh
@@ -1572,6 +1477,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 367294394400733751}
     m_Modifications:
+    - target: {fileID: 8939737846215666014, guid: 153a6dc56563a0f44b9a7052f71eb391,
+        type: 3}
+      propertyPath: m_Name
+      value: Prefab Palanca Nivel 4 Variante (5)
+      objectReference: {fileID: 0}
     - target: {fileID: 4330969063739086381, guid: 153a6dc56563a0f44b9a7052f71eb391,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1627,11 +1537,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8939737846215666014, guid: 153a6dc56563a0f44b9a7052f71eb391,
-        type: 3}
-      propertyPath: m_Name
-      value: Prefab Palanca Nivel 4 Variante (5)
-      objectReference: {fileID: 0}
     - target: {fileID: 5800017809415448107, guid: 153a6dc56563a0f44b9a7052f71eb391,
         type: 3}
       propertyPath: m_Mesh
@@ -1669,6 +1574,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8827722133809778356}
     m_Modifications:
+    - target: {fileID: 7557636664927981921, guid: 9e0a14f12ab3a474b9eea6713618a9c5,
+        type: 3}
+      propertyPath: m_Name
+      value: Prefab Martillo (4)
+      objectReference: {fileID: 0}
     - target: {fileID: 1362711784397186202, guid: 9e0a14f12ab3a474b9eea6713618a9c5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1724,11 +1634,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7557636664927981921, guid: 9e0a14f12ab3a474b9eea6713618a9c5,
-        type: 3}
-      propertyPath: m_Name
-      value: Prefab Martillo (4)
-      objectReference: {fileID: 0}
     - target: {fileID: 42612561, guid: 9e0a14f12ab3a474b9eea6713618a9c5, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -1744,6 +1649,102 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1362711784397186202, guid: 9e0a14f12ab3a474b9eea6713618a9c5,
     type: 3}
   m_PrefabInstance: {fileID: 5203641356861349579}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5360169288622246149
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5582686425378278709}
+    m_Modifications:
+    - target: {fileID: 1312781164189251901, guid: f6b20ff42c14c5b47ba73553dc074a01,
+        type: 3}
+      propertyPath: m_Name
+      value: Prefab Trampa Pinchos (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496647411489836365, guid: f6b20ff42c14c5b47ba73553dc074a01,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 114.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496647411489836365, guid: f6b20ff42c14c5b47ba73553dc074a01,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496647411489836365, guid: f6b20ff42c14c5b47ba73553dc074a01,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -7.98
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496647411489836365, guid: f6b20ff42c14c5b47ba73553dc074a01,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496647411489836365, guid: f6b20ff42c14c5b47ba73553dc074a01,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496647411489836365, guid: f6b20ff42c14c5b47ba73553dc074a01,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496647411489836365, guid: f6b20ff42c14c5b47ba73553dc074a01,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496647411489836365, guid: f6b20ff42c14c5b47ba73553dc074a01,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496647411489836365, guid: f6b20ff42c14c5b47ba73553dc074a01,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496647411489836365, guid: f6b20ff42c14c5b47ba73553dc074a01,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496647411489836365, guid: f6b20ff42c14c5b47ba73553dc074a01,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7325023280004749657, guid: f6b20ff42c14c5b47ba73553dc074a01,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7325023280004749638, guid: f6b20ff42c14c5b47ba73553dc074a01,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7325023280004749656, guid: f6b20ff42c14c5b47ba73553dc074a01,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f6b20ff42c14c5b47ba73553dc074a01, type: 3}
+--- !u!4 &8359922731793351752 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4496647411489836365, guid: f6b20ff42c14c5b47ba73553dc074a01,
+    type: 3}
+  m_PrefabInstance: {fileID: 5360169288622246149}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3442034673464627292 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7325023280004749657, guid: f6b20ff42c14c5b47ba73553dc074a01,
+    type: 3}
+  m_PrefabInstance: {fileID: 5360169288622246149}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5832106943584063760
 PrefabInstance:
@@ -1847,6 +1848,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8827722133809778356}
     m_Modifications:
+    - target: {fileID: 7557636664927981921, guid: 9e0a14f12ab3a474b9eea6713618a9c5,
+        type: 3}
+      propertyPath: m_Name
+      value: Prefab Martillo (8)
+      objectReference: {fileID: 0}
     - target: {fileID: 1362711784397186202, guid: 9e0a14f12ab3a474b9eea6713618a9c5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1902,11 +1908,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7557636664927981921, guid: 9e0a14f12ab3a474b9eea6713618a9c5,
-        type: 3}
-      propertyPath: m_Name
-      value: Prefab Martillo (8)
-      objectReference: {fileID: 0}
     - target: {fileID: 42612561, guid: 9e0a14f12ab3a474b9eea6713618a9c5, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -1930,6 +1931,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8827722133809778356}
     m_Modifications:
+    - target: {fileID: 7557636664927981921, guid: 9e0a14f12ab3a474b9eea6713618a9c5,
+        type: 3}
+      propertyPath: m_Name
+      value: Prefab Martillo (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 1362711784397186202, guid: 9e0a14f12ab3a474b9eea6713618a9c5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1984,11 +1990,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7557636664927981921, guid: 9e0a14f12ab3a474b9eea6713618a9c5,
-        type: 3}
-      propertyPath: m_Name
-      value: Prefab Martillo (1)
       objectReference: {fileID: 0}
     - target: {fileID: 42612561, guid: 9e0a14f12ab3a474b9eea6713618a9c5, type: 3}
       propertyPath: m_Mesh

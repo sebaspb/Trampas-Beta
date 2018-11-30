@@ -11,10 +11,11 @@ public class TriggerCambiarNivel : MonoBehaviour
        
         if (other.CompareTag("Player"))
         {
-                             
+                             if (GameManager.IDNivelActual < 4) { 
                     GameManager.NivelCargado += 1;
                     Destroy(gameObject);
-         }
+            }
+        }
            
         }
     }

@@ -21,24 +21,26 @@ public class ManagerNivel4 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-            Jugador.GetComponent<FPController>().Constraints.Move = true;
-            Jugador.GetComponent<FPController>().Constraints.Jump = true;
-            Jugador.GetComponent<FPController>().Constraints.JumpFromAir = false;
-            Jugador.GetComponent<FPController>().Constraints.Sprint = true;
-            Jugador.GetComponent<FPController>().Constraints.Crouch = true;
-            Jugador.GetComponent<FPController>().Constraints.Prone =!true;
-            Jugador.GetComponent<FPController>().Constraints.Slide = !true;
-            Jugador.GetComponent<FPController>().Constraints.Look = true;
-            Jugador.GetComponent<FPController>().Constraints.Lean = !true;
-            Jugador.GetComponent<FPController>().Constraints.HeadBob = !true;
-        AS_Dialogos = GameObject.Find("Dialogos").GetComponent<AudioSource>();
-        
+       
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        if (GameManager.IDNivelActual == 3)
+        {
+            Jugador.GetComponent<FPController>().Constraints.Move = true;
+            Jugador.GetComponent<FPController>().Constraints.Jump = true;
+            Jugador.GetComponent<FPController>().Constraints.JumpFromAir = false;
+            Jugador.GetComponent<FPController>().Constraints.Sprint = true;
+            Jugador.GetComponent<FPController>().Constraints.Crouch = true;
+            Jugador.GetComponent<FPController>().Constraints.Prone = !true;
+            Jugador.GetComponent<FPController>().Constraints.Slide = !true;
+            Jugador.GetComponent<FPController>().Constraints.Look = true;
+            Jugador.GetComponent<FPController>().Constraints.Lean = !true;
+            Jugador.GetComponent<FPController>().Constraints.HeadBob = !true;
+            AS_Dialogos = GameObject.Find("Dialogos").GetComponent<AudioSource>();
+        }
         if (VariablesJugador.SaludJugador <= 0)
         {
             //Destroy(Jugador.gameObject);
@@ -47,7 +49,7 @@ public class ManagerNivel4 : MonoBehaviour
 
         }
 
-                 if (ControlPalancas == 1)
+                 if (ControlPalancas == 6)
         {
             
             PisoTrampa.GetComponent<MeshCollider>().enabled = false;

@@ -584,7 +584,7 @@ PrefabInstance:
     - target: {fileID: 8949669363881475802, guid: c79225aa4d8a08b47861ccffd55ccb91,
         type: 3}
       propertyPath: m_Size
-      value: 0.12498675
+      value: 0.08580896
       objectReference: {fileID: 0}
     - target: {fileID: 8949669363881475802, guid: c79225aa4d8a08b47861ccffd55ccb91,
         type: 3}
@@ -639,7 +639,7 @@ PrefabInstance:
     - target: {fileID: 8360436932455134574, guid: c79225aa4d8a08b47861ccffd55ccb91,
         type: 3}
       propertyPath: m_textInfo.lineCount
-      value: 61
+      value: 53
       objectReference: {fileID: 0}
     - target: {fileID: 8360436932455134574, guid: c79225aa4d8a08b47861ccffd55ccb91,
         type: 3}
@@ -656,25 +656,25 @@ PrefabInstance:
         - Open CD mechanic By michael_kur95\r\nRIGAUD_Matthieu_2015_2016_GrindingBigDoor.
         By univ_lyon3\r\nSliding Noise V2 By cbenci\r\ncorrect By ertfelda\r\nElevator
         By smokum\r\nSword Slash 1 By smokebomb99\r\nWhoosh #1 By Kinoton\r\nHeavy
-        Door Close 4 By DrZoom\r\nChair Hydraulic By tim.kahn\r\n\r\n\r\nTodos los
-        derechos reservados.\r\nSe prohibe su distribuci\xF3n total o parcial con
-        fines econ\xF3micas sin previa autorizaci\xF3n del creado.\r\n\r\nTrabajo
+        Door Close 4 By DrZoom\r\nChair Hydraulic By tim.kahn\r\nelevatormotor1 By
+        cumesoftware\r\n\r\nTodos los derechos reservados.\r\nSe prohibe su distribuci\xF3n
+        total o parcial con fines econ\xF3micas sin previa autorizaci\xF3n del creador.\r\n\r\nTrabajo
         acad\xE9mico realizado para el SENA en Colombia."
       objectReference: {fileID: 0}
     - target: {fileID: 8360436932455134574, guid: c79225aa4d8a08b47861ccffd55ccb91,
         type: 3}
       propertyPath: m_textInfo.characterCount
-      value: 1167
+      value: 1198
       objectReference: {fileID: 0}
     - target: {fileID: 8360436932455134574, guid: c79225aa4d8a08b47861ccffd55ccb91,
         type: 3}
       propertyPath: m_textInfo.spaceCount
-      value: 158
+      value: 160
       objectReference: {fileID: 0}
     - target: {fileID: 8360436932455134574, guid: c79225aa4d8a08b47861ccffd55ccb91,
         type: 3}
       propertyPath: m_textInfo.wordCount
-      value: 160
+      value: 163
       objectReference: {fileID: 0}
     - target: {fileID: 8360436932455134574, guid: c79225aa4d8a08b47861ccffd55ccb91,
         type: 3}
@@ -704,7 +704,7 @@ PrefabInstance:
     - target: {fileID: 8360436932455134574, guid: c79225aa4d8a08b47861ccffd55ccb91,
         type: 3}
       propertyPath: m_fontSize
-      value: 18
+      value: 34.15
       objectReference: {fileID: 0}
     - target: {fileID: 8360436932455134574, guid: c79225aa4d8a08b47861ccffd55ccb91,
         type: 3}

@@ -7,6 +7,7 @@ public class PalancaDeParedNivel4 : MonoBehaviour
 
     public GameObject Trigger;
     bool activada = false;
+ 
 
 
 
@@ -29,7 +30,7 @@ public class PalancaDeParedNivel4 : MonoBehaviour
                 Debug.Log(ManagerNivel4.ControlPalancas);
 
              
-        
+     
 
         }
 
