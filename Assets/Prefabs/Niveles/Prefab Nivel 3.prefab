@@ -3097,7 +3097,7 @@ PrefabInstance:
         type: 3}
       propertyPath: Dialogo
       value: 
-      objectReference: {fileID: 8300000, guid: ea61f0c34a01d6c42b30a96f5f91fa01, type: 3}
+      objectReference: {fileID: 8300000, guid: ed7646873a0cf104caf1203faab3a53a, type: 3}
     - target: {fileID: 2620403764630606082, guid: 71da284abd316a345bfe3633680dc193,
         type: 3}
       propertyPath: m_Mesh
@@ -12783,6 +12783,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8851184315816631399}
     m_Modifications:
+    - target: {fileID: 100052, guid: d634c8ea08f4f7e4d91844c0075321ea, type: 3}
+      propertyPath: m_Name
+      value: Nivel 3
+      objectReference: {fileID: 0}
     - target: {fileID: 400052, guid: d634c8ea08f4f7e4d91844c0075321ea, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5
@@ -12826,10 +12830,6 @@ PrefabInstance:
     - target: {fileID: 400052, guid: d634c8ea08f4f7e4d91844c0075321ea, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 100052, guid: d634c8ea08f4f7e4d91844c0075321ea, type: 3}
-      propertyPath: m_Name
-      value: Nivel 3
       objectReference: {fileID: 0}
     - target: {fileID: 9500000, guid: d634c8ea08f4f7e4d91844c0075321ea, type: 3}
       propertyPath: m_Controller
