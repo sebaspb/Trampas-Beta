@@ -2577,6 +2577,26 @@ PrefabInstance:
       propertyPath: TieneSonido
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6291375400069140701, guid: 4d96e4fba1914044ea3f2cd263d1c11b,
+        type: 3}
+      propertyPath: TIeneDialogo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291375400069140701, guid: 4d96e4fba1914044ea3f2cd263d1c11b,
+        type: 3}
+      propertyPath: Dialogo
+      value: 
+      objectReference: {fileID: 8300000, guid: 37870a8652623d34292658c188177460, type: 3}
+    - target: {fileID: 5011321102803175575, guid: 4d96e4fba1914044ea3f2cd263d1c11b,
+        type: 3}
+      propertyPath: AC_Sonido
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5011321102803175575, guid: 4d96e4fba1914044ea3f2cd263d1c11b,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4d96e4fba1914044ea3f2cd263d1c11b, type: 3}
 --- !u!4 &3494050792503799044 stripped

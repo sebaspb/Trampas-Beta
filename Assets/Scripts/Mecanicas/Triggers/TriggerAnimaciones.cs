@@ -20,9 +20,16 @@ public class TriggerAnimaciones : MonoBehaviour
     public bool DesactivaObjeto;
     public GameObject ObjetoADesactivar;
 
+    public bool TIeneDialogo = false;
+
+    AudioSource AS_Dialogos;
+    public AudioClip Dialogo;
+
     // Start is called before the first frame update
     void Start()
     {
+
+        AS_Dialogos = GameObject.Find("Dialogos").GetComponent<AudioSource>();
         for (int i = 0; i < ArrayAnimaciones.Length; i++)
         {
             if (AnimacionAsignada == ArrayAnimaciones[i])
@@ -65,6 +72,14 @@ public class TriggerAnimaciones : MonoBehaviour
                         {
                             ObjetoADesactivar.SetActive(false);
                         }
+                    }
+
+                    if(TIeneDialogo)
+                    {
+
+                        AS_Dialogos.clip = Dialogo;
+                        AS_Dialogos.Play();
+
                     }
 
                    Destroy(gameObject);

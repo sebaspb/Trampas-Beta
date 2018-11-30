@@ -31,11 +31,21 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
         Jugador = GameObject.FindGameObjectWithTag("Player");
         Niveles[NivelCargado].SetActive(true);
         Niveles[NivelCargado + 1].SetActive(true);
         SpawnActual = Spawn[IDNivelActual];
+ Jugador.GetComponent<FPController>().Constraints.Move = false;
+            Jugador.GetComponent<FPController>().Constraints.Jump = false;
+            Jugador.GetComponent<FPController>().Constraints.JumpFromAir = false;
+            Jugador.GetComponent<FPController>().Constraints.Sprint = !true;
+            Jugador.GetComponent<FPController>().Constraints.Crouch = !true;
+            Jugador.GetComponent<FPController>().Constraints.Prone =!true;
+            Jugador.GetComponent<FPController>().Constraints.Slide = !true;
+            Jugador.GetComponent<FPController>().Constraints.Look = !true;
+            Jugador.GetComponent<FPController>().Constraints.Lean = !true;
+            Jugador.GetComponent<FPController>().Constraints.HeadBob = !true;
+        
 
         ReiniciarJugador();
 
@@ -44,7 +54,7 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        MovimientoJugador();
+       
         if (Input.GetKeyDown(KeyCode.Z)) VariablesJugador.SaludJugador =- VariablesJugador.SaludJugador;
         
     
@@ -78,43 +88,7 @@ public class GameManager : MonoBehaviour
 
     }
 
-    public void MovimientoJugador()
-    {
-
-        if(IDNivelActual == 0)
-        {
-
-            Jugador.GetComponent<FPController>().Constraints.Move = true;
-            Jugador.GetComponent<FPController>().Constraints.Jump = false;
-            Jugador.GetComponent<FPController>().Constraints.JumpFromAir = false;
-            Jugador.GetComponent<FPController>().Constraints.Sprint = !true;
-            Jugador.GetComponent<FPController>().Constraints.Crouch = !true;
-            Jugador.GetComponent<FPController>().Constraints.Prone =!true;
-            Jugador.GetComponent<FPController>().Constraints.Slide = !true;
-            Jugador.GetComponent<FPController>().Constraints.Look = !true;
-            Jugador.GetComponent<FPController>().Constraints.Lean = !true;
-            Jugador.GetComponent<FPController>().Constraints.HeadBob = !true;
-
-        }
-
-         if(IDNivelActual == 1)
-        {
-
-            Jugador.GetComponent<FPController>().Constraints.Move = true;
-            Jugador.GetComponent<FPController>().Constraints.Jump = true;
-            Jugador.GetComponent<FPController>().Constraints.JumpFromAir = false;
-            Jugador.GetComponent<FPController>().Constraints.Sprint = !true;
-            Jugador.GetComponent<FPController>().Constraints.Crouch = !true;
-            Jugador.GetComponent<FPController>().Constraints.Prone =!true;
-            Jugador.GetComponent<FPController>().Constraints.Slide = !true;
-            Jugador.GetComponent<FPController>().Constraints.Look = true;
-            Jugador.GetComponent<FPController>().Constraints.Lean = !true;
-            Jugador.GetComponent<FPController>().Constraints.HeadBob = !true;
-
-        }
-
-        
-
-    }
+ 
+    
 
 }
