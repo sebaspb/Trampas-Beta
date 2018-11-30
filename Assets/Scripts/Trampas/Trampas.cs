@@ -59,11 +59,15 @@ public class Trampas : MonoBehaviour
                     }
 
                 }
+
+                if (EstaAbierta) { 
+
                 StartCoroutine(CerrarTrampa(tiempo));
+                }
 
             }
 
-           
+            
 
         }
         
@@ -81,7 +85,11 @@ public class Trampas : MonoBehaviour
         }
         Animacion.Play("CerrarTrampa");
 
-        EstaAbierta = false;
+        if (Animacion.IsPlaying("CerrarTrampa"))
+        {
+            EstaAbierta = false;
+        }
+
     }
 
     IEnumerator DañoTrampa(float time)

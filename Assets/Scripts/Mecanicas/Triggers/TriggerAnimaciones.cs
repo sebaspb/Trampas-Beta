@@ -67,7 +67,7 @@ public class TriggerAnimaciones : MonoBehaviour
                         }
                     }
 
-                   // Destroy(gameObject);
+                   Destroy(gameObject);
                 }
             }
         }

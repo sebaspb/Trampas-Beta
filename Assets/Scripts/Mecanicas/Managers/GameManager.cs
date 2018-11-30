@@ -23,7 +23,7 @@ public class GameManager : MonoBehaviour
 
     public GameObject spawn5;
 
-    public static int IDNivelActual = 3;
+    public static int IDNivelActual = 0;
 
     public static GameObject SpawnActual;
     

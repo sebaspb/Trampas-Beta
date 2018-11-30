@@ -782,16 +782,6 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: -17
       objectReference: {fileID: 0}
-    - target: {fileID: 8372391255364278077, guid: 77adbf8533b6efd4f972ab3520ae611b,
-        type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8372391255364278077, guid: 77adbf8533b6efd4f972ab3520ae611b,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1254075807563496142, guid: 77adbf8533b6efd4f972ab3520ae611b,
         type: 3}
       propertyPath: m_AnchorMax.y
@@ -887,11 +877,6 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 8592629859256883794, guid: 77adbf8533b6efd4f972ab3520ae611b,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: Mapa
-      objectReference: {fileID: 0}
     - target: {fileID: 3059422441453555398, guid: 77adbf8533b6efd4f972ab3520ae611b,
         type: 3}
       propertyPath: m_inputSource
@@ -906,6 +891,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_isInputParsingRequired
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8372391255364278077, guid: 77adbf8533b6efd4f972ab3520ae611b,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8372391255364278077, guid: 77adbf8533b6efd4f972ab3520ae611b,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8592629859256883794, guid: 77adbf8533b6efd4f972ab3520ae611b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Mapa
       objectReference: {fileID: 0}
     - target: {fileID: 3108514691137124314, guid: 77adbf8533b6efd4f972ab3520ae611b,
         type: 3}
@@ -2820,7 +2820,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1532350120}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: dd275c50518f96d4095a65ac4259060d, type: 3}
