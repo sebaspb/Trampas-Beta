@@ -30,11 +30,16 @@ public class PalancaDePared : MonoBehaviour
 
     public GameObject ObjetoConElSonidoAjeno;
     public AudioClip SonidoAjeno;
+    public bool TIeneDialogo = false;
 
+    AudioSource AS_Dialogos;
+    public AudioClip Dialogo;
 
     // Start is called before the first frame update
     void Start()
     {
+         AS_Dialogos = GameObject.Find("Dialogos").GetComponent<AudioSource>();
+
         AnimacionBoton = FBXoriginal.GetComponent<Animation>();
 
         for (int i = 0; i < ArrayAnimaciones.Length; i++)
@@ -54,6 +59,7 @@ public class PalancaDePared : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.E) && Trigger.GetComponent<RevisionTrigger>().EstaEnTrigger && activada == false)
         {
+          
 
             if (!AnimacionBoton.IsPlaying("Accionar Boton"))
             {
@@ -70,6 +76,8 @@ public class PalancaDePared : MonoBehaviour
                     ControlDesencadenaSonido = true;
                 }
 
+                  
+
                 activada = true;
 
                 if (AnimacionAsignada != null)
@@ -80,11 +88,20 @@ public class PalancaDePared : MonoBehaviour
 
                         control = 1;
                         PrefabNivel.GetComponent<Animator>().Play(nombre, layer);
+ if(TIeneDialogo)
+                    {
 
+                        AS_Dialogos.clip = Dialogo;
+                        AS_Dialogos.Play();
+
+                    }
                     }
 
                 }
 
+                
+
+                
             }
 
             else

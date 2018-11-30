@@ -122,6 +122,7 @@ MonoBehaviour:
   Spawn: {fileID: 8160484712107780166}
   TriggerPuertaObjetivo: {fileID: 0}
   PisoTrampa: {fileID: 4412442360592692730}
+  Objetivo: {fileID: 0}
 --- !u!114 &7098592476376645997
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -420,11 +421,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8827722133809778356}
     m_Modifications:
-    - target: {fileID: 7557636664927981921, guid: 9e0a14f12ab3a474b9eea6713618a9c5,
-        type: 3}
-      propertyPath: m_Name
-      value: Prefab Martillo (6)
-      objectReference: {fileID: 0}
     - target: {fileID: 1362711784397186202, guid: 9e0a14f12ab3a474b9eea6713618a9c5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -480,6 +476,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7557636664927981921, guid: 9e0a14f12ab3a474b9eea6713618a9c5,
+        type: 3}
+      propertyPath: m_Name
+      value: Prefab Martillo (6)
+      objectReference: {fileID: 0}
     - target: {fileID: 42612561, guid: 9e0a14f12ab3a474b9eea6713618a9c5, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -503,11 +504,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8827722133809778356}
     m_Modifications:
-    - target: {fileID: 7557636664927981921, guid: 9e0a14f12ab3a474b9eea6713618a9c5,
-        type: 3}
-      propertyPath: m_Name
-      value: Prefab Martillo (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 1362711784397186202, guid: 9e0a14f12ab3a474b9eea6713618a9c5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -563,6 +559,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7557636664927981921, guid: 9e0a14f12ab3a474b9eea6713618a9c5,
+        type: 3}
+      propertyPath: m_Name
+      value: Prefab Martillo (2)
+      objectReference: {fileID: 0}
     - target: {fileID: 42612561, guid: 9e0a14f12ab3a474b9eea6713618a9c5, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -586,11 +587,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 367294394400733751}
     m_Modifications:
-    - target: {fileID: 8939737846215666014, guid: 153a6dc56563a0f44b9a7052f71eb391,
-        type: 3}
-      propertyPath: m_Name
-      value: Prefab Palanca Nivel 4 Variante (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 4330969063739086381, guid: 153a6dc56563a0f44b9a7052f71eb391,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -646,6 +642,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8939737846215666014, guid: 153a6dc56563a0f44b9a7052f71eb391,
+        type: 3}
+      propertyPath: m_Name
+      value: Prefab Palanca Nivel 4 Variante (3)
+      objectReference: {fileID: 0}
     - target: {fileID: 5800017809415448107, guid: 153a6dc56563a0f44b9a7052f71eb391,
         type: 3}
       propertyPath: m_Mesh
@@ -671,11 +672,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8827722133809778356}
     m_Modifications:
-    - target: {fileID: 7557636664927981921, guid: 9e0a14f12ab3a474b9eea6713618a9c5,
-        type: 3}
-      propertyPath: m_Name
-      value: Prefab Martillo (7)
-      objectReference: {fileID: 0}
     - target: {fileID: 1362711784397186202, guid: 9e0a14f12ab3a474b9eea6713618a9c5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -731,6 +727,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 89.99999
       objectReference: {fileID: 0}
+    - target: {fileID: 7557636664927981921, guid: 9e0a14f12ab3a474b9eea6713618a9c5,
+        type: 3}
+      propertyPath: m_Name
+      value: Prefab Martillo (7)
+      objectReference: {fileID: 0}
     - target: {fileID: 42612561, guid: 9e0a14f12ab3a474b9eea6713618a9c5, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -754,11 +755,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8827722133809778356}
     m_Modifications:
-    - target: {fileID: 7557636664927981921, guid: 9e0a14f12ab3a474b9eea6713618a9c5,
-        type: 3}
-      propertyPath: m_Name
-      value: Prefab Martillo (5)
-      objectReference: {fileID: 0}
     - target: {fileID: 1362711784397186202, guid: 9e0a14f12ab3a474b9eea6713618a9c5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -814,6 +810,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7557636664927981921, guid: 9e0a14f12ab3a474b9eea6713618a9c5,
+        type: 3}
+      propertyPath: m_Name
+      value: Prefab Martillo (5)
+      objectReference: {fileID: 0}
     - target: {fileID: 42612561, guid: 9e0a14f12ab3a474b9eea6713618a9c5, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -837,11 +838,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8827722133809778356}
     m_Modifications:
-    - target: {fileID: 7557636664927981921, guid: 9e0a14f12ab3a474b9eea6713618a9c5,
-        type: 3}
-      propertyPath: m_Name
-      value: Prefab Martillo
-      objectReference: {fileID: 0}
     - target: {fileID: 1362711784397186202, guid: 9e0a14f12ab3a474b9eea6713618a9c5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -897,6 +893,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7557636664927981921, guid: 9e0a14f12ab3a474b9eea6713618a9c5,
+        type: 3}
+      propertyPath: m_Name
+      value: Prefab Martillo
+      objectReference: {fileID: 0}
     - target: {fileID: 42612561, guid: 9e0a14f12ab3a474b9eea6713618a9c5, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -920,11 +921,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8827722133809778356}
     m_Modifications:
-    - target: {fileID: 7557636664927981921, guid: 9e0a14f12ab3a474b9eea6713618a9c5,
-        type: 3}
-      propertyPath: m_Name
-      value: Prefab Martillo (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 1362711784397186202, guid: 9e0a14f12ab3a474b9eea6713618a9c5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -980,6 +976,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7557636664927981921, guid: 9e0a14f12ab3a474b9eea6713618a9c5,
+        type: 3}
+      propertyPath: m_Name
+      value: Prefab Martillo (3)
+      objectReference: {fileID: 0}
     - target: {fileID: 42612561, guid: 9e0a14f12ab3a474b9eea6713618a9c5, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -1003,11 +1004,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 367294394400733751}
     m_Modifications:
-    - target: {fileID: 8939737846215666014, guid: 153a6dc56563a0f44b9a7052f71eb391,
-        type: 3}
-      propertyPath: m_Name
-      value: Prefab Palanca Nivel 4 Variante (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 4330969063739086381, guid: 153a6dc56563a0f44b9a7052f71eb391,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1063,6 +1059,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8939737846215666014, guid: 153a6dc56563a0f44b9a7052f71eb391,
+        type: 3}
+      propertyPath: m_Name
+      value: Prefab Palanca Nivel 4 Variante (2)
+      objectReference: {fileID: 0}
     - target: {fileID: 5800017809415448107, guid: 153a6dc56563a0f44b9a7052f71eb391,
         type: 3}
       propertyPath: m_Mesh
@@ -1088,11 +1089,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 367294394400733751}
     m_Modifications:
-    - target: {fileID: 8939737846215666014, guid: 153a6dc56563a0f44b9a7052f71eb391,
-        type: 3}
-      propertyPath: m_Name
-      value: Prefab Palanca Nivel 4 Variante (4)
-      objectReference: {fileID: 0}
     - target: {fileID: 4330969063739086381, guid: 153a6dc56563a0f44b9a7052f71eb391,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1148,6 +1144,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8939737846215666014, guid: 153a6dc56563a0f44b9a7052f71eb391,
+        type: 3}
+      propertyPath: m_Name
+      value: Prefab Palanca Nivel 4 Variante (4)
+      objectReference: {fileID: 0}
     - target: {fileID: 5800017809415448107, guid: 153a6dc56563a0f44b9a7052f71eb391,
         type: 3}
       propertyPath: m_Mesh
@@ -1185,11 +1186,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 9186324484775288904}
     m_Modifications:
-    - target: {fileID: 5051180518292078933, guid: c66fe9aae34acc94e821443b0ea82b4e,
-        type: 3}
-      propertyPath: m_Name
-      value: TriggerAnimaciones
-      objectReference: {fileID: 0}
     - target: {fileID: 5051180518292078930, guid: c66fe9aae34acc94e821443b0ea82b4e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1250,6 +1246,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2.1891
       objectReference: {fileID: 0}
+    - target: {fileID: 5051180518292078933, guid: c66fe9aae34acc94e821443b0ea82b4e,
+        type: 3}
+      propertyPath: m_Name
+      value: TriggerAnimaciones
+      objectReference: {fileID: 0}
     - target: {fileID: 5051180518292078929, guid: c66fe9aae34acc94e821443b0ea82b4e,
         type: 3}
       propertyPath: m_Enabled
@@ -1285,6 +1286,16 @@ PrefabInstance:
       propertyPath: AnimacionAsignada
       value: 
       objectReference: {fileID: 7400000, guid: d6f8e336cd7fcf247934c4a47ab010a4, type: 3}
+    - target: {fileID: 5051180518292078940, guid: c66fe9aae34acc94e821443b0ea82b4e,
+        type: 3}
+      propertyPath: TIeneDialogo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5051180518292078940, guid: c66fe9aae34acc94e821443b0ea82b4e,
+        type: 3}
+      propertyPath: Dialogo
+      value: 
+      objectReference: {fileID: 8300000, guid: 05180a4bdc6e00f4ab5b5d7f060f465d, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c66fe9aae34acc94e821443b0ea82b4e, type: 3}
 --- !u!4 &8814459307698300357 stripped
@@ -1352,14 +1363,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9500000, guid: d6f8e336cd7fcf247934c4a47ab010a4, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 92afafa49c213a841b9f9cc5d75a9e8a, type: 2}
     - target: {fileID: 6400004, guid: d6f8e336cd7fcf247934c4a47ab010a4, type: 3}
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: d6f8e336cd7fcf247934c4a47ab010a4, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 92afafa49c213a841b9f9cc5d75a9e8a, type: 2}
     - target: {fileID: 100016, guid: d6f8e336cd7fcf247934c4a47ab010a4, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -1391,11 +1402,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 367294394400733751}
     m_Modifications:
-    - target: {fileID: 8939737846215666014, guid: 153a6dc56563a0f44b9a7052f71eb391,
-        type: 3}
-      propertyPath: m_Name
-      value: Prefab Palanca Nivel 4 Variante
-      objectReference: {fileID: 0}
     - target: {fileID: 4330969063739086381, guid: 153a6dc56563a0f44b9a7052f71eb391,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1451,6 +1457,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8939737846215666014, guid: 153a6dc56563a0f44b9a7052f71eb391,
+        type: 3}
+      propertyPath: m_Name
+      value: Prefab Palanca Nivel 4 Variante
+      objectReference: {fileID: 0}
     - target: {fileID: 5800017809415448107, guid: 153a6dc56563a0f44b9a7052f71eb391,
         type: 3}
       propertyPath: m_Mesh
@@ -1476,11 +1487,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 367294394400733751}
     m_Modifications:
-    - target: {fileID: 8939737846215666014, guid: 153a6dc56563a0f44b9a7052f71eb391,
-        type: 3}
-      propertyPath: m_Name
-      value: Prefab Palanca Nivel 4 Variante (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 4330969063739086381, guid: 153a6dc56563a0f44b9a7052f71eb391,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1536,6 +1542,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8939737846215666014, guid: 153a6dc56563a0f44b9a7052f71eb391,
+        type: 3}
+      propertyPath: m_Name
+      value: Prefab Palanca Nivel 4 Variante (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 5800017809415448107, guid: 153a6dc56563a0f44b9a7052f71eb391,
         type: 3}
       propertyPath: m_Mesh
@@ -1561,11 +1572,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 367294394400733751}
     m_Modifications:
-    - target: {fileID: 8939737846215666014, guid: 153a6dc56563a0f44b9a7052f71eb391,
-        type: 3}
-      propertyPath: m_Name
-      value: Prefab Palanca Nivel 4 Variante (5)
-      objectReference: {fileID: 0}
     - target: {fileID: 4330969063739086381, guid: 153a6dc56563a0f44b9a7052f71eb391,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1621,6 +1627,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8939737846215666014, guid: 153a6dc56563a0f44b9a7052f71eb391,
+        type: 3}
+      propertyPath: m_Name
+      value: Prefab Palanca Nivel 4 Variante (5)
+      objectReference: {fileID: 0}
     - target: {fileID: 5800017809415448107, guid: 153a6dc56563a0f44b9a7052f71eb391,
         type: 3}
       propertyPath: m_Mesh
@@ -1658,11 +1669,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8827722133809778356}
     m_Modifications:
-    - target: {fileID: 7557636664927981921, guid: 9e0a14f12ab3a474b9eea6713618a9c5,
-        type: 3}
-      propertyPath: m_Name
-      value: Prefab Martillo (4)
-      objectReference: {fileID: 0}
     - target: {fileID: 1362711784397186202, guid: 9e0a14f12ab3a474b9eea6713618a9c5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1717,6 +1723,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7557636664927981921, guid: 9e0a14f12ab3a474b9eea6713618a9c5,
+        type: 3}
+      propertyPath: m_Name
+      value: Prefab Martillo (4)
       objectReference: {fileID: 0}
     - target: {fileID: 42612561, guid: 9e0a14f12ab3a474b9eea6713618a9c5, type: 3}
       propertyPath: m_Mesh
@@ -1836,11 +1847,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8827722133809778356}
     m_Modifications:
-    - target: {fileID: 7557636664927981921, guid: 9e0a14f12ab3a474b9eea6713618a9c5,
-        type: 3}
-      propertyPath: m_Name
-      value: Prefab Martillo (8)
-      objectReference: {fileID: 0}
     - target: {fileID: 1362711784397186202, guid: 9e0a14f12ab3a474b9eea6713618a9c5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1896,6 +1902,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7557636664927981921, guid: 9e0a14f12ab3a474b9eea6713618a9c5,
+        type: 3}
+      propertyPath: m_Name
+      value: Prefab Martillo (8)
+      objectReference: {fileID: 0}
     - target: {fileID: 42612561, guid: 9e0a14f12ab3a474b9eea6713618a9c5, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -1919,11 +1930,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8827722133809778356}
     m_Modifications:
-    - target: {fileID: 7557636664927981921, guid: 9e0a14f12ab3a474b9eea6713618a9c5,
-        type: 3}
-      propertyPath: m_Name
-      value: Prefab Martillo (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 1362711784397186202, guid: 9e0a14f12ab3a474b9eea6713618a9c5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1978,6 +1984,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7557636664927981921, guid: 9e0a14f12ab3a474b9eea6713618a9c5,
+        type: 3}
+      propertyPath: m_Name
+      value: Prefab Martillo (1)
       objectReference: {fileID: 0}
     - target: {fileID: 42612561, guid: 9e0a14f12ab3a474b9eea6713618a9c5, type: 3}
       propertyPath: m_Mesh

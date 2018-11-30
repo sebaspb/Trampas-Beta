@@ -44,9 +44,16 @@ public class TriggerAnimaciones : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        
+
+          
         if (other.CompareTag("Player"))
-        {
+        {          if(TIeneDialogo)
+                    {
+
+                        AS_Dialogos.PlayOneShot(Dialogo);
+                          Destroy(gameObject);
+
+                    }
             int control = 0;
 
             if (AnimacionAsignada != null)
@@ -74,13 +81,13 @@ public class TriggerAnimaciones : MonoBehaviour
                         }
                     }
 
-                    if(TIeneDialogo)
-                    {
+                    //if(TIeneDialogo)
+                   // {
 
-                        AS_Dialogos.clip = Dialogo;
-                        AS_Dialogos.Play();
+                    //    AS_Dialogos.clip = Dialogo;
+                    //    AS_Dialogos.Play();
 
-                    }
+                   // }
 
                    Destroy(gameObject);
                 }

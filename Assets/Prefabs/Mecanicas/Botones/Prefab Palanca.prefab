@@ -154,6 +154,8 @@ MonoBehaviour:
   DesencadenaSonido: 0
   ObjetoConElSonidoAjeno: {fileID: 0}
   SonidoAjeno: {fileID: 0}
+  TIeneDialogo: 0
+  Dialogo: {fileID: 0}
 --- !u!1001 &8613938969355527
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -294,15 +296,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4053986573451622205, guid: ceece5876a0d61e4f94ce8092e0d26e9,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 4053986573451622206, guid: ceece5876a0d61e4f94ce8092e0d26e9,
         type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4053986573451622205, guid: ceece5876a0d61e4f94ce8092e0d26e9,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 4053986573451622179, guid: ceece5876a0d61e4f94ce8092e0d26e9,
         type: 3}

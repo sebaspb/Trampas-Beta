@@ -18,13 +18,15 @@ public class ManagerNivel3 : MonoBehaviour
     public AudioClip SonidoCorrecto;
     bool sonidocorrecto = false;
 
-AudioSource AS_Dialogos;
+    AudioSource AS_Dialogos;
+
+    public AudioClip Objetivo;
 
 void Start()
 {
-
+    
     AS_Dialogos = GameObject.Find("Dialogos").GetComponent<AudioSource>();
-       if(GameManager.IDNivelActual == 2)
+       if(GameManager.IDNivelActual == 3)
         {
             Jugador.GetComponent<FPController>().Constraints.Move = true;
             Jugador.GetComponent<FPController>().Constraints.Jump = true;
@@ -73,12 +75,15 @@ void Start()
         if (ControlPalancas >= 8 && TriggerPuertaObjetivo !=null)
         {
 
+            
             TriggerPuertaObjetivo.SetActive(true);
             if (!sonidocorrecto) { 
             GetComponent<AudioSource>().PlayOneShot(SonidoCorrecto);
                 sonidocorrecto = true;
+                AS_Dialogos.PlayOneShot(Objetivo);
             }
-
+           
+            
         }
 
         if (ControlMuertes!=0 && TriggerSubirTecho != null)

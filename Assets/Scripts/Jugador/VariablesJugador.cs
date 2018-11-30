@@ -5,7 +5,7 @@ using UnityEngine;
 public class VariablesJugador : MonoBehaviour
 {
     [SerializeField]
-    public static float SaludJugador = 500f;
+    public static float SaludJugador = 500000f;
     
 
     // Start is called before the first frame update
