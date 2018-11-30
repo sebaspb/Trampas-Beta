@@ -72,6 +72,9 @@ public class GameManager : MonoBehaviour
         Jugador.transform.rotation = SpawnActual.transform.rotation;
         Jugador.GetComponent<FPController>().enabled = true;
         Jugador.GetComponent<FPController>().Init();
+
+  
+
     }
 
 
