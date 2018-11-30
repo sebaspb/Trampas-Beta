@@ -166,11 +166,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5057568707750801866}
     m_Modifications:
-    - target: {fileID: 5051180518292078933, guid: c66fe9aae34acc94e821443b0ea82b4e,
-        type: 3}
-      propertyPath: m_Name
-      value: TriggerAnimaciones
-      objectReference: {fileID: 0}
     - target: {fileID: 5051180518292078930, guid: c66fe9aae34acc94e821443b0ea82b4e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -225,6 +220,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5051180518292078933, guid: c66fe9aae34acc94e821443b0ea82b4e,
+        type: 3}
+      propertyPath: m_Name
+      value: TriggerAnimaciones
       objectReference: {fileID: 0}
     - target: {fileID: 5051180518292078929, guid: c66fe9aae34acc94e821443b0ea82b4e,
         type: 3}

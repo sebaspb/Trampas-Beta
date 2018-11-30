@@ -1213,11 +1213,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6375163161646239297}
     m_Modifications:
-    - target: {fileID: 5430406552588419104, guid: 5de4c86d6afeffe46a2c34ad59413f0d,
-        type: 3}
-      propertyPath: m_Name
-      value: Boton plataforma baja 2
-      objectReference: {fileID: 0}
     - target: {fileID: 325618494261757022, guid: 5de4c86d6afeffe46a2c34ad59413f0d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1273,6 +1268,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5430406552588419104, guid: 5de4c86d6afeffe46a2c34ad59413f0d,
+        type: 3}
+      propertyPath: m_Name
+      value: Boton plataforma baja 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4749739091532496309, guid: 5de4c86d6afeffe46a2c34ad59413f0d,
         type: 3}
       propertyPath: PrefabNivel
@@ -1323,11 +1323,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6375163161646239297}
     m_Modifications:
-    - target: {fileID: 5430406552588419104, guid: 5de4c86d6afeffe46a2c34ad59413f0d,
-        type: 3}
-      propertyPath: m_Name
-      value: Boton plataforma alta 2
-      objectReference: {fileID: 0}
     - target: {fileID: 325618494261757022, guid: 5de4c86d6afeffe46a2c34ad59413f0d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1382,6 +1377,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5430406552588419104, guid: 5de4c86d6afeffe46a2c34ad59413f0d,
+        type: 3}
+      propertyPath: m_Name
+      value: Boton plataforma alta 2
       objectReference: {fileID: 0}
     - target: {fileID: 4749739091532496309, guid: 5de4c86d6afeffe46a2c34ad59413f0d,
         type: 3}
@@ -1530,11 +1530,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6375163161646239297}
     m_Modifications:
-    - target: {fileID: 5430406552588419104, guid: 5de4c86d6afeffe46a2c34ad59413f0d,
-        type: 3}
-      propertyPath: m_Name
-      value: Boton Plataforma piso 2
-      objectReference: {fileID: 0}
     - target: {fileID: 325618494261757022, guid: 5de4c86d6afeffe46a2c34ad59413f0d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1590,6 +1585,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5430406552588419104, guid: 5de4c86d6afeffe46a2c34ad59413f0d,
+        type: 3}
+      propertyPath: m_Name
+      value: Boton Plataforma piso 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4749739091532496309, guid: 5de4c86d6afeffe46a2c34ad59413f0d,
         type: 3}
       propertyPath: PrefabNivel
@@ -1640,11 +1640,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6375163161646239297}
     m_Modifications:
-    - target: {fileID: 5430406552588419104, guid: 5de4c86d6afeffe46a2c34ad59413f0d,
-        type: 3}
-      propertyPath: m_Name
-      value: Boton Plataforma media 1
-      objectReference: {fileID: 0}
     - target: {fileID: 325618494261757022, guid: 5de4c86d6afeffe46a2c34ad59413f0d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1700,6 +1695,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5430406552588419104, guid: 5de4c86d6afeffe46a2c34ad59413f0d,
+        type: 3}
+      propertyPath: m_Name
+      value: Boton Plataforma media 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4749739091532496309, guid: 5de4c86d6afeffe46a2c34ad59413f0d,
         type: 3}
       propertyPath: PrefabNivel
@@ -1750,11 +1750,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6375163161646239297}
     m_Modifications:
-    - target: {fileID: 5430406552588419104, guid: 5de4c86d6afeffe46a2c34ad59413f0d,
-        type: 3}
-      propertyPath: m_Name
-      value: Boton plataforma media 2
-      objectReference: {fileID: 0}
     - target: {fileID: 325618494261757022, guid: 5de4c86d6afeffe46a2c34ad59413f0d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1809,6 +1804,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5430406552588419104, guid: 5de4c86d6afeffe46a2c34ad59413f0d,
+        type: 3}
+      propertyPath: m_Name
+      value: Boton plataforma media 2
       objectReference: {fileID: 0}
     - target: {fileID: 4749739091532496309, guid: 5de4c86d6afeffe46a2c34ad59413f0d,
         type: 3}
@@ -2017,11 +2017,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6375163161646239297}
     m_Modifications:
-    - target: {fileID: 5430406552588419104, guid: 5de4c86d6afeffe46a2c34ad59413f0d,
-        type: 3}
-      propertyPath: m_Name
-      value: Boton plataforma alta 1
-      objectReference: {fileID: 0}
     - target: {fileID: 325618494261757022, guid: 5de4c86d6afeffe46a2c34ad59413f0d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2077,6 +2072,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5430406552588419104, guid: 5de4c86d6afeffe46a2c34ad59413f0d,
+        type: 3}
+      propertyPath: m_Name
+      value: Boton plataforma alta 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4749739091532496309, guid: 5de4c86d6afeffe46a2c34ad59413f0d,
         type: 3}
       propertyPath: PrefabNivel
@@ -2127,11 +2127,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6375163161646239297}
     m_Modifications:
-    - target: {fileID: 5430406552588419104, guid: 5de4c86d6afeffe46a2c34ad59413f0d,
-        type: 3}
-      propertyPath: m_Name
-      value: Boton plataforma piso 1
-      objectReference: {fileID: 0}
     - target: {fileID: 325618494261757022, guid: 5de4c86d6afeffe46a2c34ad59413f0d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2187,6 +2182,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5430406552588419104, guid: 5de4c86d6afeffe46a2c34ad59413f0d,
+        type: 3}
+      propertyPath: m_Name
+      value: Boton plataforma piso 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4749739091532496309, guid: 5de4c86d6afeffe46a2c34ad59413f0d,
         type: 3}
       propertyPath: PrefabNivel
@@ -2237,11 +2237,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2277195006993667098}
     m_Modifications:
-    - target: {fileID: 5430406552588419104, guid: 5de4c86d6afeffe46a2c34ad59413f0d,
-        type: 3}
-      propertyPath: m_Name
-      value: Boton Plataforma baja 1
-      objectReference: {fileID: 0}
     - target: {fileID: 325618494261757022, guid: 5de4c86d6afeffe46a2c34ad59413f0d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2307,6 +2302,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5430406552588419104, guid: 5de4c86d6afeffe46a2c34ad59413f0d,
+        type: 3}
+      propertyPath: m_Name
+      value: Boton Plataforma baja 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4749739091532496309, guid: 5de4c86d6afeffe46a2c34ad59413f0d,
         type: 3}
       propertyPath: PrefabNivel
@@ -2351,16 +2351,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3841858955919565959}
     m_Modifications:
-    - target: {fileID: 6291375400069140692, guid: 4d96e4fba1914044ea3f2cd263d1c11b,
-        type: 3}
-      propertyPath: m_Name
-      value: TriggerAnimacion abrir salida
-      objectReference: {fileID: 0}
-    - target: {fileID: 6291375400069140692, guid: 4d96e4fba1914044ea3f2cd263d1c11b,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6291375400069140691, guid: 4d96e4fba1914044ea3f2cd263d1c11b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2414,6 +2404,16 @@ PrefabInstance:
     - target: {fileID: 6291375400069140691, guid: 4d96e4fba1914044ea3f2cd263d1c11b,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291375400069140692, guid: 4d96e4fba1914044ea3f2cd263d1c11b,
+        type: 3}
+      propertyPath: m_Name
+      value: TriggerAnimacion abrir salida
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291375400069140692, guid: 4d96e4fba1914044ea3f2cd263d1c11b,
+        type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6291375400069140695, guid: 4d96e4fba1914044ea3f2cd263d1c11b,
@@ -2477,11 +2477,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3841858955919565959}
     m_Modifications:
-    - target: {fileID: 6291375400069140692, guid: 4d96e4fba1914044ea3f2cd263d1c11b,
-        type: 3}
-      propertyPath: m_Name
-      value: TriggerAnimacion Cerrar puerta inicio
-      objectReference: {fileID: 0}
     - target: {fileID: 6291375400069140691, guid: 4d96e4fba1914044ea3f2cd263d1c11b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2536,6 +2531,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291375400069140692, guid: 4d96e4fba1914044ea3f2cd263d1c11b,
+        type: 3}
+      propertyPath: m_Name
+      value: TriggerAnimacion Cerrar puerta inicio
       objectReference: {fileID: 0}
     - target: {fileID: 6291375400069140695, guid: 4d96e4fba1914044ea3f2cd263d1c11b,
         type: 3}
@@ -2592,11 +2592,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3841858955919565959}
     m_Modifications:
-    - target: {fileID: 6291375400069140692, guid: 4d96e4fba1914044ea3f2cd263d1c11b,
-        type: 3}
-      propertyPath: m_Name
-      value: TriggerAnimacion Pared izquierda
-      objectReference: {fileID: 0}
     - target: {fileID: 6291375400069140691, guid: 4d96e4fba1914044ea3f2cd263d1c11b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2651,6 +2646,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291375400069140692, guid: 4d96e4fba1914044ea3f2cd263d1c11b,
+        type: 3}
+      propertyPath: m_Name
+      value: TriggerAnimacion Pared izquierda
       objectReference: {fileID: 0}
     - target: {fileID: 6291375400069140695, guid: 4d96e4fba1914044ea3f2cd263d1c11b,
         type: 3}
