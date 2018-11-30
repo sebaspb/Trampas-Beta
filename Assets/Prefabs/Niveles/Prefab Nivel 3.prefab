@@ -3088,6 +3088,16 @@ PrefabInstance:
       propertyPath: Sonido
       value: 
       objectReference: {fileID: 8300000, guid: 38ee3c7aab7076249b8c77d6102f29ad, type: 3}
+    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
+        type: 3}
+      propertyPath: TIeneDialogo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
+        type: 3}
+      propertyPath: Dialogo
+      value: 
+      objectReference: {fileID: 8300000, guid: ea61f0c34a01d6c42b30a96f5f91fa01, type: 3}
     - target: {fileID: 2620403764630606082, guid: 71da284abd316a345bfe3633680dc193,
         type: 3}
       propertyPath: m_Mesh

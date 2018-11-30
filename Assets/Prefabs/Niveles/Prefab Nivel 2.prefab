@@ -1466,12 +1466,12 @@ PrefabInstance:
     - target: {fileID: 5051180518292078930, guid: aa0d695a7c1eeff408cd4a370f4a1614,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 32.218468
+      value: 24.215
       objectReference: {fileID: 0}
     - target: {fileID: 5051180518292078930, guid: aa0d695a7c1eeff408cd4a370f4a1614,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.47341123
+      value: -0.473
       objectReference: {fileID: 0}
     - target: {fileID: 5051180518292078930, guid: aa0d695a7c1eeff408cd4a370f4a1614,
         type: 3}
@@ -1517,6 +1517,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5051180518292078930, guid: aa0d695a7c1eeff408cd4a370f4a1614,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 9.003
       objectReference: {fileID: 0}
     - target: {fileID: 5051180518292078934, guid: aa0d695a7c1eeff408cd4a370f4a1614,
         type: 3}
@@ -2469,6 +2474,16 @@ PrefabInstance:
       propertyPath: Sonido
       value: 
       objectReference: {fileID: 8300000, guid: 38ee3c7aab7076249b8c77d6102f29ad, type: 3}
+    - target: {fileID: 6291375400069140701, guid: 4d96e4fba1914044ea3f2cd263d1c11b,
+        type: 3}
+      propertyPath: TIeneDialogo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291375400069140701, guid: 4d96e4fba1914044ea3f2cd263d1c11b,
+        type: 3}
+      propertyPath: Dialogo
+      value: 
+      objectReference: {fileID: 8300000, guid: 629c23d7ceae0db4b8dd15330cf95501, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4d96e4fba1914044ea3f2cd263d1c11b, type: 3}
 --- !u!4 &4020946085955672386 stripped

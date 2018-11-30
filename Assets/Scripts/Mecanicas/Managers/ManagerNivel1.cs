@@ -11,7 +11,7 @@ public class ManagerNivel1 : MonoBehaviour
 
     private void Start()
     {
-
+if(GameManager.IDNivelActual==0){
         Jugador = GameObject.FindWithTag("Player");
         AS_Dialogos = GameObject.Find("Dialogos").GetComponent<AudioSource>();
 
@@ -19,6 +19,7 @@ public class ManagerNivel1 : MonoBehaviour
 
         StartCoroutine(HabilitarMovimiento(42f));
 
+    }
     }
     // Update is called once per frame
     void Update()
