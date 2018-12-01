@@ -1231,6 +1231,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boton plataforma baja 2
       objectReference: {fileID: 0}
+    - target: {fileID: 4468050566758203534, guid: 5de4c86d6afeffe46a2c34ad59413f0d,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4468050566758203536, guid: 5de4c86d6afeffe46a2c34ad59413f0d,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 325618494261757022, guid: 5de4c86d6afeffe46a2c34ad59413f0d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1311,16 +1321,6 @@ PrefabInstance:
       propertyPath: DesencadenaSonido
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4468050566758203534, guid: 5de4c86d6afeffe46a2c34ad59413f0d,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4468050566758203536, guid: 5de4c86d6afeffe46a2c34ad59413f0d,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5de4c86d6afeffe46a2c34ad59413f0d, type: 3}
 --- !u!4 &550884785972371795 stripped
@@ -1340,6 +1340,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Boton plataforma alta 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4468050566758203534, guid: 5de4c86d6afeffe46a2c34ad59413f0d,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4468050566758203536, guid: 5de4c86d6afeffe46a2c34ad59413f0d,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 325618494261757022, guid: 5de4c86d6afeffe46a2c34ad59413f0d,
         type: 3}
@@ -1421,16 +1431,6 @@ PrefabInstance:
       propertyPath: SonidoAjeno
       value: 
       objectReference: {fileID: 8300000, guid: e4ad3dae1a1d57c49b6b62e6e74d9ef0, type: 3}
-    - target: {fileID: 4468050566758203534, guid: 5de4c86d6afeffe46a2c34ad59413f0d,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4468050566758203536, guid: 5de4c86d6afeffe46a2c34ad59413f0d,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5de4c86d6afeffe46a2c34ad59413f0d, type: 3}
 --- !u!1 &5566363080149512849 stripped
@@ -1558,6 +1558,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boton Plataforma piso 2
       objectReference: {fileID: 0}
+    - target: {fileID: 4468050566758203534, guid: 5de4c86d6afeffe46a2c34ad59413f0d,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4468050566758203536, guid: 5de4c86d6afeffe46a2c34ad59413f0d,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 325618494261757022, guid: 5de4c86d6afeffe46a2c34ad59413f0d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1638,16 +1648,6 @@ PrefabInstance:
       propertyPath: DesencadenaSonido
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4468050566758203534, guid: 5de4c86d6afeffe46a2c34ad59413f0d,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4468050566758203536, guid: 5de4c86d6afeffe46a2c34ad59413f0d,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5de4c86d6afeffe46a2c34ad59413f0d, type: 3}
 --- !u!4 &945059712901664901 stripped
@@ -1667,6 +1667,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Boton Plataforma media 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4468050566758203534, guid: 5de4c86d6afeffe46a2c34ad59413f0d,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4468050566758203536, guid: 5de4c86d6afeffe46a2c34ad59413f0d,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 325618494261757022, guid: 5de4c86d6afeffe46a2c34ad59413f0d,
         type: 3}
@@ -1748,16 +1758,6 @@ PrefabInstance:
       propertyPath: DesencadenaSonido
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4468050566758203534, guid: 5de4c86d6afeffe46a2c34ad59413f0d,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4468050566758203536, guid: 5de4c86d6afeffe46a2c34ad59413f0d,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5de4c86d6afeffe46a2c34ad59413f0d, type: 3}
 --- !u!4 &1618598163077023203 stripped
@@ -1777,6 +1777,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Boton plataforma media 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4468050566758203534, guid: 5de4c86d6afeffe46a2c34ad59413f0d,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4468050566758203536, guid: 5de4c86d6afeffe46a2c34ad59413f0d,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 325618494261757022, guid: 5de4c86d6afeffe46a2c34ad59413f0d,
         type: 3}
@@ -1857,16 +1867,6 @@ PrefabInstance:
         type: 3}
       propertyPath: DesencadenaSonido
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4468050566758203534, guid: 5de4c86d6afeffe46a2c34ad59413f0d,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4468050566758203536, guid: 5de4c86d6afeffe46a2c34ad59413f0d,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5de4c86d6afeffe46a2c34ad59413f0d, type: 3}
@@ -2045,6 +2045,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boton plataforma alta 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4468050566758203534, guid: 5de4c86d6afeffe46a2c34ad59413f0d,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4468050566758203536, guid: 5de4c86d6afeffe46a2c34ad59413f0d,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 325618494261757022, guid: 5de4c86d6afeffe46a2c34ad59413f0d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2125,16 +2135,6 @@ PrefabInstance:
       propertyPath: DesencadenaSonido
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4468050566758203534, guid: 5de4c86d6afeffe46a2c34ad59413f0d,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4468050566758203536, guid: 5de4c86d6afeffe46a2c34ad59413f0d,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5de4c86d6afeffe46a2c34ad59413f0d, type: 3}
 --- !u!4 &3843032048480368816 stripped
@@ -2154,6 +2154,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Boton plataforma piso 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4468050566758203534, guid: 5de4c86d6afeffe46a2c34ad59413f0d,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4468050566758203536, guid: 5de4c86d6afeffe46a2c34ad59413f0d,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 325618494261757022, guid: 5de4c86d6afeffe46a2c34ad59413f0d,
         type: 3}
@@ -2235,16 +2245,6 @@ PrefabInstance:
       propertyPath: DesencadenaSonido
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4468050566758203534, guid: 5de4c86d6afeffe46a2c34ad59413f0d,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4468050566758203536, guid: 5de4c86d6afeffe46a2c34ad59413f0d,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5de4c86d6afeffe46a2c34ad59413f0d, type: 3}
 --- !u!4 &3528665176260883897 stripped
@@ -2264,6 +2264,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Boton Plataforma baja 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4468050566758203534, guid: 5de4c86d6afeffe46a2c34ad59413f0d,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4468050566758203536, guid: 5de4c86d6afeffe46a2c34ad59413f0d,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 325618494261757022, guid: 5de4c86d6afeffe46a2c34ad59413f0d,
         type: 3}
@@ -2355,16 +2365,6 @@ PrefabInstance:
       propertyPath: SonidoAjeno
       value: 
       objectReference: {fileID: 8300000, guid: e4ad3dae1a1d57c49b6b62e6e74d9ef0, type: 3}
-    - target: {fileID: 4468050566758203534, guid: 5de4c86d6afeffe46a2c34ad59413f0d,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4468050566758203536, guid: 5de4c86d6afeffe46a2c34ad59413f0d,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5de4c86d6afeffe46a2c34ad59413f0d, type: 3}
 --- !u!1001 &6954175469270993297
@@ -2383,6 +2383,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291375400069140695, guid: 4d96e4fba1914044ea3f2cd263d1c11b,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291375400069140689, guid: 4d96e4fba1914044ea3f2cd263d1c11b,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6291375400069140691, guid: 4d96e4fba1914044ea3f2cd263d1c11b,
         type: 3}
@@ -2438,16 +2448,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6291375400069140695, guid: 4d96e4fba1914044ea3f2cd263d1c11b,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6291375400069140689, guid: 4d96e4fba1914044ea3f2cd263d1c11b,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6291375400069140688, guid: 4d96e4fba1914044ea3f2cd263d1c11b,
         type: 3}
@@ -2515,6 +2515,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: TriggerAnimacion Cerrar puerta inicio
       objectReference: {fileID: 0}
+    - target: {fileID: 6291375400069140695, guid: 4d96e4fba1914044ea3f2cd263d1c11b,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291375400069140689, guid: 4d96e4fba1914044ea3f2cd263d1c11b,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 6291375400069140691, guid: 4d96e4fba1914044ea3f2cd263d1c11b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2580,16 +2590,6 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6291375400069140695, guid: 4d96e4fba1914044ea3f2cd263d1c11b,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6291375400069140689, guid: 4d96e4fba1914044ea3f2cd263d1c11b,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 6291375400069140688, guid: 4d96e4fba1914044ea3f2cd263d1c11b,
         type: 3}
       propertyPath: m_Enabled
@@ -2650,6 +2650,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: TriggerAnimacion Pared izquierda
       objectReference: {fileID: 0}
+    - target: {fileID: 6291375400069140695, guid: 4d96e4fba1914044ea3f2cd263d1c11b,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291375400069140689, guid: 4d96e4fba1914044ea3f2cd263d1c11b,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 6291375400069140691, guid: 4d96e4fba1914044ea3f2cd263d1c11b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2704,16 +2714,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6291375400069140695, guid: 4d96e4fba1914044ea3f2cd263d1c11b,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6291375400069140689, guid: 4d96e4fba1914044ea3f2cd263d1c11b,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6291375400069140688, guid: 4d96e4fba1914044ea3f2cd263d1c11b,
         type: 3}

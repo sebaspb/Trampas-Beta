@@ -20,20 +20,41 @@ public class UIManager : MonoBehaviour
     GameObject Jugador;
     bool EstaMuerto;
 
+    GameObject ObjetoMusica;
+    public AudioSource AS_Musica;
+    public Slider SliderMusica;
+    
+    public Slider SliderEfectos;
+    
     Scene escena;
     
 
     // Start is called before the first frame update
     void Start()
     {
+
+
+        DontDestroyOnLoad(this.gameObject);
+        ObjetoMusica = GameObject.Find("MusicSource");
+        AS_Musica = ObjetoMusica.GetComponent<AudioSource>();
+        AS_Musica.ignoreListenerVolume = true;
+
+
+        SliderMusica.value = PlayerPrefs.GetFloat("VolumenMusica");
+        SliderEfectos.value = PlayerPrefs.GetFloat("VolumenEfectos");
+
+
         Jugador = GameObject.FindGameObjectWithTag("Player");
+        
         
     }
 
     // Update is called once per frame
     void Update()
     {
-        escena=SceneManager.GetActiveScene();
+      
+
+        escena =SceneManager.GetActiveScene();
         Debug.Log(escena.name);
 
         if (Input.GetKeyDown(KeyCode.P))
@@ -52,6 +73,27 @@ public class UIManager : MonoBehaviour
             StartCoroutine(Resurreccion(3f));
 
         }
+
+        
+            if (TriggerFinal.ganaste == true)
+            {
+
+                victoria();
+            }
+
+            Volumen();
+        
+    }
+
+        void victoria()
+        {
+        Debug.Log("ganaste");
+        }
+
+    void Volumen()
+    {
+        AS_Musica.volume = SliderMusica.value;
+        AudioListener.volume=SliderEfectos.value;
     }
 
     void Pausa()
@@ -59,9 +101,12 @@ public class UIManager : MonoBehaviour
     {
 
         MenuPausa.SetActive(true);
-        Time.timeScale = 0.0f;
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.None;
+        AS_Musica.Pause();
+        AudioListener.pause = true;
+        Time.timeScale = 0.0f;
+        
         Jugador.GetComponent<FPController>().Constraints.Control = false;
 
 
@@ -69,11 +114,13 @@ public class UIManager : MonoBehaviour
 
     public void QuitarPausa()
     {
-
-        MenuPausa.SetActive(false);
-        Time.timeScale = 1.0f;
+        AS_Musica.Play();
+        AudioListener.pause = false;
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
+        MenuPausa.SetActive(false);
+        Time.timeScale = 1.0f;
+      
         Jugador.GetComponent<FPController>().Constraints.Control = true;
 
 
@@ -158,14 +205,18 @@ public class UIManager : MonoBehaviour
 
     public void Salir()
     {
-
+        PlayerPrefs.SetFloat("VolumenMusica", SliderMusica.value);
+        PlayerPrefs.SetFloat("VolumenEfectos", SliderEfectos.value);
+       
         Application.Quit();
 
     }
 
     public void CambiarEscena(string nombreEscena)
     {
-
+        PlayerPrefs.SetFloat("VolumenMusica", SliderMusica.value);
+        PlayerPrefs.SetFloat("VolumenEfectos", SliderEfectos.value);
+        
         SceneManager.LoadScene(nombreEscena);
                
 

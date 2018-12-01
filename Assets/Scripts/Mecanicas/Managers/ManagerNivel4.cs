@@ -49,7 +49,7 @@ public class ManagerNivel4 : MonoBehaviour
 
         }
 
-                 if (ControlPalancas == 6)
+                 if (ControlPalancas == 0)
         {
             
             PisoTrampa.GetComponent<MeshCollider>().enabled = false;

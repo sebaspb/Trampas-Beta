@@ -1709,6 +1709,61 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
+        type: 3}
+      propertyPath: ArrayAnimaciones.Array.size
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
+        type: 3}
+      propertyPath: FBXAAnimar
+      value: 
+      objectReference: {fileID: 7356452800593115290}
+    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
+        type: 3}
+      propertyPath: ArrayAnimaciones.Array.data[9]
+      value: 
+      objectReference: {fileID: 7400018, guid: d634c8ea08f4f7e4d91844c0075321ea, type: 3}
+    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
+        type: 3}
+      propertyPath: AnimacionAsignada
+      value: 
+      objectReference: {fileID: 7400018, guid: d634c8ea08f4f7e4d91844c0075321ea, type: 3}
+    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
+        type: 3}
+      propertyPath: ObjetoConElSonido
+      value: 
+      objectReference: {fileID: 7356452800593115324}
+    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
+        type: 3}
+      propertyPath: TieneSonido
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
+        type: 3}
+      propertyPath: Sonido
+      value: 
+      objectReference: {fileID: 8300000, guid: 9c7ffded0a73df645805a506dfa4aa78, type: 3}
+    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
+        type: 3}
+      propertyPath: TIeneDialogo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
+        type: 3}
+      propertyPath: Dialogo
+      value: 
+      objectReference: {fileID: 8300000, guid: 71cb5869014e3e240bda82fe13f296a1, type: 3}
+    - target: {fileID: 2620403764630606082, guid: 71da284abd316a345bfe3633680dc193,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2620403764630606084, guid: 71da284abd316a345bfe3633680dc193,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 2620403764630606086, guid: 71da284abd316a345bfe3633680dc193,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1774,55 +1829,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 31.519972
       objectReference: {fileID: 0}
-    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
+    - target: {fileID: 2620403764630606085, guid: 71da284abd316a345bfe3633680dc193,
         type: 3}
-      propertyPath: ArrayAnimaciones.Array.size
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
-        type: 3}
-      propertyPath: FBXAAnimar
-      value: 
-      objectReference: {fileID: 7356452800593115290}
-    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
-        type: 3}
-      propertyPath: ArrayAnimaciones.Array.data[9]
-      value: 
-      objectReference: {fileID: 7400018, guid: d634c8ea08f4f7e4d91844c0075321ea, type: 3}
-    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
-        type: 3}
-      propertyPath: AnimacionAsignada
-      value: 
-      objectReference: {fileID: 7400018, guid: d634c8ea08f4f7e4d91844c0075321ea, type: 3}
-    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
-        type: 3}
-      propertyPath: ObjetoConElSonido
-      value: 
-      objectReference: {fileID: 7356452800593115324}
-    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
-        type: 3}
-      propertyPath: TieneSonido
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
-        type: 3}
-      propertyPath: Sonido
-      value: 
-      objectReference: {fileID: 8300000, guid: 9c7ffded0a73df645805a506dfa4aa78, type: 3}
-    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
-        type: 3}
-      propertyPath: TIeneDialogo
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
-        type: 3}
-      propertyPath: Dialogo
-      value: 
-      objectReference: {fileID: 8300000, guid: 71cb5869014e3e240bda82fe13f296a1, type: 3}
-    - target: {fileID: 2620403764630606082, guid: 71da284abd316a345bfe3633680dc193,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2620403764630606083, guid: 71da284abd316a345bfe3633680dc193,
         type: 3}
@@ -2334,16 +2344,6 @@ PrefabInstance:
       propertyPath: _uv.Array.data[23].y
       value: 0.8492321
       objectReference: {fileID: 0}
-    - target: {fileID: 2620403764630606084, guid: 71da284abd316a345bfe3633680dc193,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 2620403764630606085, guid: 71da284abd316a345bfe3633680dc193,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 71da284abd316a345bfe3633680dc193, type: 3}
 --- !u!1 &2620403765724575959 stripped
@@ -2374,6 +2374,51 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
+        type: 3}
+      propertyPath: FBXAAnimar
+      value: 
+      objectReference: {fileID: 7356452800593115290}
+    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
+        type: 3}
+      propertyPath: AnimacionAsignada
+      value: 
+      objectReference: {fileID: 7400006, guid: d634c8ea08f4f7e4d91844c0075321ea, type: 3}
+    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
+        type: 3}
+      propertyPath: TieneSonido
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
+        type: 3}
+      propertyPath: ObjetoConElSonido
+      value: 
+      objectReference: {fileID: 7356452800593115304}
+    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
+        type: 3}
+      propertyPath: Sonido
+      value: 
+      objectReference: {fileID: 8300000, guid: 38ee3c7aab7076249b8c77d6102f29ad, type: 3}
+    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
+        type: 3}
+      propertyPath: DesactivaObjeto
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
+        type: 3}
+      propertyPath: ObjetoADesactivar
+      value: 
+      objectReference: {fileID: 7356452800593115298}
+    - target: {fileID: 2620403764630606082, guid: 71da284abd316a345bfe3633680dc193,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2620403764630606084, guid: 71da284abd316a345bfe3633680dc193,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 2620403764630606086, guid: 71da284abd316a345bfe3633680dc193,
         type: 3}
@@ -2440,46 +2485,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1.8690008
       objectReference: {fileID: 0}
-    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
-        type: 3}
-      propertyPath: FBXAAnimar
-      value: 
-      objectReference: {fileID: 7356452800593115290}
-    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
-        type: 3}
-      propertyPath: AnimacionAsignada
-      value: 
-      objectReference: {fileID: 7400006, guid: d634c8ea08f4f7e4d91844c0075321ea, type: 3}
-    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
-        type: 3}
-      propertyPath: TieneSonido
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
-        type: 3}
-      propertyPath: ObjetoConElSonido
-      value: 
-      objectReference: {fileID: 7356452800593115304}
-    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
-        type: 3}
-      propertyPath: Sonido
-      value: 
-      objectReference: {fileID: 8300000, guid: 38ee3c7aab7076249b8c77d6102f29ad, type: 3}
-    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
-        type: 3}
-      propertyPath: DesactivaObjeto
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
-        type: 3}
-      propertyPath: ObjetoADesactivar
-      value: 
-      objectReference: {fileID: 7356452800593115298}
-    - target: {fileID: 2620403764630606082, guid: 71da284abd316a345bfe3633680dc193,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 2620403764630606083, guid: 71da284abd316a345bfe3633680dc193,
         type: 3}
       propertyPath: _quads.Array.data[0]._uv.localPivot.x
@@ -2990,11 +2995,6 @@ PrefabInstance:
       propertyPath: _uv.Array.data[23].y
       value: 0.8492321
       objectReference: {fileID: 0}
-    - target: {fileID: 2620403764630606084, guid: 71da284abd316a345bfe3633680dc193,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 71da284abd316a345bfe3633680dc193, type: 3}
 --- !u!4 &2620403765150127557 stripped
@@ -3020,6 +3020,51 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Trigger cerrar puerta inicial
+      objectReference: {fileID: 0}
+    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
+        type: 3}
+      propertyPath: FBXAAnimar
+      value: 
+      objectReference: {fileID: 7356452800593115290}
+    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
+        type: 3}
+      propertyPath: AnimacionAsignada
+      value: 
+      objectReference: {fileID: 7400000, guid: d634c8ea08f4f7e4d91844c0075321ea, type: 3}
+    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
+        type: 3}
+      propertyPath: TieneSonido
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
+        type: 3}
+      propertyPath: ObjetoConElSonido
+      value: 
+      objectReference: {fileID: 7356452800593115280}
+    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
+        type: 3}
+      propertyPath: Sonido
+      value: 
+      objectReference: {fileID: 8300000, guid: 38ee3c7aab7076249b8c77d6102f29ad, type: 3}
+    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
+        type: 3}
+      propertyPath: TIeneDialogo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
+        type: 3}
+      propertyPath: Dialogo
+      value: 
+      objectReference: {fileID: 8300000, guid: ed7646873a0cf104caf1203faab3a53a, type: 3}
+    - target: {fileID: 2620403764630606082, guid: 71da284abd316a345bfe3633680dc193,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2620403764630606084, guid: 71da284abd316a345bfe3633680dc193,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 2620403764630606086, guid: 71da284abd316a345bfe3633680dc193,
         type: 3}
@@ -3076,45 +3121,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
+    - target: {fileID: 2620403764630606085, guid: 71da284abd316a345bfe3633680dc193,
         type: 3}
-      propertyPath: FBXAAnimar
-      value: 
-      objectReference: {fileID: 7356452800593115290}
-    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
-        type: 3}
-      propertyPath: AnimacionAsignada
-      value: 
-      objectReference: {fileID: 7400000, guid: d634c8ea08f4f7e4d91844c0075321ea, type: 3}
-    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
-        type: 3}
-      propertyPath: TieneSonido
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
-        type: 3}
-      propertyPath: ObjetoConElSonido
-      value: 
-      objectReference: {fileID: 7356452800593115280}
-    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
-        type: 3}
-      propertyPath: Sonido
-      value: 
-      objectReference: {fileID: 8300000, guid: 38ee3c7aab7076249b8c77d6102f29ad, type: 3}
-    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
-        type: 3}
-      propertyPath: TIeneDialogo
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
-        type: 3}
-      propertyPath: Dialogo
-      value: 
-      objectReference: {fileID: 8300000, guid: ed7646873a0cf104caf1203faab3a53a, type: 3}
-    - target: {fileID: 2620403764630606082, guid: 71da284abd316a345bfe3633680dc193,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2620403764630606083, guid: 71da284abd316a345bfe3633680dc193,
         type: 3}
@@ -3626,16 +3636,6 @@ PrefabInstance:
       propertyPath: _uv.Array.data[23].y
       value: 0.8492321
       objectReference: {fileID: 0}
-    - target: {fileID: 2620403764630606084, guid: 71da284abd316a345bfe3633680dc193,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 2620403764630606085, guid: 71da284abd316a345bfe3633680dc193,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 71da284abd316a345bfe3633680dc193, type: 3}
 --- !u!4 &2738375826706978691 stripped
@@ -3655,6 +3655,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Colision Armadura (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7355826328514907775, guid: 839c11095f2398b4aa246eb59e536fb0,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7355826328514907773, guid: 839c11095f2398b4aa246eb59e536fb0,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7355826328514907769, guid: 839c11095f2398b4aa246eb59e536fb0,
         type: 3}
@@ -3710,11 +3720,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7355826328514907775, guid: 839c11095f2398b4aa246eb59e536fb0,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7355826328514907774, guid: 839c11095f2398b4aa246eb59e536fb0,
         type: 3}
@@ -3956,11 +3961,6 @@ PrefabInstance:
       propertyPath: _uv.Array.data[23].y
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 7355826328514907773, guid: 839c11095f2398b4aa246eb59e536fb0,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 7355826328514907768, guid: 839c11095f2398b4aa246eb59e536fb0,
         type: 3}
       propertyPath: m_Enabled
@@ -3979,6 +3979,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Prefab Palanca Nivel 3 Variante (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5535022796953832748, guid: f21de238897414149ba77cca9725d4b3,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5535022796953832754, guid: f21de238897414149ba77cca9725d4b3,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 2357394666034642228, guid: f21de238897414149ba77cca9725d4b3,
         type: 3}
@@ -4040,16 +4050,6 @@ PrefabInstance:
       propertyPath: PrefabNivel
       value: 
       objectReference: {fileID: 7356452800593115290}
-    - target: {fileID: 5535022796953832748, guid: f21de238897414149ba77cca9725d4b3,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 5535022796953832754, guid: f21de238897414149ba77cca9725d4b3,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f21de238897414149ba77cca9725d4b3, type: 3}
 --- !u!1 &6796680315278233995 stripped
@@ -4081,6 +4081,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Colision Armadura
+      objectReference: {fileID: 0}
+    - target: {fileID: 7355826328514907775, guid: 839c11095f2398b4aa246eb59e536fb0,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7355826328514907773, guid: 839c11095f2398b4aa246eb59e536fb0,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7355826328514907769, guid: 839c11095f2398b4aa246eb59e536fb0,
         type: 3}
@@ -4136,11 +4146,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7355826328514907775, guid: 839c11095f2398b4aa246eb59e536fb0,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7355826328514907774, guid: 839c11095f2398b4aa246eb59e536fb0,
         type: 3}
@@ -4382,11 +4387,6 @@ PrefabInstance:
       propertyPath: _uv.Array.data[23].y
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 7355826328514907773, guid: 839c11095f2398b4aa246eb59e536fb0,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 7355826328514907768, guid: 839c11095f2398b4aa246eb59e536fb0,
         type: 3}
       propertyPath: m_Enabled
@@ -4405,6 +4405,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Colision Armadura
+      objectReference: {fileID: 0}
+    - target: {fileID: 7355826328514907775, guid: 839c11095f2398b4aa246eb59e536fb0,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7355826328514907773, guid: 839c11095f2398b4aa246eb59e536fb0,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7355826328514907769, guid: 839c11095f2398b4aa246eb59e536fb0,
         type: 3}
@@ -4475,11 +4485,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.45185047
-      objectReference: {fileID: 0}
-    - target: {fileID: 7355826328514907775, guid: 839c11095f2398b4aa246eb59e536fb0,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7355826328514907774, guid: 839c11095f2398b4aa246eb59e536fb0,
         type: 3}
@@ -7676,11 +7681,6 @@ PrefabInstance:
       propertyPath: _colors.Array.data[55].a
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 7355826328514907773, guid: 839c11095f2398b4aa246eb59e536fb0,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 7355826328514907768, guid: 839c11095f2398b4aa246eb59e536fb0,
         type: 3}
       propertyPath: m_Enabled
@@ -7699,6 +7699,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Prefab Palanca Nivel 3 Variante (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5535022796953832748, guid: f21de238897414149ba77cca9725d4b3,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5535022796953832754, guid: f21de238897414149ba77cca9725d4b3,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 2357394666034642228, guid: f21de238897414149ba77cca9725d4b3,
         type: 3}
@@ -7760,16 +7770,6 @@ PrefabInstance:
       propertyPath: PrefabNivel
       value: 
       objectReference: {fileID: 7356452800593115290}
-    - target: {fileID: 5535022796953832748, guid: f21de238897414149ba77cca9725d4b3,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 5535022796953832754, guid: f21de238897414149ba77cca9725d4b3,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f21de238897414149ba77cca9725d4b3, type: 3}
 --- !u!1 &6306074873150944553 stripped
@@ -7801,6 +7801,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Colision Armadura (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7355826328514907775, guid: 839c11095f2398b4aa246eb59e536fb0,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7355826328514907773, guid: 839c11095f2398b4aa246eb59e536fb0,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7355826328514907769, guid: 839c11095f2398b4aa246eb59e536fb0,
         type: 3}
@@ -7857,11 +7867,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7355826328514907775, guid: 839c11095f2398b4aa246eb59e536fb0,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 7355826328514907774, guid: 839c11095f2398b4aa246eb59e536fb0,
         type: 3}
       propertyPath: _quads.Array.data[0]._uv.localPivot.y
@@ -8102,11 +8107,6 @@ PrefabInstance:
       propertyPath: _uv.Array.data[23].y
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 7355826328514907773, guid: 839c11095f2398b4aa246eb59e536fb0,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 7355826328514907768, guid: 839c11095f2398b4aa246eb59e536fb0,
         type: 3}
       propertyPath: m_Enabled
@@ -8125,6 +8125,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Colision Armadura (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7355826328514907775, guid: 839c11095f2398b4aa246eb59e536fb0,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7355826328514907773, guid: 839c11095f2398b4aa246eb59e536fb0,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7355826328514907769, guid: 839c11095f2398b4aa246eb59e536fb0,
         type: 3}
@@ -8181,11 +8191,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7355826328514907775, guid: 839c11095f2398b4aa246eb59e536fb0,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 7355826328514907774, guid: 839c11095f2398b4aa246eb59e536fb0,
         type: 3}
       propertyPath: _quads.Array.data[0]._uv.localPivot.y
@@ -8426,11 +8431,6 @@ PrefabInstance:
       propertyPath: _uv.Array.data[23].y
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 7355826328514907773, guid: 839c11095f2398b4aa246eb59e536fb0,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 7355826328514907768, guid: 839c11095f2398b4aa246eb59e536fb0,
         type: 3}
       propertyPath: m_Enabled
@@ -8454,6 +8454,46 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
+        type: 3}
+      propertyPath: FBXAAnimar
+      value: 
+      objectReference: {fileID: 7356452800593115290}
+    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
+        type: 3}
+      propertyPath: AnimacionAsignada
+      value: 
+      objectReference: {fileID: 7400014, guid: d634c8ea08f4f7e4d91844c0075321ea, type: 3}
+    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
+        type: 3}
+      propertyPath: ObjetoConElSonido
+      value: 
+      objectReference: {fileID: 7356452800593115298}
+    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
+        type: 3}
+      propertyPath: TieneSonido
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
+        type: 3}
+      propertyPath: Sonido
+      value: 
+      objectReference: {fileID: 8300000, guid: 32cb417713e92d841830d157e68b66e9, type: 3}
+    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
+        type: 3}
+      propertyPath: EsConstante
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2620403764630606082, guid: 71da284abd316a345bfe3633680dc193,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2620403764630606084, guid: 71da284abd316a345bfe3633680dc193,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 2620403764630606086, guid: 71da284abd316a345bfe3633680dc193,
         type: 3}
@@ -8515,40 +8555,15 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 7.3864565
       objectReference: {fileID: 0}
-    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
+    - target: {fileID: 2620403764630606085, guid: 71da284abd316a345bfe3633680dc193,
         type: 3}
-      propertyPath: FBXAAnimar
-      value: 
-      objectReference: {fileID: 7356452800593115290}
-    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
-        type: 3}
-      propertyPath: AnimacionAsignada
-      value: 
-      objectReference: {fileID: 7400014, guid: d634c8ea08f4f7e4d91844c0075321ea, type: 3}
-    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
-        type: 3}
-      propertyPath: ObjetoConElSonido
-      value: 
-      objectReference: {fileID: 7356452800593115298}
-    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
-        type: 3}
-      propertyPath: TieneSonido
-      value: 1
+      propertyPath: m_ReceiveShadows
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
+    - target: {fileID: 2620403764630606085, guid: 71da284abd316a345bfe3633680dc193,
         type: 3}
-      propertyPath: Sonido
-      value: 
-      objectReference: {fileID: 8300000, guid: 32cb417713e92d841830d157e68b66e9, type: 3}
-    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
-        type: 3}
-      propertyPath: EsConstante
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2620403764630606082, guid: 71da284abd316a345bfe3633680dc193,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2620403764630606083, guid: 71da284abd316a345bfe3633680dc193,
         type: 3}
@@ -8935,21 +8950,6 @@ PrefabInstance:
       propertyPath: _uv.Array.data[23].y
       value: 2.7191315
       objectReference: {fileID: 0}
-    - target: {fileID: 2620403764630606084, guid: 71da284abd316a345bfe3633680dc193,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 2620403764630606085, guid: 71da284abd316a345bfe3633680dc193,
-        type: 3}
-      propertyPath: m_ReceiveShadows
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2620403764630606085, guid: 71da284abd316a345bfe3633680dc193,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 71da284abd316a345bfe3633680dc193, type: 3}
 --- !u!4 &24465409871359484 stripped
@@ -8975,6 +8975,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Colision Armadura (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7355826328514907775, guid: 839c11095f2398b4aa246eb59e536fb0,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7355826328514907773, guid: 839c11095f2398b4aa246eb59e536fb0,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7355826328514907769, guid: 839c11095f2398b4aa246eb59e536fb0,
         type: 3}
@@ -9030,11 +9040,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7355826328514907775, guid: 839c11095f2398b4aa246eb59e536fb0,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7355826328514907774, guid: 839c11095f2398b4aa246eb59e536fb0,
         type: 3}
@@ -9276,11 +9281,6 @@ PrefabInstance:
       propertyPath: _uv.Array.data[23].y
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 7355826328514907773, guid: 839c11095f2398b4aa246eb59e536fb0,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 7355826328514907768, guid: 839c11095f2398b4aa246eb59e536fb0,
         type: 3}
       propertyPath: m_Enabled
@@ -9299,6 +9299,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Prefab Palanca Nivel 3 Variante (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5535022796953832748, guid: f21de238897414149ba77cca9725d4b3,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5535022796953832754, guid: f21de238897414149ba77cca9725d4b3,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 2357394666034642228, guid: f21de238897414149ba77cca9725d4b3,
         type: 3}
@@ -9380,16 +9390,6 @@ PrefabInstance:
       propertyPath: SonidoAjeno
       value: 
       objectReference: {fileID: 8300000, guid: 38ee3c7aab7076249b8c77d6102f29ad, type: 3}
-    - target: {fileID: 5535022796953832748, guid: f21de238897414149ba77cca9725d4b3,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 5535022796953832754, guid: f21de238897414149ba77cca9725d4b3,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f21de238897414149ba77cca9725d4b3, type: 3}
 --- !u!1 &5092796239844888119 stripped
@@ -9421,6 +9421,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Prefab Palanca Nivel 3 Variante (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5535022796953832748, guid: f21de238897414149ba77cca9725d4b3,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5535022796953832754, guid: f21de238897414149ba77cca9725d4b3,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 2357394666034642228, guid: f21de238897414149ba77cca9725d4b3,
         type: 3}
@@ -9497,16 +9507,6 @@ PrefabInstance:
       propertyPath: PrefabNivel
       value: 
       objectReference: {fileID: 7356452800593115290}
-    - target: {fileID: 5535022796953832748, guid: f21de238897414149ba77cca9725d4b3,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 5535022796953832754, guid: f21de238897414149ba77cca9725d4b3,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f21de238897414149ba77cca9725d4b3, type: 3}
 --- !u!1 &7323464832878941458 stripped
@@ -9532,6 +9532,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Colision Armadura (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7355826328514907775, guid: 839c11095f2398b4aa246eb59e536fb0,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7355826328514907773, guid: 839c11095f2398b4aa246eb59e536fb0,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7355826328514907769, guid: 839c11095f2398b4aa246eb59e536fb0,
         type: 3}
@@ -9588,11 +9598,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7355826328514907775, guid: 839c11095f2398b4aa246eb59e536fb0,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 7355826328514907774, guid: 839c11095f2398b4aa246eb59e536fb0,
         type: 3}
       propertyPath: _quads.Array.data[0]._uv.localPivot.y
@@ -9833,11 +9838,6 @@ PrefabInstance:
       propertyPath: _uv.Array.data[23].y
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 7355826328514907773, guid: 839c11095f2398b4aa246eb59e536fb0,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 7355826328514907768, guid: 839c11095f2398b4aa246eb59e536fb0,
         type: 3}
       propertyPath: m_Enabled
@@ -9856,6 +9856,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Colision Armadura (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7355826328514907775, guid: 839c11095f2398b4aa246eb59e536fb0,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7355826328514907773, guid: 839c11095f2398b4aa246eb59e536fb0,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7355826328514907769, guid: 839c11095f2398b4aa246eb59e536fb0,
         type: 3}
@@ -9912,11 +9922,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7355826328514907775, guid: 839c11095f2398b4aa246eb59e536fb0,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 7355826328514907774, guid: 839c11095f2398b4aa246eb59e536fb0,
         type: 3}
       propertyPath: _quads.Array.data[0]._uv.localPivot.y
@@ -10157,11 +10162,6 @@ PrefabInstance:
       propertyPath: _uv.Array.data[23].y
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 7355826328514907773, guid: 839c11095f2398b4aa246eb59e536fb0,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 7355826328514907768, guid: 839c11095f2398b4aa246eb59e536fb0,
         type: 3}
       propertyPath: m_Enabled
@@ -10180,6 +10180,41 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Trigger abrir subpuertas
+      objectReference: {fileID: 0}
+    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
+        type: 3}
+      propertyPath: FBXAAnimar
+      value: 
+      objectReference: {fileID: 7356452800593115290}
+    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
+        type: 3}
+      propertyPath: AnimacionAsignada
+      value: 
+      objectReference: {fileID: 7400002, guid: d634c8ea08f4f7e4d91844c0075321ea, type: 3}
+    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
+        type: 3}
+      propertyPath: TieneSonido
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
+        type: 3}
+      propertyPath: ObjetoConElSonido
+      value: 
+      objectReference: {fileID: 7356452800593115302}
+    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
+        type: 3}
+      propertyPath: Sonido
+      value: 
+      objectReference: {fileID: 8300000, guid: 41fbf371ce0983649a3c02e93c00bc68, type: 3}
+    - target: {fileID: 2620403764630606082, guid: 71da284abd316a345bfe3633680dc193,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2620403764630606084, guid: 71da284abd316a345bfe3633680dc193,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 2620403764630606086, guid: 71da284abd316a345bfe3633680dc193,
         type: 3}
@@ -10235,36 +10270,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
-        type: 3}
-      propertyPath: FBXAAnimar
-      value: 
-      objectReference: {fileID: 7356452800593115290}
-    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
-        type: 3}
-      propertyPath: AnimacionAsignada
-      value: 
-      objectReference: {fileID: 7400002, guid: d634c8ea08f4f7e4d91844c0075321ea, type: 3}
-    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
-        type: 3}
-      propertyPath: TieneSonido
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
-        type: 3}
-      propertyPath: ObjetoConElSonido
-      value: 
-      objectReference: {fileID: 7356452800593115302}
-    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
-        type: 3}
-      propertyPath: Sonido
-      value: 
-      objectReference: {fileID: 8300000, guid: 41fbf371ce0983649a3c02e93c00bc68, type: 3}
-    - target: {fileID: 2620403764630606082, guid: 71da284abd316a345bfe3633680dc193,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 2620403764630606083, guid: 71da284abd316a345bfe3633680dc193,
         type: 3}
@@ -10776,11 +10781,6 @@ PrefabInstance:
       propertyPath: _uv.Array.data[23].y
       value: 0.8492321
       objectReference: {fileID: 0}
-    - target: {fileID: 2620403764630606084, guid: 71da284abd316a345bfe3633680dc193,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 71da284abd316a345bfe3633680dc193, type: 3}
 --- !u!4 &669673605548216376 stripped
@@ -10800,6 +10800,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Prefab Palanca Nivel 3 Variante
+      objectReference: {fileID: 0}
+    - target: {fileID: 5535022796953832748, guid: f21de238897414149ba77cca9725d4b3,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5535022796953832754, guid: f21de238897414149ba77cca9725d4b3,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 2357394666034642228, guid: f21de238897414149ba77cca9725d4b3,
         type: 3}
@@ -10906,16 +10916,6 @@ PrefabInstance:
       propertyPath: Dialogo
       value: 
       objectReference: {fileID: 8300000, guid: 41455e470c164c1468a6b9786f6dc2b8, type: 3}
-    - target: {fileID: 5535022796953832748, guid: f21de238897414149ba77cca9725d4b3,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 5535022796953832754, guid: f21de238897414149ba77cca9725d4b3,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f21de238897414149ba77cca9725d4b3, type: 3}
 --- !u!1 &8100235474629419049 stripped
@@ -11027,6 +11027,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Colision Armadura (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7355826328514907775, guid: 839c11095f2398b4aa246eb59e536fb0,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7355826328514907773, guid: 839c11095f2398b4aa246eb59e536fb0,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 7355826328514907769, guid: 839c11095f2398b4aa246eb59e536fb0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11096,11 +11106,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.45185047
-      objectReference: {fileID: 0}
-    - target: {fileID: 7355826328514907775, guid: 839c11095f2398b4aa246eb59e536fb0,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7355826328514907774, guid: 839c11095f2398b4aa246eb59e536fb0,
         type: 3}
@@ -11422,11 +11427,6 @@ PrefabInstance:
       propertyPath: _uv.Array.data[23].x
       value: -2
       objectReference: {fileID: 0}
-    - target: {fileID: 7355826328514907773, guid: 839c11095f2398b4aa246eb59e536fb0,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 7355826328514907768, guid: 839c11095f2398b4aa246eb59e536fb0,
         type: 3}
       propertyPath: m_Enabled
@@ -11445,6 +11445,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Colision Armadura (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7355826328514907775, guid: 839c11095f2398b4aa246eb59e536fb0,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7355826328514907773, guid: 839c11095f2398b4aa246eb59e536fb0,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7355826328514907769, guid: 839c11095f2398b4aa246eb59e536fb0,
         type: 3}
@@ -11500,11 +11510,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7355826328514907775, guid: 839c11095f2398b4aa246eb59e536fb0,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7355826328514907774, guid: 839c11095f2398b4aa246eb59e536fb0,
         type: 3}
@@ -11746,11 +11751,6 @@ PrefabInstance:
       propertyPath: _uv.Array.data[23].y
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 7355826328514907773, guid: 839c11095f2398b4aa246eb59e536fb0,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 7355826328514907768, guid: 839c11095f2398b4aa246eb59e536fb0,
         type: 3}
       propertyPath: m_Enabled
@@ -11769,6 +11769,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Prefab Palanca Nivel 3 Variante (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5535022796953832748, guid: f21de238897414149ba77cca9725d4b3,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5535022796953832754, guid: f21de238897414149ba77cca9725d4b3,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 2357394666034642228, guid: f21de238897414149ba77cca9725d4b3,
         type: 3}
@@ -11830,16 +11840,6 @@ PrefabInstance:
       propertyPath: PrefabNivel
       value: 
       objectReference: {fileID: 7356452800593115290}
-    - target: {fileID: 5535022796953832748, guid: f21de238897414149ba77cca9725d4b3,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 5535022796953832754, guid: f21de238897414149ba77cca9725d4b3,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f21de238897414149ba77cca9725d4b3, type: 3}
 --- !u!1 &1885198805609184377 stripped
@@ -11871,6 +11871,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Colision Armadura (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7355826328514907775, guid: 839c11095f2398b4aa246eb59e536fb0,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7355826328514907773, guid: 839c11095f2398b4aa246eb59e536fb0,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7355826328514907769, guid: 839c11095f2398b4aa246eb59e536fb0,
         type: 3}
@@ -11926,11 +11936,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7355826328514907775, guid: 839c11095f2398b4aa246eb59e536fb0,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7355826328514907774, guid: 839c11095f2398b4aa246eb59e536fb0,
         type: 3}
@@ -12172,11 +12177,6 @@ PrefabInstance:
       propertyPath: _uv.Array.data[23].y
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 7355826328514907773, guid: 839c11095f2398b4aa246eb59e536fb0,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 7355826328514907768, guid: 839c11095f2398b4aa246eb59e536fb0,
         type: 3}
       propertyPath: m_Enabled
@@ -12195,6 +12195,41 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Trigger abrir pared secreta retorno
+      objectReference: {fileID: 0}
+    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
+        type: 3}
+      propertyPath: FBXAAnimar
+      value: 
+      objectReference: {fileID: 7356452800593115290}
+    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
+        type: 3}
+      propertyPath: AnimacionAsignada
+      value: 
+      objectReference: {fileID: 7400010, guid: d634c8ea08f4f7e4d91844c0075321ea, type: 3}
+    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
+        type: 3}
+      propertyPath: TieneSonido
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
+        type: 3}
+      propertyPath: ObjetoConElSonido
+      value: 
+      objectReference: {fileID: 7356452800593115308}
+    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
+        type: 3}
+      propertyPath: Sonido
+      value: 
+      objectReference: {fileID: 8300000, guid: 38ee3c7aab7076249b8c77d6102f29ad, type: 3}
+    - target: {fileID: 2620403764630606082, guid: 71da284abd316a345bfe3633680dc193,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2620403764630606084, guid: 71da284abd316a345bfe3633680dc193,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 2620403764630606086, guid: 71da284abd316a345bfe3633680dc193,
         type: 3}
@@ -12250,36 +12285,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
-        type: 3}
-      propertyPath: FBXAAnimar
-      value: 
-      objectReference: {fileID: 7356452800593115290}
-    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
-        type: 3}
-      propertyPath: AnimacionAsignada
-      value: 
-      objectReference: {fileID: 7400010, guid: d634c8ea08f4f7e4d91844c0075321ea, type: 3}
-    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
-        type: 3}
-      propertyPath: TieneSonido
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
-        type: 3}
-      propertyPath: ObjetoConElSonido
-      value: 
-      objectReference: {fileID: 7356452800593115308}
-    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
-        type: 3}
-      propertyPath: Sonido
-      value: 
-      objectReference: {fileID: 8300000, guid: 38ee3c7aab7076249b8c77d6102f29ad, type: 3}
-    - target: {fileID: 2620403764630606082, guid: 71da284abd316a345bfe3633680dc193,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 2620403764630606083, guid: 71da284abd316a345bfe3633680dc193,
         type: 3}
@@ -12791,11 +12796,6 @@ PrefabInstance:
       propertyPath: _uv.Array.data[23].y
       value: -0.10743263
       objectReference: {fileID: 0}
-    - target: {fileID: 2620403764630606084, guid: 71da284abd316a345bfe3633680dc193,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 71da284abd316a345bfe3633680dc193, type: 3}
 --- !u!4 &8778963755204630962 stripped
@@ -13040,6 +13040,51 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
+        type: 3}
+      propertyPath: FBXAAnimar
+      value: 
+      objectReference: {fileID: 7356452800593115290}
+    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
+        type: 3}
+      propertyPath: AnimacionAsignada
+      value: 
+      objectReference: {fileID: 7400008, guid: d634c8ea08f4f7e4d91844c0075321ea, type: 3}
+    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
+        type: 3}
+      propertyPath: TieneSonido
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
+        type: 3}
+      propertyPath: ObjetoConElSonido
+      value: 
+      objectReference: {fileID: 7356452800593115310}
+    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
+        type: 3}
+      propertyPath: Sonido
+      value: 
+      objectReference: {fileID: 8300000, guid: 38ee3c7aab7076249b8c77d6102f29ad, type: 3}
+    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
+        type: 3}
+      propertyPath: TIeneDialogo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
+        type: 3}
+      propertyPath: Dialogo
+      value: 
+      objectReference: {fileID: 8300000, guid: 069ff335ca95c5d44811e001baf0eef8, type: 3}
+    - target: {fileID: 2620403764630606082, guid: 71da284abd316a345bfe3633680dc193,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2620403764630606084, guid: 71da284abd316a345bfe3633680dc193,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 2620403764630606086, guid: 71da284abd316a345bfe3633680dc193,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13104,46 +13149,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.0000005
-      objectReference: {fileID: 0}
-    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
-        type: 3}
-      propertyPath: FBXAAnimar
-      value: 
-      objectReference: {fileID: 7356452800593115290}
-    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
-        type: 3}
-      propertyPath: AnimacionAsignada
-      value: 
-      objectReference: {fileID: 7400008, guid: d634c8ea08f4f7e4d91844c0075321ea, type: 3}
-    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
-        type: 3}
-      propertyPath: TieneSonido
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
-        type: 3}
-      propertyPath: ObjetoConElSonido
-      value: 
-      objectReference: {fileID: 7356452800593115310}
-    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
-        type: 3}
-      propertyPath: Sonido
-      value: 
-      objectReference: {fileID: 8300000, guid: 38ee3c7aab7076249b8c77d6102f29ad, type: 3}
-    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
-        type: 3}
-      propertyPath: TIeneDialogo
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
-        type: 3}
-      propertyPath: Dialogo
-      value: 
-      objectReference: {fileID: 8300000, guid: 069ff335ca95c5d44811e001baf0eef8, type: 3}
-    - target: {fileID: 2620403764630606082, guid: 71da284abd316a345bfe3633680dc193,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 2620403764630606083, guid: 71da284abd316a345bfe3633680dc193,
         type: 3}
@@ -13655,11 +13660,6 @@ PrefabInstance:
       propertyPath: _uv.Array.data[23].y
       value: 0.8492321
       objectReference: {fileID: 0}
-    - target: {fileID: 2620403764630606084, guid: 71da284abd316a345bfe3633680dc193,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 71da284abd316a345bfe3633680dc193, type: 3}
 --- !u!4 &4810071941563101362 stripped
@@ -13685,6 +13685,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Colision Armadura (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7355826328514907775, guid: 839c11095f2398b4aa246eb59e536fb0,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7355826328514907773, guid: 839c11095f2398b4aa246eb59e536fb0,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7355826328514907769, guid: 839c11095f2398b4aa246eb59e536fb0,
         type: 3}
@@ -13755,11 +13765,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.45185047
-      objectReference: {fileID: 0}
-    - target: {fileID: 7355826328514907775, guid: 839c11095f2398b4aa246eb59e536fb0,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7355826328514907774, guid: 839c11095f2398b4aa246eb59e536fb0,
         type: 3}
@@ -14081,11 +14086,6 @@ PrefabInstance:
       propertyPath: _uv.Array.data[23].x
       value: -2
       objectReference: {fileID: 0}
-    - target: {fileID: 7355826328514907773, guid: 839c11095f2398b4aa246eb59e536fb0,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 7355826328514907768, guid: 839c11095f2398b4aa246eb59e536fb0,
         type: 3}
       propertyPath: m_Enabled
@@ -14104,6 +14104,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Colision Armadura (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7355826328514907775, guid: 839c11095f2398b4aa246eb59e536fb0,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7355826328514907773, guid: 839c11095f2398b4aa246eb59e536fb0,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7355826328514907769, guid: 839c11095f2398b4aa246eb59e536fb0,
         type: 3}
@@ -14159,11 +14169,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7355826328514907775, guid: 839c11095f2398b4aa246eb59e536fb0,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7355826328514907774, guid: 839c11095f2398b4aa246eb59e536fb0,
         type: 3}
@@ -14405,11 +14410,6 @@ PrefabInstance:
       propertyPath: _uv.Array.data[23].y
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 7355826328514907773, guid: 839c11095f2398b4aa246eb59e536fb0,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 7355826328514907768, guid: 839c11095f2398b4aa246eb59e536fb0,
         type: 3}
       propertyPath: m_Enabled
@@ -14428,6 +14428,51 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Trigger cerrar puerta inicial (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
+        type: 3}
+      propertyPath: FBXAAnimar
+      value: 
+      objectReference: {fileID: 7356452800593115290}
+    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
+        type: 3}
+      propertyPath: AnimacionAsignada
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
+        type: 3}
+      propertyPath: TieneSonido
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
+        type: 3}
+      propertyPath: ObjetoConElSonido
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
+        type: 3}
+      propertyPath: Sonido
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
+        type: 3}
+      propertyPath: TIeneDialogo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
+        type: 3}
+      propertyPath: Dialogo
+      value: 
+      objectReference: {fileID: 8300000, guid: 11bdd3a188ebb574081b3ed06135a783, type: 3}
+    - target: {fileID: 2620403764630606082, guid: 71da284abd316a345bfe3633680dc193,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2620403764630606084, guid: 71da284abd316a345bfe3633680dc193,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 2620403764630606086, guid: 71da284abd316a345bfe3633680dc193,
         type: 3}
@@ -14493,46 +14538,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 3.798302
-      objectReference: {fileID: 0}
-    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
-        type: 3}
-      propertyPath: FBXAAnimar
-      value: 
-      objectReference: {fileID: 7356452800593115290}
-    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
-        type: 3}
-      propertyPath: AnimacionAsignada
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
-        type: 3}
-      propertyPath: TieneSonido
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
-        type: 3}
-      propertyPath: ObjetoConElSonido
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
-        type: 3}
-      propertyPath: Sonido
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
-        type: 3}
-      propertyPath: TIeneDialogo
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2620403764630606088, guid: 71da284abd316a345bfe3633680dc193,
-        type: 3}
-      propertyPath: Dialogo
-      value: 
-      objectReference: {fileID: 8300000, guid: 11bdd3a188ebb574081b3ed06135a783, type: 3}
-    - target: {fileID: 2620403764630606082, guid: 71da284abd316a345bfe3633680dc193,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 2620403764630606083, guid: 71da284abd316a345bfe3633680dc193,
         type: 3}
@@ -15044,11 +15049,6 @@ PrefabInstance:
       propertyPath: _uv.Array.data[23].y
       value: 0.8492321
       objectReference: {fileID: 0}
-    - target: {fileID: 2620403764630606084, guid: 71da284abd316a345bfe3633680dc193,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 71da284abd316a345bfe3633680dc193, type: 3}
 --- !u!1 &5314483063736166944 stripped
@@ -15074,6 +15074,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Prefab Palanca Nivel 3 Variante (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5535022796953832748, guid: f21de238897414149ba77cca9725d4b3,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5535022796953832754, guid: f21de238897414149ba77cca9725d4b3,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 2357394666034642228, guid: f21de238897414149ba77cca9725d4b3,
         type: 3}
@@ -15135,16 +15145,6 @@ PrefabInstance:
       propertyPath: PrefabNivel
       value: 
       objectReference: {fileID: 7356452800593115290}
-    - target: {fileID: 5535022796953832748, guid: f21de238897414149ba77cca9725d4b3,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 5535022796953832754, guid: f21de238897414149ba77cca9725d4b3,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f21de238897414149ba77cca9725d4b3, type: 3}
 --- !u!1 &2562764279712346528 stripped
@@ -15176,6 +15176,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Prefab Palanca Nivel 3 Variante (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5535022796953832748, guid: f21de238897414149ba77cca9725d4b3,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5535022796953832754, guid: f21de238897414149ba77cca9725d4b3,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 2357394666034642228, guid: f21de238897414149ba77cca9725d4b3,
         type: 3}
@@ -15237,16 +15247,6 @@ PrefabInstance:
       propertyPath: PrefabNivel
       value: 
       objectReference: {fileID: 7356452800593115290}
-    - target: {fileID: 5535022796953832748, guid: f21de238897414149ba77cca9725d4b3,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 5535022796953832754, guid: f21de238897414149ba77cca9725d4b3,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f21de238897414149ba77cca9725d4b3, type: 3}
 --- !u!4 &6050788294861091520 stripped

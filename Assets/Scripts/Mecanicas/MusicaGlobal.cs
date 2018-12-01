@@ -25,7 +25,7 @@ public class MusicaGlobal : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        DontDestroyOnLoad(transform.gameObject);
+       DontDestroyOnLoad(transform.gameObject);
     }
 
     // Update is called once per frame
