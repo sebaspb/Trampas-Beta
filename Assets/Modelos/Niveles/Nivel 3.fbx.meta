@@ -93,6 +93,14 @@ ModelImporter:
     2100006: Puerta Objetivo
     2100008: Material.002
     2100010: Subpuertas
+    2100012: Paredes rojas
+    2100014: puerta secreta 1
+    2100016: invisible 1
+    2100018: Puerta Objetivo 1
+    2100020: Base trampa
+    2100022: pinchos trampa
+    2100024: subpuertas 1
+    2100026: blanco
     2300000: Paredes
     2300002: Paredes invisibles
     2300004: Piso
@@ -148,7 +156,72 @@ ModelImporter:
     9500000: //RootNode
     13700000: Subpuertas.001
     13700002: Zona retorno.031
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Base trampa
+    second: {fileID: 2100000, guid: ae83a9a59abd3874c9c42918069ed523, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 683881ccc73d85044b2e84365d5f0aab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paredes rojas
+    second: {fileID: 2100000, guid: c378f2e8f6bd13a4f930e8204e73e1eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Puerta Objetivo
+    second: {fileID: 2100000, guid: 5fed2f53f702f6f47a163228c1ad6e23, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Puerta Objetivo 1
+    second: {fileID: 2100000, guid: 93a8ee37dbc82d44fa791984871423a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Puerta Secreta
+    second: {fileID: 2100000, guid: 30e2984e49a33c34097412eaa6b99c9c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Subpuertas
+    second: {fileID: 2100000, guid: 7e781f1e215708846ad34d5ed0599e5f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blanco
+    second: {fileID: 2100000, guid: 11ead47212e27ee4f9f87c793929cb96, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: invisible
+    second: {fileID: 2100000, guid: b5e0623d5fe5aca448a0947d2a45583a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: invisible 1
+    second: {fileID: 2100000, guid: 1d6edd8a1aafda146aebee9f4ee1bb87, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pinchos trampa
+    second: {fileID: 2100000, guid: 363d55213f01ce346b4b210b5ce9883d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: puerta secreta 1
+    second: {fileID: 2100000, guid: 580c058557237a747b584773f8c91079, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: subpuertas 1
+    second: {fileID: 2100000, guid: a9e380a10ab265640bfa43627d2673c2, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

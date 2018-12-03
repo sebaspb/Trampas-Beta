@@ -21,6 +21,10 @@ ModelImporter:
     400014: //RootNode
     2100000: No Name
     2100002: Material
+    2100004: Material.001
+    2100006: base
+    2100008: Blanco
+    2100010: Negro
     2300000: 4x4 plano
     2300002: Cube
     2300004: Cube.001
@@ -53,7 +57,37 @@ ModelImporter:
     7400002: CerrarTrampa
     9500000: //RootNode
     11100000: //RootNode
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Blanco
+    second: {fileID: 2100000, guid: 9950fea7c9f6c4347861b3db9232a9d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: 45f5f4701cd51c34e9f4ad779c7db18a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 712a6c709fb953549ae7379284e458b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Negro
+    second: {fileID: 2100000, guid: 58edc9638f0d4fb43b59aded1cbc62b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 233e7cc04688aa347bbad19189d64244, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: base
+    second: {fileID: 2100000, guid: 16034d390e4690242a2015a2cc714de6, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

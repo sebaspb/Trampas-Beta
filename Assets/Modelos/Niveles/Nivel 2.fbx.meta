@@ -20,6 +20,20 @@ ModelImporter:
     100028: Puerta de entrada
     100030: Puerta Final
     100032: Techo
+    100034: Pared izquierda.001
+    100036: Pared trasera.001
+    100038: plano alto 1.001
+    100040: plano alto 2.001
+    100042: plano bajo 1.001
+    100044: plano bajo 2.001
+    100046: plano medio 1.001
+    100048: plano medio 2.001
+    100050: Plataforma piso 1.001
+    100052: Plataforma piso 2.001
+    100054: Puerta de entrada.001
+    100056: Puerta Final.001
+    100058: Cubos
+    100060: Pared derecha
     400000: //RootNode
     400002: Pared derecha.001
     400004: Pared fronta
@@ -37,11 +51,28 @@ ModelImporter:
     400028: Puerta de entrada
     400030: Puerta Final
     400032: Techo
+    400034: Pared izquierda.001
+    400036: Pared trasera.001
+    400038: plano alto 1.001
+    400040: plano alto 2.001
+    400042: plano bajo 1.001
+    400044: plano bajo 2.001
+    400046: plano medio 1.001
+    400048: plano medio 2.001
+    400050: Plataforma piso 1.001
+    400052: Plataforma piso 2.001
+    400054: Puerta de entrada.001
+    400056: Puerta Final.001
+    400058: Cubos
+    400060: Pared derecha
     2100000: Material.007
     2100002: Material.005
     2100004: Material.006
     2100006: Material
     2100008: Material.001
+    2100010: Paredes rojas
+    2100012: Gris
+    2100014: Paredes negras
     2300000: Pared derecha.001
     2300002: Pared fronta
     2300004: Pared izquierda
@@ -58,6 +89,20 @@ ModelImporter:
     2300026: Puerta de entrada
     2300028: Puerta Final
     2300030: Techo
+    2300032: Pared izquierda.001
+    2300034: Pared trasera.001
+    2300036: plano alto 1.001
+    2300038: plano alto 2.001
+    2300040: plano bajo 1.001
+    2300042: plano bajo 2.001
+    2300044: plano medio 1.001
+    2300046: plano medio 2.001
+    2300048: Plataforma piso 1.001
+    2300050: Plataforma piso 2.001
+    2300052: Puerta de entrada.001
+    2300054: Puerta Final.001
+    2300056: Cubos
+    2300058: Pared derecha
     3300000: Pared derecha.001
     3300002: Pared fronta
     3300004: Pared izquierda
@@ -74,6 +119,20 @@ ModelImporter:
     3300026: Puerta de entrada
     3300028: Puerta Final
     3300030: Techo
+    3300032: Pared izquierda.001
+    3300034: Pared trasera.001
+    3300036: plano alto 1.001
+    3300038: plano alto 2.001
+    3300040: plano bajo 1.001
+    3300042: plano bajo 2.001
+    3300044: plano medio 1.001
+    3300046: plano medio 2.001
+    3300048: Plataforma piso 1.001
+    3300050: Plataforma piso 2.001
+    3300052: Puerta de entrada.001
+    3300054: Puerta Final.001
+    3300056: Cubos
+    3300058: Pared derecha
     4300000: Puerta de entrada
     4300002: Techo
     4300004: Plataforma piso 1
@@ -90,6 +149,20 @@ ModelImporter:
     4300026: Puerta Final
     4300028: Piso
     4300030: plano alto 2
+    4300032: Puerta de entrada.001
+    4300034: Plataforma piso 1.001
+    4300036: Plataforma piso 2.001
+    4300038: plano alto 1.001
+    4300040: plano medio 1.001
+    4300042: plano bajo 1.001
+    4300044: plano bajo 2.001
+    4300046: plano medio 2.001
+    4300048: plano alto 2.001
+    4300050: Pared izquierda.001
+    4300052: Pared trasera.001
+    4300054: Puerta Final.001
+    4300056: Cubos
+    4300058: Pared derecha
     6400000: Pared derecha.001
     6400002: Pared fronta
     6400004: Pared izquierda
@@ -106,6 +179,20 @@ ModelImporter:
     6400026: Puerta de entrada
     6400028: Puerta Final
     6400030: Techo
+    6400032: Pared izquierda.001
+    6400034: Pared trasera.001
+    6400036: plano alto 1.001
+    6400038: plano alto 2.001
+    6400040: plano bajo 1.001
+    6400042: plano bajo 2.001
+    6400044: plano medio 1.001
+    6400046: plano medio 2.001
+    6400048: Plataforma piso 1.001
+    6400050: Plataforma piso 2.001
+    6400052: Puerta de entrada.001
+    6400054: Puerta Final.001
+    6400056: Cubos
+    6400058: Pared derecha
     7400000: Cerrar puerta inicio
     7400002: Plataforma piso 2
     7400004: Plataforma media 1
@@ -118,7 +205,22 @@ ModelImporter:
     7400018: Pared Final
     7400020: Plataforma alta 2
     9500000: //RootNode
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gris
+    second: {fileID: 2100000, guid: f3425e83ceff8174eb068ab261a00e1f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paredes negras
+    second: {fileID: 2100000, guid: 23a2bb5b9b79f694db4f430491e78140, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paredes rojas
+    second: {fileID: 2100000, guid: 616dd09a3635d1841a90166ff58f191d, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

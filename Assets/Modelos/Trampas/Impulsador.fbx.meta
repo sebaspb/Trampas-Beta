@@ -21,6 +21,8 @@ ModelImporter:
     400014: colision
     2100000: Material
     2100002: No Name
+    2100004: negro
+    2100006: Material.001
     2300000: 3x3 plano.001
     2300002: 3x3 plano.002
     2300004: Piston grande
@@ -54,7 +56,22 @@ ModelImporter:
     9500000: //RootNode
     11100000: //RootNode
     2186277476908879412: ImportLogs
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: f5febcd6e9316de48808dcb29ac9064b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 033a18ff1b80566418a60f8867639f9c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: negro
+    second: {fileID: 2100000, guid: 7c681a4c5b10552459848b51d7628104, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

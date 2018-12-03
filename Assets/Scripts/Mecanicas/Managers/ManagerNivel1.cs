@@ -17,7 +17,7 @@ if(GameManager.IDNivelActual==0){
 
         AS_Dialogos.PlayOneShot(AC_Bienvenida);
 
-        StartCoroutine(HabilitarMovimiento(42f));
+        StartCoroutine(HabilitarMovimiento(0f));
 
     }
     }

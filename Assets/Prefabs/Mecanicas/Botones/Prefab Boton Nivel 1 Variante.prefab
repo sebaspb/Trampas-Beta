@@ -127,6 +127,11 @@ PrefabInstance:
       propertyPath: ArrayAnimaciones.Array.data[10]
       value: 
       objectReference: {fileID: 7400002, guid: ed3ce93fd9d32eb4f83759c929eee57d, type: 3}
+    - target: {fileID: 1886235632683890725, guid: fb20afc09d34ae84a9504be241bb814c,
+        type: 3}
+      propertyPath: rolloffMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5151102045159717821, guid: fb20afc09d34ae84a9504be241bb814c,
         type: 3}
       propertyPath: m_Mesh
@@ -137,10 +142,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 1886235632683890725, guid: fb20afc09d34ae84a9504be241bb814c,
+    - target: {fileID: 8080332544014707061, guid: fb20afc09d34ae84a9504be241bb814c,
         type: 3}
-      propertyPath: rolloffMode
-      value: 1
-      objectReference: {fileID: 0}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e691240561109954bbee29f427937d66, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb20afc09d34ae84a9504be241bb814c, type: 3}

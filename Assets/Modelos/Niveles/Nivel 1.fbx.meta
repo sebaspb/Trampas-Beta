@@ -11,6 +11,7 @@ ModelImporter:
     100010: Piso
     100012: Puerta Salida
     100014: Techo
+    100016: Paredes 01
     400000: //RootNode
     400002: Pared derecha
     400004: Pared frontal
@@ -19,9 +20,13 @@ ModelImporter:
     400010: Piso
     400012: Puerta Salida
     400014: Techo
+    400016: Paredes 01
     2100000: Material.007
     2100002: Material.005
     2100004: Material.006
+    2100006: Paredes rojas
+    2100008: Paredes negras
+    2100010: Paredes blancas
     2300000: Pared derecha
     2300002: Pared frontal
     2300004: Pared izquierda
@@ -29,6 +34,7 @@ ModelImporter:
     2300008: Piso
     2300010: Puerta Salida
     2300012: Techo
+    2300014: Paredes 01
     3300000: Pared derecha
     3300002: Pared frontal
     3300004: Pared izquierda
@@ -36,6 +42,7 @@ ModelImporter:
     3300008: Piso
     3300010: Puerta Salida
     3300012: Techo
+    3300014: Paredes 01
     4300000: Puerta Salida
     4300002: Techo
     4300004: Pared frontal
@@ -43,6 +50,7 @@ ModelImporter:
     4300008: Pared izquierda
     4300010: Piso
     4300012: Pared trasera
+    4300014: Paredes 01
     6400000: Pared derecha
     6400002: Pared frontal
     6400004: Pared izquierda
@@ -50,9 +58,25 @@ ModelImporter:
     6400008: Piso
     6400010: Puerta Salida
     6400012: Techo
+    6400014: Paredes 01
     7400000: Puerta Salida
     9500000: //RootNode
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paredes blancas
+    second: {fileID: 2100000, guid: 1a3e55feeda536b4382c82d47ba00723, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paredes negras
+    second: {fileID: 2100000, guid: a287f64b15b208f428ee2ca32012eb0f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paredes rojas
+    second: {fileID: 2100000, guid: 7757b6ad93bbaa24da5fe5629528072b, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

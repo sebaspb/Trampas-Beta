@@ -29,6 +29,9 @@ ModelImporter:
     2100006: Trampilla
     2100008: invisible
     2100010: Material.001
+    2100012: Paredes negras
+    2100014: Paredes azules
+    2100016: Flechas
     2300000: Martillos
     2300002: Paredes
     2300004: Paredes invisibles
@@ -67,7 +70,22 @@ ModelImporter:
     6400016: Paredes.001
     7400000: Cerrar puerta inicio
     9500000: //RootNode
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Flechas
+    second: {fileID: 2100000, guid: d2cb96f2724b9d04386692cf31ec2125, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paredes azules
+    second: {fileID: 2100000, guid: 542695e0dd8da6e46a879e681683de90, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paredes negras
+    second: {fileID: 2100000, guid: da61dce77d2b509438ba0953deccce98, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

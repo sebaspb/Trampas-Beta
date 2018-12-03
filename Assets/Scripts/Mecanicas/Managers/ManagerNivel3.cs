@@ -74,7 +74,7 @@ void Start()
         }
 
         
-        if (ControlPalancas >= 0 && TriggerPuertaObjetivo !=null)
+        if (ControlPalancas >= 8 && TriggerPuertaObjetivo !=null)
         {
 
             

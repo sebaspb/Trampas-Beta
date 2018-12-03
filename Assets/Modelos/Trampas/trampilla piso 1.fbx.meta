@@ -6,23 +6,43 @@ ModelImporter:
     100000: 4x4 a
     100002: 4x4 a.001
     100004: //RootNode
+    100006: 4x4 a.007
     400000: 4x4 a
     400002: 4x4 a.001
     400004: //RootNode
+    400006: 4x4 a.007
     2100000: No Name
+    2100002: Material
+    2100004: blanco
+    2100006: negro
     2300000: 4x4 a
     2300002: 4x4 a.001
+    2300004: 4x4 a.007
     3300000: 4x4 a
     3300002: 4x4 a.001
+    3300004: 4x4 a.007
     4300000: 4x4 a.001
     4300002: 4x4 a
+    4300004: 4x4 a.007
     6400000: 4x4 a
     6400002: 4x4 a.001
+    6400004: 4x4 a.007
     7400000: AbrirTrampa
     7400002: CerrarTrampa
     9500000: //RootNode
     11100000: //RootNode
-  externalObjects: {}
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blanco
+    second: {fileID: 2100000, guid: be3c3044515a96e4fa8957ea115affe6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: negro
+    second: {fileID: 2100000, guid: 2a805abeb4c93f847a921ca9c13bca66, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

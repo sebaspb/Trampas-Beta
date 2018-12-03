@@ -35,7 +35,22 @@ ModelImporter:
     7400000: Accionar Boton
     9500000: //RootNode
     11100000: //RootNode
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Negro
+    second: {fileID: 2100000, guid: cfac7b5d4e5470545af59dac9f46f028, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: f505381348418c4489b13b8f683fdf2c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rojo
+    second: {fileID: 2100000, guid: f682337850b6d214c8e7755cc831b198, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
