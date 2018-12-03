@@ -30,9 +30,11 @@ public class BotonDePared : MonoBehaviour
     public GameObject ObjetoConElSonidoAjeno;
     public AudioClip SonidoAjeno;
 
+ 
     // Start is called before the first frame update
     void Start()
     {
+
         AnimacionBoton = FBXoriginal.GetComponent<Animation>();
 
         for (int i = 0; i < ArrayAnimaciones.Length; i++)
@@ -49,6 +51,7 @@ public class BotonDePared : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
 
         if (Input.GetKeyDown(KeyCode.E)&&Trigger.GetComponent<RevisionTrigger>().EstaEnTrigger)
         {

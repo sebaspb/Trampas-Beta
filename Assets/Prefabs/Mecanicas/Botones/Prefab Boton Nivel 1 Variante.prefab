@@ -12,6 +12,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Prefab Boton Nivel 1 Variante
       objectReference: {fileID: 0}
+    - target: {fileID: 5151102045159717821, guid: fb20afc09d34ae84a9504be241bb814c,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5151102045159717795, guid: fb20afc09d34ae84a9504be241bb814c,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 9077291052973850477, guid: fb20afc09d34ae84a9504be241bb814c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -131,16 +141,6 @@ PrefabInstance:
         type: 3}
       propertyPath: rolloffMode
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5151102045159717821, guid: fb20afc09d34ae84a9504be241bb814c,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 5151102045159717795, guid: fb20afc09d34ae84a9504be241bb814c,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8080332544014707061, guid: fb20afc09d34ae84a9504be241bb814c,
         type: 3}

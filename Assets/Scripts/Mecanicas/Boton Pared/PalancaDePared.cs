@@ -56,6 +56,15 @@ public class PalancaDePared : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Trigger.GetComponent<RevisionTrigger>().EstaEnTrigger == true)
+        {
+            UIManager.EVisible = true;
+        }
+
+        if (Trigger.GetComponent<RevisionTrigger>().EstaEnTrigger == false)
+        {
+            UIManager.EVisible = false;
+        }
 
         if (Input.GetKeyDown(KeyCode.E) && Trigger.GetComponent<RevisionTrigger>().EstaEnTrigger && activada == false)
         {

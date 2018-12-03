@@ -15,6 +15,8 @@ public class UIManager : MonoBehaviour
     public GameObject MenuCreditos;
     public GameObject ImagenFondo;
     public GameObject MenuGameOver;
+    public GameObject MenuVictoria;
+    public GameObject LetraE;
     public bool OcultarFondo;
     public bool EsMenuPrincipal;
     GameObject Jugador;
@@ -25,6 +27,8 @@ public class UIManager : MonoBehaviour
     public Slider SliderMusica;
     
     public Slider SliderEfectos;
+
+    public static bool EVisible;
     
     Scene escena;
     
@@ -52,9 +56,10 @@ public class UIManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-      
 
-        escena =SceneManager.GetActiveScene();
+
+
+        escena = SceneManager.GetActiveScene();
         Debug.Log(escena.name);
 
         if (Input.GetKeyDown(KeyCode.P))
@@ -78,7 +83,7 @@ public class UIManager : MonoBehaviour
             if (TriggerFinal.ganaste == true)
             {
 
-                victoria();
+            victoria();
             }
 
             Volumen();
@@ -87,7 +92,7 @@ public class UIManager : MonoBehaviour
 
         void victoria()
         {
-        Debug.Log("ganaste");
+        MenuVictoria.SetActive(true);
         }
 
     void Volumen()
