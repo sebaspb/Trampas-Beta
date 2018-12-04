@@ -35,7 +35,7 @@ public class ManagerNivel5 : MonoBehaviour
             AS_Dialogos = GameObject.Find("Dialogos").GetComponent<AudioSource>();
         }
 
-        if (VariablesJugador.SaludJugador<=0 && GameManager.IDNivelActual== 4){
+        if (VariablesJugador.SaludJugador<=0 && GameManager.IDNivelActual>= 4){
             {
 
                 Nivel.GetComponent<Animator>().Play("Ascensor Inferior", 0, 0);
