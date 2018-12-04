@@ -23,7 +23,7 @@ public class GameManager : MonoBehaviour
 
     public GameObject spawn5;
 
-    public static int IDNivelActual =0;
+    public static int IDNivelActual =4;
     public static GameObject SpawnActual;
     
 
@@ -41,7 +41,7 @@ public class GameManager : MonoBehaviour
         Jugador.GetComponent<FPController>().Constraints.Crouch = !true;
         Jugador.GetComponent<FPController>().Constraints.Prone = !true;
         Jugador.GetComponent<FPController>().Constraints.Slide = !true;
-        Jugador.GetComponent<FPController>().Constraints.Look = !true;
+        Jugador.GetComponent<FPController>().Constraints.Look = false;
         Jugador.GetComponent<FPController>().Constraints.Lean = !true;
         Jugador.GetComponent<FPController>().Constraints.HeadBob = !true;
 

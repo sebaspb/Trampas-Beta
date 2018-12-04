@@ -211,14 +211,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 11100000, guid: f82161d5885e75b40ba9f3f0c7552d14, type: 3}
-      propertyPath: m_PlayAutomatically
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2300002, guid: f82161d5885e75b40ba9f3f0c7552d14, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e691240561109954bbee29f427937d66, type: 2}
+    - target: {fileID: 11100000, guid: f82161d5885e75b40ba9f3f0c7552d14, type: 3}
+      propertyPath: m_PlayAutomatically
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f82161d5885e75b40ba9f3f0c7552d14, type: 3}
 --- !u!1 &8613938969387951 stripped
@@ -244,16 +244,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: RevisionTrigger
-      objectReference: {fileID: 0}
-    - target: {fileID: 4053986573451622206, guid: ceece5876a0d61e4f94ce8092e0d26e9,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4053986573451622205, guid: ceece5876a0d61e4f94ce8092e0d26e9,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 4053986573451622207, guid: ceece5876a0d61e4f94ce8092e0d26e9,
         type: 3}
@@ -308,6 +298,16 @@ PrefabInstance:
     - target: {fileID: 4053986573451622207, guid: ceece5876a0d61e4f94ce8092e0d26e9,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4053986573451622205, guid: ceece5876a0d61e4f94ce8092e0d26e9,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4053986573451622206, guid: ceece5876a0d61e4f94ce8092e0d26e9,
+        type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4053986573451622179, guid: ceece5876a0d61e4f94ce8092e0d26e9,

@@ -20,11 +20,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 6970939640621957703, guid: f21de238897414149ba77cca9725d4b3,
-        type: 3}
-      propertyPath: m_Name
-      value: Prefab Palanca Nivel 4 Variante
-      objectReference: {fileID: 0}
     - target: {fileID: 2357394666034642228, guid: f21de238897414149ba77cca9725d4b3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -79,6 +74,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6970939640621957703, guid: f21de238897414149ba77cca9725d4b3,
+        type: 3}
+      propertyPath: m_Name
+      value: Prefab Palanca Nivel 4 Variante
       objectReference: {fileID: 0}
     - target: {fileID: 5925179229942554032, guid: f21de238897414149ba77cca9725d4b3,
         type: 3}
