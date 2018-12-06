@@ -127,6 +127,11 @@ PrefabInstance:
       propertyPath: ArrayAnimaciones.Array.data[10]
       value: 
       objectReference: {fileID: 7400002, guid: ed3ce93fd9d32eb4f83759c929eee57d, type: 3}
+    - target: {fileID: 4077911452420654726, guid: fb20afc09d34ae84a9504be241bb814c,
+        type: 3}
+      propertyPath: LetraE
+      value: 
+      objectReference: {fileID: 9200934970800984108}
     - target: {fileID: 5151102045159717821, guid: fb20afc09d34ae84a9504be241bb814c,
         type: 3}
       propertyPath: m_Mesh
@@ -149,3 +154,9 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: e691240561109954bbee29f427937d66, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb20afc09d34ae84a9504be241bb814c, type: 3}
+--- !u!1 &9200934970800984108 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 490217047139855135, guid: fb20afc09d34ae84a9504be241bb814c,
+    type: 3}
+  m_PrefabInstance: {fileID: 8754382318020557619}
+  m_PrefabAsset: {fileID: 0}

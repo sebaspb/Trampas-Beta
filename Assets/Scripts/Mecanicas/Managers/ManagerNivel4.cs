@@ -6,9 +6,9 @@ using ARFC;
 public class ManagerNivel4 : MonoBehaviour
 {
     public GameObject Jugador;
-    public GameObject Spawn;
+   
     public static int ControlPalancas = 0;
-    public GameObject TriggerPuertaObjetivo;
+
     public static int ControlMuertes = 0;
     public GameObject PisoTrampa;
     AudioSource AS_Dialogos;
@@ -31,7 +31,7 @@ public class ManagerNivel4 : MonoBehaviour
         {
             Jugador.GetComponent<FPController>().Constraints.Move = true;
             Jugador.GetComponent<FPController>().Constraints.Jump = true;
-            Jugador.GetComponent<FPController>().Constraints.JumpFromAir = false;
+            Jugador.GetComponent<FPController>().Constraints.JumpFromAir = true;
             Jugador.GetComponent<FPController>().Constraints.Sprint = true;
             Jugador.GetComponent<FPController>().Constraints.Crouch = true;
             Jugador.GetComponent<FPController>().Constraints.Prone = !true;
@@ -41,14 +41,7 @@ public class ManagerNivel4 : MonoBehaviour
             Jugador.GetComponent<FPController>().Constraints.HeadBob = !true;
             AS_Dialogos = GameObject.Find("Dialogos").GetComponent<AudioSource>();
         }
-        if (VariablesJugador.SaludJugador <= 0)
-        {
-            //Destroy(Jugador.gameObject);
-            ControlMuertes += 1;
-            ReiniciarJugador();
-
-        }
-
+       
                  if (ControlPalancas == 6)
         {
             
@@ -66,15 +59,7 @@ public class ManagerNivel4 : MonoBehaviour
         
     }
 
-    void ReiniciarJugador()
-    {
-      
-        //Jugador.transform.position = Spawn.transform.position;
-        //Jugador.transform.rotation = Spawn.transform.rotation;
 
-
-
-    }
 
  
 

@@ -6,7 +6,6 @@ using ARFC;
 public class ManagerNivel3 : MonoBehaviour
 {
     public GameObject Jugador;
-    public GameObject Spawn;
     public static int ControlPalancas = 0;
     public GameObject TriggerPuertaObjetivo;
     public static int ControlMuertes = 0;
@@ -37,7 +36,7 @@ void Start()
         {
             Jugador.GetComponent<FPController>().Constraints.Move = true;
             Jugador.GetComponent<FPController>().Constraints.Jump = true;
-            Jugador.GetComponent<FPController>().Constraints.JumpFromAir = false;
+            Jugador.GetComponent<FPController>().Constraints.JumpFromAir = true;
             Jugador.GetComponent<FPController>().Constraints.Sprint = true;
             Jugador.GetComponent<FPController>().Constraints.Crouch = true;
             Jugador.GetComponent<FPController>().Constraints.Prone = !true;
@@ -48,11 +47,11 @@ void Start()
 
 
         }
-        if (VariablesJugador.SaludJugador <= 0)
+        if (GameManager.SaludJugador <= 0)
         {
-            //Destroy(Jugador.gameObject);
+          
             ControlMuertes += 1;
-            ReiniciarJugador();
+  
 
         }
 
@@ -97,16 +96,7 @@ void Start()
         
     }
 
-    void ReiniciarJugador()
-    {
-        
-        //Jugador.transform.position = Spawn.transform.position;
-        //Jugador.transform.rotation = Spawn.transform.rotation;
-       
-     
 
-
-    }
 
 
     IEnumerator SubirTecho(float time)

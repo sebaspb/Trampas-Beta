@@ -120,8 +120,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Jugador: {fileID: 0}
-  Spawn: {fileID: 8160484712107780166}
-  TriggerPuertaObjetivo: {fileID: 0}
   PisoTrampa: {fileID: 4412442360592692730}
   ObjetivoNivel4: {fileID: 8300000, guid: a3791e48f61594943a250ee2172b1643, type: 3}
   SonidoCorrecto: {fileID: 8300000, guid: efe8a5a93f5997347b768fb5c866f67a, type: 3}

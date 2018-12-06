@@ -14,9 +14,9 @@ public class ObjetoLetal : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
             {
 
-            VariablesJugador.SaludJugador -= daño;
+            GameManager.SaludJugador -= daño;
 
-        
+
         }
 
     }

@@ -16,7 +16,7 @@ public class UIManager : MonoBehaviour
     public GameObject ImagenFondo;
     public GameObject MenuGameOver;
     public GameObject MenuVictoria;
-    public GameObject LetraE;
+ 
     public bool OcultarFondo;
     public bool EsMenuPrincipal;
     GameObject Jugador;
@@ -28,7 +28,7 @@ public class UIManager : MonoBehaviour
     
     public Slider SliderEfectos;
 
-    public static bool EVisible;
+    
     
     Scene escena;
     
@@ -71,7 +71,7 @@ public class UIManager : MonoBehaviour
 
         }
 
-        if(VariablesJugador.SaludJugador <= 0 && !EstaMuerto)
+        if(GameManager.SaludJugador <= 0 && !EstaMuerto)
         {
             EstaMuerto = true;
             GameOver();
@@ -92,6 +92,8 @@ public class UIManager : MonoBehaviour
 
         void victoria()
         {
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
         MenuVictoria.SetActive(true);
         }
 
@@ -233,7 +235,7 @@ public class UIManager : MonoBehaviour
         yield return new WaitForSeconds(time);
         Jugador.GetComponent<FPController>().enabled = true;
         Jugador.GetComponent<FPController>().Init();
-        VariablesJugador.SaludJugador = 500;
+        GameManager.SaludJugador = 500;
         Debug.Log("Te revivi");
         OcultarCanvas();
         EstaMuerto = false;

@@ -34,7 +34,7 @@ public class PalancaDePared : MonoBehaviour
 
     AudioSource AS_Dialogos;
     public AudioClip Dialogo;
-
+    public GameObject LetraE;
     // Start is called before the first frame update
     void Start()
     {
@@ -58,12 +58,14 @@ public class PalancaDePared : MonoBehaviour
     {
         if (Trigger.GetComponent<RevisionTrigger>().EstaEnTrigger == true)
         {
-            UIManager.EVisible = true;
+            LetraE.SetActive(true);
         }
 
         if (Trigger.GetComponent<RevisionTrigger>().EstaEnTrigger == false)
         {
-            UIManager.EVisible = false;
+
+
+            LetraE.SetActive(false);
         }
 
         if (Input.GetKeyDown(KeyCode.E) && Trigger.GetComponent<RevisionTrigger>().EstaEnTrigger && activada == false)

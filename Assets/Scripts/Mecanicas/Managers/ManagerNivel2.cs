@@ -25,7 +25,7 @@ Debug.Log(GameManager.IDNivelActual);
         {
             Jugador.GetComponent<FPController>().Constraints.Move = true;
             Jugador.GetComponent<FPController>().Constraints.Jump = true;
-            Jugador.GetComponent<FPController>().Constraints.JumpFromAir = false;
+            Jugador.GetComponent<FPController>().Constraints.JumpFromAir = true;
             Jugador.GetComponent<FPController>().Constraints.Sprint = !true;
             Jugador.GetComponent<FPController>().Constraints.Crouch = true;
             Jugador.GetComponent<FPController>().Constraints.Prone = !true;

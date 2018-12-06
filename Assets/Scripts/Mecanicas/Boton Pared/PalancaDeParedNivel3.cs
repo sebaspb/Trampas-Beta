@@ -21,8 +21,7 @@ public class PalancaDeParedNivel3 : MonoBehaviour
 
                 ManagerNivel3.ControlPalancas += 1;
                 activada = true;
-                Debug.Log(ManagerNivel3.ControlPalancas);
-
+        
         
 
         }

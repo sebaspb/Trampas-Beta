@@ -30,11 +30,13 @@ public class BotonDePared : MonoBehaviour
     public GameObject ObjetoConElSonidoAjeno;
     public AudioClip SonidoAjeno;
 
+    public GameObject LetraE;
+
+    public bool Destruir;
  
     // Start is called before the first frame update
     void Start()
     {
-
         AnimacionBoton = FBXoriginal.GetComponent<Animation>();
 
         for (int i = 0; i < ArrayAnimaciones.Length; i++)
@@ -51,7 +53,15 @@ public class BotonDePared : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Trigger.GetComponent<RevisionTrigger>().EstaEnTrigger==true)
+        {
+            LetraE.SetActive(true);
+        }
 
+        if (Trigger.GetComponent<RevisionTrigger>().EstaEnTrigger==false)
+        {
+           LetraE.SetActive(false);
+        }
 
         if (Input.GetKeyDown(KeyCode.E)&&Trigger.GetComponent<RevisionTrigger>().EstaEnTrigger)
         {
@@ -88,6 +98,11 @@ public class BotonDePared : MonoBehaviour
 
                 }
 
+                if (Destruir)
+                {
+                    StartCoroutine(DestruirBoton(2f));
+                }
+
             }
 
             else
@@ -100,5 +115,16 @@ public class BotonDePared : MonoBehaviour
 
         }
         
+    }
+
+    IEnumerator DestruirBoton(float time)
+    {
+
+        yield return new WaitForSeconds(time);
+   
+
+            Destroy(gameObject);
+
+
     }
 }

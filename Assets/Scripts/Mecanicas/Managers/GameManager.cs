@@ -21,15 +21,19 @@ public class GameManager : MonoBehaviour
 
     int NivelAnterior = 0;
 
-    public GameObject spawn5;
+
 
     public static int IDNivelActual =0;
     public static GameObject SpawnActual;
-    
+
+    public static float SaludJugador = 500f;
 
     // Start is called before the first frame update
     void Start()
     {
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+
         Jugador = GameObject.FindGameObjectWithTag("Player");
         Niveles[NivelCargado].SetActive(true);
         Niveles[NivelCargado+1].SetActive(true);
@@ -57,7 +61,7 @@ public class GameManager : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Z)) {GameManager.NivelCargado += 1; } 
 
-        Debug.Log(IDNivelActual);
+        
        
             if (NivelAnterior != NivelCargado)
         {

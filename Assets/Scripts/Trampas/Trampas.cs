@@ -7,7 +7,7 @@ public class Trampas : MonoBehaviour
 
     bool EstaAbierta = false;
 
-     public GameObject FBX;
+    public GameObject FBX;
 
     public GameObject Trigger;
 
@@ -99,8 +99,8 @@ public class Trampas : MonoBehaviour
         if(Trigger.GetComponent<RevisionTrigger>().EstaEnTrigger)
         {
 
-            VariablesJugador.SaludJugador -= Daño;
-            Debug.Log(VariablesJugador.SaludJugador);
+            GameManager.SaludJugador -= Daño;
+           
 
         }
 

@@ -27,7 +27,7 @@ public class PalancaDeParedNivel4 : MonoBehaviour
 
                 ManagerNivel4.ControlPalancas += 1;
                 activada = true;
-                Debug.Log(ManagerNivel4.ControlPalancas);
+        
 
              
      
