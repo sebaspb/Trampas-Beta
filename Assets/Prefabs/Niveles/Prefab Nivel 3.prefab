@@ -688,7 +688,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58f2fcda18aad644e8963fc343c3d93c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TriggerAActivar: {fileID: 7356452800593115284}
+  TriggerADesactivar: {fileID: 7356452800593115284}
   Trigger: {fileID: 8100235474629419049}
   Delay: 0
 --- !u!114 &6836330198863504141
@@ -3008,6 +3008,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Mesh
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2620403764630606085, guid: 71da284abd316a345bfe3633680dc193,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 71da284abd316a345bfe3633680dc193, type: 3}
