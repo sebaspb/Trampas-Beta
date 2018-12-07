@@ -3,19 +3,26 @@ using System.Collections.Generic;
 using UnityEngine;
 using ARFC;
 
+/// <summary>
+/// Éste script controla el comportamiento del nivel 5, principalmente las habilidades que el jugador puede usar en dicho nivel 
+/// y las animaciones que se usarán y su comportamiento.
+/// </summary>
+
 public class ManagerNivel5 : MonoBehaviour
 {
+    [Header("<JUGADOR>")]
+    [Tooltip("Objeto del jugador")]
     public GameObject Jugador;
 
-
+    [Header("<COMPORTAMIENTO>")]
+    [Tooltip("Prefab de éste nivel")]
     public GameObject Nivel;
+    [Header("<AUDIO>")]
+
+    [Tooltip("AudioSource que contendrá los diálogos")]
     AudioSource AS_Dialogos;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+
 
     // Update is called once per frame
     void Update()
@@ -46,8 +53,5 @@ public class ManagerNivel5 : MonoBehaviour
         }            
         
     }
-
-
-
-
+         
 }

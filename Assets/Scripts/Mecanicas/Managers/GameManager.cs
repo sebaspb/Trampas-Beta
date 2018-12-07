@@ -3,30 +3,38 @@ using System.Collections.Generic;
 using UnityEngine;
 using ARFC;
 
+/// <summary>
+/// Éste script controla las mecánicas iniciales del jugador, así como las opciones de reinicio del mismo, controla el progreso del jugador y el cambio del nivel.
+/// </summary>
+/// 
 public class GameManager : MonoBehaviour
 
 
 
 {
-     
 
+    [Header("<JUGADOR>")]
+    [Tooltip("Objeto del jugador")]
     GameObject Jugador;
+    [Tooltip("Salud del jugador")]
+    public static float SaludJugador = 500f;
 
+    [Header("<VARIABLES INTERNAS>")]
+    [Tooltip("Array que contiene los diferentes spawns de los niveles")]
     [SerializeField]
     public GameObject[] Spawn;
-
+    [Tooltip("Array que contiene los diferentes niveles")]
     public GameObject[] Niveles;
-
+    [Tooltip("Variable de control para el nivel cargado")]
     public static int NivelCargado = 0;
-
+    [Tooltip("Variable de control para el nivel anterior")]
     int NivelAnterior = 0;
-
-
-
+    [Tooltip("Variable de control para el nivel actual")]
     public static int IDNivelActual =0;
+    [Tooltip("Variable de control para el spawn actual")]
     public static GameObject SpawnActual;
 
-    public static float SaludJugador = 500f;
+
 
     // Start is called before the first frame update
     void Start()
@@ -58,23 +66,22 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         
-
-        if (Input.GetKeyDown(KeyCode.Z)) {GameManager.NivelCargado += 1; } 
-
-        
+            
        
             if (NivelAnterior != NivelCargado)
-        {
+            {
             
-            Niveles[NivelCargado - 1].SetActive(false);
-            Niveles[NivelCargado].SetActive(true);
+                Niveles[NivelCargado - 1].SetActive(false);
+                Niveles[NivelCargado].SetActive(true);
             
-            if(IDNivelActual < 4) {
-                IDNivelActual += 1;
-                Niveles[NivelCargado + 1].SetActive(true);
-                NivelAnterior = NivelCargado;
-            }
-            SpawnActual = Spawn[IDNivelActual];
+                if(IDNivelActual < 4)
+                {
+                    IDNivelActual += 1;
+                    Niveles[NivelCargado + 1].SetActive(true);
+                    NivelAnterior = NivelCargado;
+                }
+
+                SpawnActual = Spawn[IDNivelActual];
             
             }
        

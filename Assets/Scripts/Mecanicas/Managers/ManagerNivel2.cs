@@ -3,23 +3,31 @@ using System.Collections.Generic;
 using UnityEngine;
 using ARFC;
 
+/// <summary>
+/// Éste script controla el comportamiento del nivel 2, principalmente las habilidades que el jugador puede usar en dicho nivel 
+/// y las animaciones que se usarán y su comportamiento y los diálogos del  nivel.
+/// </summary>
+
 public class ManagerNivel2 : MonoBehaviour
 {
+    [Header("<JUGADOR>")]
+    [Tooltip("Objeto del jugador")]
     GameObject Jugador;
+
+    [Header("<AUDIO>")]
+    [Tooltip("Audiosource de los diálogos")]
     AudioSource AS_Dialogos;
   
     private void Start()
     {
-Debug.Log(GameManager.IDNivelActual);
+        
         Jugador = GameObject.FindWithTag("Player");
         AS_Dialogos = GameObject.Find("Dialogos").GetComponent<AudioSource>();
-
-          
+  
     }
     // Update is called once per frame
     void Update()
     {
-
 
         if (GameManager.IDNivelActual == 1)
         {

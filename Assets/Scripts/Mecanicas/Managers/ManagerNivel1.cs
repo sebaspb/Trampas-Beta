@@ -3,23 +3,33 @@ using System.Collections.Generic;
 using UnityEngine;
 using ARFC;
 
+/// <summary>
+/// Éste script controla el comportamiento del nivel 1, principalmente las habilidades que el jugador puede usar en dicho nivel 
+/// y las animaciones que se usarán y su comportamiento y los diálogos del  nivel.
+/// </summary>
+/// 
 public class ManagerNivel1 : MonoBehaviour
 {
+    [Header("<JUGADOR>")]
+    [Tooltip("Objeto del jugador")]
     GameObject Jugador;
+
+    [Header("<AUDIO>")]
+    [Tooltip("Audiosource de los diálogos")]
     AudioSource AS_Dialogos;
+    [Tooltip("Audioclip del nivel 1")]
     public AudioClip AC_Bienvenida;
 
     private void Start()
     {
-if(GameManager.IDNivelActual==0){
-        Jugador = GameObject.FindWithTag("Player");
-        AS_Dialogos = GameObject.Find("Dialogos").GetComponent<AudioSource>();
+        if(GameManager.IDNivelActual==0)
+        {
+            Jugador = GameObject.FindWithTag("Player");
+            AS_Dialogos = GameObject.Find("Dialogos").GetComponent<AudioSource>();
+            AS_Dialogos.PlayOneShot(AC_Bienvenida);
+            StartCoroutine(HabilitarMovimiento(42f));
 
-        AS_Dialogos.PlayOneShot(AC_Bienvenida);
-
-        StartCoroutine(HabilitarMovimiento(42f));
-
-    }
+        }
     }
 
 

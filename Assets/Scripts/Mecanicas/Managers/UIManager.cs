@@ -5,31 +5,55 @@ using ARFC;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
+
+/// <summary>
+/// Este script se encarga de controlar todo el funcionamiento de la interfaz desde el menú principal, y el de pausa hasta los botones y la pantalla de victoria y derrota.
+/// Éste script también se encarga de controlar el volumen de los sonidos y el comportamiento del jugador cuando muere, tiene referencias al FPController de MoeBaker.
+/// </summary>
 public class UIManager : MonoBehaviour
 {
+    [Header("<INTERFAZ>")]
+    [Tooltip("Contenedor de todos los objetos del menú")]
     public GameObject ContenedorUI;
+    [Tooltip("Menu principañ")]
     public GameObject MenuPrincipal;
+    [Tooltip("Menu Pausa")]
     public GameObject MenuPausa;
+    [Tooltip("Menu opciones")]
     public GameObject MenuOpciones;
+    [Tooltip("Menu Instrucciones")]
     public GameObject MenuInstrucciones;
+    [Tooltip("Menu creditos")]
     public GameObject MenuCreditos;
+    [Tooltip("Imagen de fono")]
     public GameObject ImagenFondo;
+    [Tooltip("Menu gameover")]
     public GameObject MenuGameOver;
+    [Tooltip("Menu victoria")]
     public GameObject MenuVictoria;
- 
+
+    [Header("<COMPORTAMIENTOS>")]
+    [Tooltip("Variable que define si el fondo debe ocultarse en éste menu o no")]
     public bool OcultarFondo;
+    [Tooltip("Variable que define si éste es un menú principal o no")]
     public bool EsMenuPrincipal;
+    [Tooltip("Objeto usado para definir al jugador")]
     GameObject Jugador;
+    [Tooltip("Variable usada para comprobar si el jugador está muerto o no")]
     bool EstaMuerto;
 
+    [Header("<AUDIO>")]
+    [Tooltip("Objeto usado para incluir la música de fondo")]
     GameObject ObjetoMusica;
+    [Tooltip("AudioSource de la Música")]
     public AudioSource AS_Musica;
+    [Tooltip("Slider usado para controlar el volumen de la música")]
     public Slider SliderMusica;
-    
+    [Tooltip("Slider usado para controlar el volumen de los efectos de sonido")]
     public Slider SliderEfectos;
 
-    
-    
+    [Header("<CAMBIO DE ESCENA>")]
+    [Tooltip("Escena a la cual se llamará luego de presionar algún botón")]
     Scene escena;
     
 
@@ -57,8 +81,6 @@ public class UIManager : MonoBehaviour
     void Update()
     {
 
-
-
         escena = SceneManager.GetActiveScene();
         Debug.Log(escena.name);
 
@@ -84,6 +106,7 @@ public class UIManager : MonoBehaviour
             {
 
             victoria();
+
             }
 
             Volumen();
@@ -91,16 +114,21 @@ public class UIManager : MonoBehaviour
     }
 
         void victoria()
+
         {
+
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.None;
         MenuVictoria.SetActive(true);
+
         }
 
     void Volumen()
     {
+
         AS_Musica.volume = SliderMusica.value;
         AudioListener.volume=SliderEfectos.value;
+
     }
 
     void Pausa()
@@ -113,7 +141,6 @@ public class UIManager : MonoBehaviour
         AS_Musica.Pause();
         AudioListener.pause = true;
         Time.timeScale = 0.0f;
-        
         Jugador.GetComponent<FPController>().Constraints.Control = false;
 
 
@@ -121,13 +148,13 @@ public class UIManager : MonoBehaviour
 
     public void QuitarPausa()
     {
+
         AS_Musica.Play();
         AudioListener.pause = false;
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
         MenuPausa.SetActive(false);
         Time.timeScale = 1.0f;
-      
         Jugador.GetComponent<FPController>().Constraints.Control = true;
 
 
@@ -135,34 +162,34 @@ public class UIManager : MonoBehaviour
 
     public void MostrarMenuOpciones()
     {
+
         OcultarCanvas();
         MenuOpciones.gameObject.SetActive(true);
-        
-
+   
     }
 
     public void MostrarMenuInstrucciones()
     {
+
         OcultarCanvas();
         MenuInstrucciones.gameObject.SetActive(true);
-        
-
+     
     }
 
     public void MostrarMenuCreditos()
     {
+
         OcultarCanvas();
         MenuCreditos.gameObject.SetActive(true);
-        
-
+       
     }
 
     public void MostrarMenuPrincipal()
     {
+
         OcultarCanvas();
         MenuPrincipal.gameObject.SetActive(true);
-        
-
+       
     }
 
     public void MostrarMenuPausa()
@@ -171,20 +198,25 @@ public class UIManager : MonoBehaviour
         
         if (!EsMenuPrincipal)
         {
+
             MenuPausa.gameObject.SetActive(true);
+
         }
+
         else
         {
+
             MenuPrincipal.gameObject.SetActive(true);
+
         }
 
 
     }
     public void GameOver()
     {
+
         Jugador.GetComponent<FPController>().initilized = false;
         Jugador.GetComponent<FPController>().enabled = false;
-        Debug.Log("Perdiste wey");
         MenuGameOver.SetActive(true);
         Jugador.transform.position = GameManager.SpawnActual.transform.position;
         Jugador.transform.rotation = GameManager.SpawnActual.transform.rotation;
@@ -200,22 +232,25 @@ public class UIManager : MonoBehaviour
         {
             var child = ContenedorUI.transform.GetChild(i).gameObject;
             if (child != null)
-                child.gameObject.SetActive(false);
+            child.gameObject.SetActive(false);
         }
 
         if (!OcultarFondo && ImagenFondo!=null)
         {
+
             ImagenFondo.SetActive(true);
+
         }
 
     }
 
     public void Salir()
     {
+
         PlayerPrefs.SetFloat("VolumenMusica", SliderMusica.value);
         PlayerPrefs.SetFloat("VolumenEfectos", SliderEfectos.value);
-       
         Application.Quit();
+
 
     }
 
@@ -223,7 +258,6 @@ public class UIManager : MonoBehaviour
     {
         PlayerPrefs.SetFloat("VolumenMusica", SliderMusica.value);
         PlayerPrefs.SetFloat("VolumenEfectos", SliderEfectos.value);
-        
         SceneManager.LoadScene(nombreEscena);
                
 
